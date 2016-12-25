@@ -358,9 +358,9 @@
     <Language Code="zu-za" InMinimumRequirementSet="true" />
   </SupportedLocales>
   <ProductReservedInfo>
-    <MainPackageIdentityName>12457HollisYao.CognitiveServicesDemo</MainPackageIdentityName>
+    <MainPackageIdentityName>12457HollisYao.63325BAD4D795</MainPackageIdentityName>
     <ReservedNames>
-      <ReservedName>CognitiveServicesDemo</ReservedName>
+      <ReservedName>Cognitive Services Demo</ReservedName>
     </ReservedNames>
   </ProductReservedInfo>
   <AccountPackageIdentityNames>
@@ -369,5 +369,5 @@
     <MainPackageIdentityName>12457HollisYao.220912185029E</MainPackageIdentityName>
     <MainPackageIdentityName>12457HollisYao.39192B477110B</MainPackageIdentityName>
   </AccountPackageIdentityNames>
-  <PackageInfoList LandingUrl="https://developer.microsoft.com/dashboard/Application?appId=9P3MLH7C27NP" />
+  <PackageInfoList LandingUrl="https://developer.microsoft.com/dashboard/Application?appId=9N3TKDKVG2TN" />
 </StoreAssociation>

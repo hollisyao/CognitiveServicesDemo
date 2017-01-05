@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="zh-Hans" original="INTELLIGENTKIOSKSAMPLE/STRINGS/EN-US/RESOURCES.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.1795.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="INTELLIGENTKIOSKSAMPLE/STRINGS/EN-US/RESOURCES.RESW" datatype="resx">
+        <trans-unit id="LandingPage_Overview.Text" translate="yes" xml:space="preserve">
+          <source>OVERVIEW</source>
+          <target state="final">概览</target>
+        </trans-unit>
+        <trans-unit id="LandingPage_Foot.Text" translate="yes" xml:space="preserve">
+          <source>- Start by entering API Keys in the Settings Page (they will persist between sessions).</source>
+          <target state="final">- 首先必须在设置页面输入API Key，它们将会被保存在程序中。</target>
+        </trans-unit>
+        <trans-unit id="LandingPage_Foot2.Text" translate="yes" xml:space="preserve">
+          <source>- Use the Face Identification Setup page if you want to train the kiosk to identify specific people.</source>
+          <target state="final">- 如果你要启用人脸识别，必须在人脸识别设置页面训练需要识别的人脸。</target>
+        </trans-unit>
+        <trans-unit id="LandingPage_Foot3.Text" translate="yes" xml:space="preserve">
+          <source>- If you have multiple cameras, a camera selector is available in the Settings Page.</source>
+          <target state="final">- 如果你有多个摄像头，必须在设置页面选择要使用的摄像头。</target>
+        </trans-unit>
+        <trans-unit id="LandingPage_More.Text" translate="yes" xml:space="preserve">
+          <source>For more information visit</source>
+          <target state="final">获取更多信息请访问</target>
+        </trans-unit>
+        <trans-unit id="LandingPage_Welcome.Text" translate="yes" xml:space="preserve">
+          <source>Welcome to the Intelligent Kiosk Sample! Here you will find several demos showcasing workflows and experiences built on top of the Microsoft Cognitive Services.</source>
+          <target state="final">欢迎使用认知服务演示程序，在这里你能看到基于微软认知服务构建的演示程序。</target>
+        </trans-unit>
+        <trans-unit id="LandingPage_Welcome2.Text" translate="yes" xml:space="preserve">
+          <source>The kiosk is an example of an intelligent application, one that can understand human faces and predict their age, gender and emotion. It can do so from live images from a web cam, Bing Images or local photos. It also allows you to very quickly create and train a model to perform face identification against any pre-determined set of faces.</source>
+          <target state="final">这个演示程序能够理解人脸，并且预测他的年纪，性别，情绪，同时，甚至还能识别出这个人是谁。</target>
+        </trans-unit>
+        <trans-unit id="AutomaticPhotoCapturePage_Headline.Text" translate="yes" xml:space="preserve">
+          <source>Automatic Photo Capture Sample</source>
+          <target state="final">自动拍照识别系统</target>
+        </trans-unit>
+        <trans-unit id="AutomaticPhotoCapturePage_Headline2.Text" translate="yes" xml:space="preserve">
+          <source>Automatic photo capture via face tracking and motion detection</source>
+          <target state="final">自动拍照并追踪人脸和情绪识别</target>
+        </trans-unit>
+        <trans-unit id="AutomaticPhotoCapturePage_Start.Text" translate="yes" xml:space="preserve">
+          <source>Step in front of the camera to start!</source>
+          <target state="final">请站到摄像头前面！</target>
+        </trans-unit>
+        <trans-unit id="AutomaticPhotoCapturePage_Tip.Text" translate="yes" xml:space="preserve">
+          <source>Try a different pose next time!&amp;#10;Another round will begin shortly...</source>
+          <target state="final">抓紧换一个Pose，10秒钟后，下一个精彩很快开启</target>
+        </trans-unit>
+        <trans-unit id="MallKioskPage_Headline.Text" translate="yes" xml:space="preserve">
+          <source>Mall Kiosk</source>
+          <target state="final">商品个性化推荐</target>
+        </trans-unit>
+        <trans-unit id="MallKioskPage_Headline2.Text" translate="yes" xml:space="preserve">
+          <source>Take a photo to get a product recommendation!</source>
+          <target state="final">拍照之后，为您推荐个性化商品</target>
+        </trans-unit>
+        <trans-unit id="MallKioskPage_Emotion.Text" translate="yes" xml:space="preserve">
+          <source>Emotion Response:</source>
+          <target state="final">情绪反应:</target>
+        </trans-unit>
+        <trans-unit id="RealTimeDemo_Headline.Text" translate="yes" xml:space="preserve">
+          <source>Realtime Crowd Insights Sample</source>
+          <target state="final">实时人流分析系统</target>
+        </trans-unit>
+        <trans-unit id="RealTimeDemo_Headline2.Text" translate="yes" xml:space="preserve">
+          <source>Deriving realtime crowd insights from age, gender, emotion, face identification and unique face tracking</source>
+          <target state="final">支持分析年龄、性别、情绪，人脸识别，人脸追踪</target>
+        </trans-unit>
+        <trans-unit id="RealTimeDemo_Tip.Text" translate="yes" xml:space="preserve">
+          <source>Resetting data...</source>
+          <target state="final">重设数据中。。。</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_Headline.Text" translate="yes" xml:space="preserve">
+          <source>Realtime Driver Monitoring</source>
+          <target state="final">安全驾驶监控系统</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_LookingAway.Text" translate="yes" xml:space="preserve">
+          <source>Looking away!</source>
+          <target state="final">注意观察前方道路！</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_Sleep.Text" translate="yes" xml:space="preserve">
+          <source>Sleeping!</source>
+          <target state="final">别睡着啦！</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_Yawning.Text" translate="yes" xml:space="preserve">
+          <source>Yawning!</source>
+          <target state="final">正在打哈欠！</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_DriverId.Text" translate="yes" xml:space="preserve">
+          <source>Driver Id</source>
+          <target state="final">驾驶员Id</target>
+        </trans-unit>
+        <trans-unit id="String1RealtimeDriverMonitoring_WrapWholeWords.Text" translate="yes" xml:space="preserve">
+          <source>The Driver Id is determined by identifying the face against the trained faces. 
+&lt;LineBreak/&gt;
+&lt;LineBreak/&gt;The Facial Features are used to flag yawning and sleeping (see below how to tweak the thresholds for this if needed).
+&lt;LineBreak/&gt;
+&lt;LineBreak/&gt;The Head Pose is used to flag when the driver is looking away.
+&lt;LineBreak/&gt;
+&lt;LineBreak/&gt;When Activity tracking is enabled and the captioning from the Vision API contains certain keywords, like &amp;quot;phone&amp;quot; or &amp;quot;banana&amp;quot;, a special message will be displayed.</source>
+          <target state="translated">驾驶员Id会去匹配后台设置的人脸库。 
+&lt;LineBreak/&gt;
+&lt;LineBreak/&gt;脸部特征用来识别是否打哈欠和打瞌睡（参考下方怎么设置这个临界值）。
+&lt;LineBreak/&gt;
+&lt;LineBreak/&gt;头的角度用来识别驾驶员是否注视前方道路。
+&lt;LineBreak/&gt;
+&lt;LineBreak/&gt;当启用了动作检测，如果检测到在打电话，或者正在吃东西，就会显示相应的警告信息。</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_Eyes.Text" translate="yes" xml:space="preserve">
+          <source>Eyes</source>
+          <target state="final">眼睛</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_EyeAperture.Text" translate="yes" xml:space="preserve">
+          <source>Current aperture:</source>
+          <target state="final">目前检测到的大小</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_MouthAperture.Text" translate="yes" xml:space="preserve">
+          <source>Current aperture:</source>
+          <target state="final">目前检测到的大小</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_Mouth" translate="yes" xml:space="preserve">
+          <source>Mouth</source>
+          <target state="final">嘴</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_SleepingSlider.Header" translate="yes" xml:space="preserve">
+          <source>Minimum aperture for eyes to be considered open:</source>
+          <target state="final">眼睛睁开的直径小于以下值就认为在打瞌睡</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_YawningSlider.Header" translate="yes" xml:space="preserve">
+          <source>Minimun aperture for mouth to be considered yawning:</source>
+          <target state="final">嘴巴张开的直径大于以下值就认为是在打哈欠</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_RestoreButton.Content" translate="yes" xml:space="preserve">
+          <source>Restore default thresholds</source>
+          <target state="final">重设为默认的临界值</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_Alert.Text" translate="yes" xml:space="preserve">
+          <source>No faces detected. Please look at the camera to start.</source>
+          <target state="final">没有发现人脸，请站到摄像头前方。</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

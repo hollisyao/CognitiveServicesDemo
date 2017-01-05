@@ -18,8 +18,8 @@
         </Grid.RowDefinitions>
         
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1">
-            <TextBlock Text="Mall Kiosk" HorizontalAlignment="Center"  Style="{StaticResource HeaderTextBlockStyle}"></TextBlock>
-            <TextBlock Text="Take a photo to get a product recommendation!" HorizontalAlignment="Center" Style="{StaticResource SubheaderTextBlockStyle}" Margin="0,30,0,0" FontStyle="Italic"/>
+            <TextBlock x:Uid="MallKioskPage_Headline" HorizontalAlignment="Center"  Style="{StaticResource HeaderTextBlockStyle}"></TextBlock>
+            <TextBlock x:Uid="MallKioskPage_Headline2" HorizontalAlignment="Center" Style="{StaticResource SubheaderTextBlockStyle}" Margin="0,30,0,0" FontStyle="Italic"/>
         </StackPanel>
         
         <WebView x:Name="webView" Visibility="Collapsed" Grid.Row="1" />
@@ -55,7 +55,7 @@
                                     </GridView>
                                     <StackPanel Orientation="Horizontal">
                                         <StackPanel>
-                                            <TextBlock Text="Emotion Response:" Style="{StaticResource BaseTextBlockStyle}"/>
+                                            <TextBlock x:Uid="MallKioskPage_Emotion" Style="{StaticResource BaseTextBlockStyle}"/>
                                             <ctl:SentimentControl x:Name="sentimentControl" Width="250"/>
                                         </StackPanel>
                                         <ToggleButton VerticalAlignment="Top" HorizontalAlignment="Right" x:Name="emotionFacesToggle" Unchecked="OnEmotionFacesToggleUnchecked" Checked="OnEmotionFacesToggleChecked">

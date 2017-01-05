@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="LandingPage_Overview.Text" xml:space="preserve">
+    <value>概览</value>
+  </data>
+  <data name="LandingPage_Foot.Text" xml:space="preserve">
+    <value>- 首先必须在设置页面输入API Key，它们将会被保存在程序中。</value>
+  </data>
+  <data name="LandingPage_Foot2.Text" xml:space="preserve">
+    <value>- 如果你要启用人脸识别，必须在人脸识别设置页面训练需要识别的人脸。</value>
+  </data>
+  <data name="LandingPage_Foot3.Text" xml:space="preserve">
+    <value>- 如果你有多个摄像头，必须在设置页面选择要使用的摄像头。</value>
+  </data>
+  <data name="LandingPage_More.Text" xml:space="preserve">
+    <value>获取更多信息请访问</value>
+  </data>
+  <data name="LandingPage_Welcome.Text" xml:space="preserve">
+    <value>欢迎使用认知服务演示程序，在这里你能看到基于微软认知服务构建的演示程序。</value>
+  </data>
+  <data name="LandingPage_Welcome2.Text" xml:space="preserve">
+    <value>这个演示程序能够理解人脸，并且预测他的年纪，性别，情绪，同时，甚至还能识别出这个人是谁。</value>
+  </data>
+  <data name="AutomaticPhotoCapturePage_Headline.Text" xml:space="preserve">
+    <value>自动拍照识别系统</value>
+  </data>
+  <data name="AutomaticPhotoCapturePage_Headline2.Text" xml:space="preserve">
+    <value>自动拍照并追踪人脸和情绪识别</value>
+  </data>
+  <data name="AutomaticPhotoCapturePage_Start.Text" xml:space="preserve">
+    <value>请站到摄像头前面！</value>
+  </data>
+  <data name="AutomaticPhotoCapturePage_Tip.Text" xml:space="preserve">
+    <value>抓紧换一个Pose&amp;#10;下一个精彩很快开启</value>
+  </data>
+  <data name="MallKioskPage_Headline.Text" xml:space="preserve">
+    <value>商品个性化推荐</value>
+  </data>
+  <data name="MallKioskPage_Headline2.Text" xml:space="preserve">
+    <value>拍照之后，为您推荐个性化商品</value>
+  </data>
+  <data name="MallKioskPage_Emotion.Text" xml:space="preserve">
+    <value>情绪反应:</value>
+  </data>
+  <data name="RealTimeDemo_Headline.Text" xml:space="preserve">
+    <value>实时人流分析系统</value>
+  </data>
+  <data name="RealTimeDemo_Headline2.Text" xml:space="preserve">
+    <value>支持分析年龄、性别、情绪，人脸识别，人脸追踪</value>
+  </data>
+  <data name="RealTimeDemo_Tip.Text" xml:space="preserve">
+    <value>重设数据中。。。</value>
+  </data>
+  <data name="RealtimeDriverMonitoring_Headline.Text" xml:space="preserve">
+    <value>安全驾驶监控系统</value>
+  </data>
+  <data name="RealtimeDriverMonitoring_LookingAway.Text" xml:space="preserve">
+    <value>注意观察前方道路！</value>
+  </data>
+  <data name="RealtimeDriverMonitoring_Sleep.Text" xml:space="preserve">
+    <value>别睡着啦！</value>
+  </data>
+  <data name="RealtimeDriverMonitoring_Yawning.Text" xml:space="preserve">
+    <value>正在打哈欠！</value>
+  </data>
+  <data name="RealtimeDriverMonitoring_DriverId.Text" xml:space="preserve">
+    <value>驾驶员Id</value>
+  </data>
+  <data name="String1RealtimeDriverMonitoring_WrapWholeWords.Text" xml:space="preserve">
+    <value>驾驶员Id会去匹配后台设置的人脸库。 
+&lt;LineBreak/&gt;
+&lt;LineBreak/&gt;脸部特征用来识别是否打哈欠和打瞌睡（参考下方怎么设置这个临界值）。
+&lt;LineBreak/&gt;
+&lt;LineBreak/&gt;头的角度用来识别驾驶员是否注视前方道路。
+&lt;LineBreak/&gt;
+&lt;LineBreak/&gt;当启用了动作检测，如果检测到在打电话，或者正在吃东西，就会显示相应的警告信息。</value>
+  </data>
+  <data name="RealtimeDriverMonitoring_Eyes.Text" xml:space="preserve">
+    <value>眼睛</value>
+  </data>
+  <data name="RealtimeDriverMonitoring_EyeAperture.Text" xml:space="preserve">
+    <value>目前监控到的大小</value>
+  </data>
+  <data name="RealtimeDriverMonitoring_MouthAperture.Text" xml:space="preserve">
+    <value>目前监控到的大小</value>
+  </data>
+  <data name="RealtimeDriverMonitoring_Mouth" xml:space="preserve">
+    <value>嘴</value>
+  </data>
+  <data name="RealtimeDriverMonitoring_SleepingSlider.Header" xml:space="preserve">
+    <value>眼睛睁开的直径小于以下值就认为瞌睡</value>
+  </data>
+  <data name="RealtimeDriverMonitoring_YawningSlider.Header" xml:space="preserve">
+    <value>嘴巴张开的直径大于以下值就认为是在打哈欠</value>
+  </data>
+  <data name="RealtimeDriverMonitoring_RestoreButton.Content" xml:space="preserve">
+    <value>重设为默认的临界值</value>
+  </data>
+  <data name="RealtimeDriverMonitoring_Alert.Text" xml:space="preserve">
+    <value>没有发现人脸，请站到摄像头前方。</value>
+  </data>
+</root>

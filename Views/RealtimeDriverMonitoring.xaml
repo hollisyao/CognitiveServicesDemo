@@ -25,7 +25,7 @@
         </Grid.RowDefinitions>
 
         <Viewbox Grid.Row="1" Margin="30,0,30,0" >
-            <TextBlock Text="Realtime Driver Monitoring" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontFamily="Segoe UI Light"  Style="{StaticResource HeaderTextBlockStyle}"/>
+            <TextBlock x:Uid="RealtimeDriverMonitoring_Headline" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontFamily="Segoe UI Light"  Style="{StaticResource HeaderTextBlockStyle}"/>
         </Viewbox>
 
         <Grid x:Name="cameraHostGrid" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.RowSpan="3" Margin="5" >
@@ -33,17 +33,17 @@
         </Grid>
 
         <StackPanel Grid.RowSpan="4" VerticalAlignment="Center" HorizontalAlignment="Center" Opacity="0.6" >
-            <TextBlock x:Name="sleeping" Text="Sleeping!" Visibility="Collapsed" Foreground="#FF42BBFA" FontSize="100" FontFamily="Segoe UI Light"   />
-            <TextBlock x:Name="lookingAway" Text="Looking away!" Visibility="Collapsed" Foreground="#FF42BBFA" FontSize="100" FontFamily="Segoe UI Light"/>
-            <TextBlock x:Name="yawning" Text="Yawning!" Visibility="Collapsed" Foreground="#FF42BBFA" FontSize="100" FontFamily="Segoe UI Light"/>
-            <TextBlock x:Name="objectDistraction" Foreground="#FF42BBFA" FontSize="100" Visibility="Collapsed" FontFamily="Segoe UI Light"/>
+            <TextBlock x:Uid="RealtimeDriverMonitoring_Sleep" x:Name="sleeping" Visibility="Collapsed" Foreground="#FF42BBFA" FontSize="100" FontFamily="Segoe UI Light"   />
+            <TextBlock x:Uid="RealtimeDriverMonitoring_LookingAway" x:Name="lookingAway" Visibility="Collapsed" Foreground="#FF42BBFA" FontSize="100" FontFamily="Segoe UI Light"/>
+            <TextBlock x:Uid="RealtimeDriverMonitoring_Yawning" x:Name="yawning" Visibility="Collapsed" Foreground="#FF42BBFA" FontSize="100" FontFamily="Segoe UI Light"/>
+            <TextBlock x:Uid="RealtimeDriverMonitoring_ObjectDistraction" x:Name="objectDistraction" Foreground="#FF42BBFA" FontSize="100" Visibility="Collapsed" FontFamily="Segoe UI Light"/>
         </StackPanel>
 
         <StackPanel Grid.Row="3" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,36,5,5" Width="200" >
 
             <StackPanel Opacity="0.6" Background="#33FFFFFF" Padding="6">
                 <Grid >
-                    <TextBlock Text="Driver Id" Style="{StaticResource TitleTextBlockStyle}" FontFamily="Segoe UI Light"  />
+                    <TextBlock x:Uid="RealtimeDriverMonitoring_DriverId" Style="{StaticResource TitleTextBlockStyle}" FontFamily="Segoe UI Light"  />
                     <Button Opacity="0.3" HorizontalAlignment="Right" Background="Transparent" DataContext="{Binding ElementName=page}">
                         <Button.Content>
                             <SymbolIcon Symbol="Setting"/>
@@ -51,44 +51,44 @@
                         <Button.Flyout>
                             <Flyout>
                                 <StackPanel>
-                                    <TextBlock Width="300" TextWrapping="WrapWholeWords">
-The Driver Id is determined by identifying the face against the trained faces. 
+                                    <TextBlock x:Uid="RealtimeDriverMonitoring_WrapWholeWords" Width="300" TextWrapping="WrapWholeWords">
+<!--The Driver Id is determined by identifying the face against the trained faces. 
 <LineBreak/>
 <LineBreak/>The Facial Features are used to flag yawning and sleeping (see below how to tweak the thresholds for this if needed).
 <LineBreak/>
 <LineBreak/>The Head Pose is used to flag when the driver is looking away.
 <LineBreak/>
-<LineBreak/>When Activity tracking is enabled and the captioning from the Vision API contains certain keywords, like &quot;phone&quot; or &quot;banana&quot;, a special message will be displayed.
-                                    </TextBlock> 
+<LineBreak/>When Activity tracking is enabled and the captioning from the Vision API contains certain keywords, like &quot;phone&quot; or &quot;banana&quot;, a special message will be displayed.-->
+                                    </TextBlock>
 
-                                    <TextBlock Text="Eyes" Margin="0,12,0,0" Style="{StaticResource TitleTextBlockStyle}"/>
+                                    <TextBlock x:Uid="RealtimeDriverMonitoring_Eyes" Margin="0,12,0,0" Style="{StaticResource TitleTextBlockStyle}"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <TextBlock Text="Current aperture:" />
+                                        <TextBlock x:Uid="RealtimeDriverMonitoring_EyeAperture" />
                                         <TextBlock x:Name="currentEyeAperture" Margin="4,0,0,0" />
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal">
-                                        <Slider x:Name="sleepingApertureThresholdSlider" Header="Minimum aperture for eyes to be considered open:" Minimum="0" Maximum="1" StepFrequency="0.01" SmallChange="0.01" LargeChange="0.05" Value="{Binding SleepingApertureThreshold, Mode=TwoWay}" Width="200" HorizontalAlignment="Left"/>
+                                        <Slider x:Uid="RealtimeDriverMonitoring_SleepingSlider" x:Name="sleepingApertureThresholdSlider" Minimum="0" Maximum="1" StepFrequency="0.01" SmallChange="0.01" LargeChange="0.05" Value="{Binding SleepingApertureThreshold, Mode=TwoWay}" Width="200" HorizontalAlignment="Left"/>
                                         <TextBlock VerticalAlignment="Center" Margin="12,0,0,0" Text="{Binding ElementName=sleepingApertureThresholdSlider, Path=Value}"/>
                                     </StackPanel>
 
-                                    <TextBlock Text="Mouth" Margin="0,12,0,0" Style="{StaticResource TitleTextBlockStyle}"/>
+                                    <TextBlock x:Uid="RealtimeDriverMonitoring_Mouth" Margin="0,12,0,0" Style="{StaticResource TitleTextBlockStyle}"/>
                                     <StackPanel Orientation="Horizontal">
-                                        <TextBlock Text="Current aperture:" />
+                                        <TextBlock x:Uid="RealtimeDriverMonitoring_MouthAperture" />
                                         <TextBlock x:Name="currentMouthAperture" Margin="4,0,0,0" />
                                     </StackPanel>
                                     <StackPanel Orientation="Horizontal">
-                                        <Slider x:Name="yawningApertureThresholdSlider" Header="Minimun aperture for mouth to be considered yawning:" Minimum="0" Maximum="1" StepFrequency="0.01" SmallChange="0.01" LargeChange="0.05" Value="{Binding YawningApertureThreshold, Mode=TwoWay}" Width="200" HorizontalAlignment="Left"/>
+                                        <Slider x:Uid="RealtimeDriverMonitoring_YawningSlider" x:Name="yawningApertureThresholdSlider" Minimum="0" Maximum="1" StepFrequency="0.01" SmallChange="0.01" LargeChange="0.05" Value="{Binding YawningApertureThreshold, Mode=TwoWay}" Width="200" HorizontalAlignment="Left"/>
                                         <TextBlock VerticalAlignment="Center" Margin="12,0,0,0" Text="{Binding ElementName=yawningApertureThresholdSlider, Path=Value}"/>
                                     </StackPanel>
 
-                                    <Button Content="Restore default thresholds" Click="RestoreDefaultThresholdsClicked"/>
+                                    <Button x:Uid="RealtimeDriverMonitoring_RestoreButton" Click="RestoreDefaultThresholdsClicked"/>
 
                                 </StackPanel>
                             </Flyout>
                         </Button.Flyout>
                     </Button>
                 </Grid>
-                <TextBlock x:Name="driverId" Text="No faces detected. Please look at the camera to start." FontFamily="Segoe UI Light" Margin="0,0,0,20" Style="{StaticResource BodyTextBlockStyle}"/>
+                <TextBlock x:Uid="RealtimeDriverMonitoring_Alert" x:Name="driverId" FontFamily="Segoe UI Light" Margin="0,0,0,20" Style="{StaticResource BodyTextBlockStyle}"/>
 
                 <TextBlock Text="Facial Features" Style="{StaticResource TitleTextBlockStyle}" FontFamily="Segoe UI Light" Margin="0,0,0,2"/>
                 <Grid Height="150" Width="120">

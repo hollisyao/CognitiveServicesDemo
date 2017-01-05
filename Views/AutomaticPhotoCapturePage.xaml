@@ -22,9 +22,9 @@
             </Grid.RowDefinitions>
 
             <StackPanel Grid.Row="1">
-                
-                <TextBlock Text="Automatic Photo Capture Sample" Foreground="White" HorizontalAlignment="Center" FontFamily="Segoe UI Light" Style="{StaticResource HeaderTextBlockStyle}"/>
-                <TextBlock Text="Automatic photo capture via face tracking and motion detection" HorizontalAlignment="Center" FontFamily="Segoe UI Light"  Style="{StaticResource SubtitleTextBlockStyle}" FontStyle="Italic"/>
+
+                <TextBlock x:Uid="AutomaticPhotoCapturePage_Headline" Foreground="White" HorizontalAlignment="Center" FontFamily="Segoe UI Light" Style="{StaticResource HeaderTextBlockStyle}"/>
+                <TextBlock x:Uid="AutomaticPhotoCapturePage_Headline2" HorizontalAlignment="Center" FontFamily="Segoe UI Light"  Style="{StaticResource SubtitleTextBlockStyle}" FontStyle="Italic"/>
 
             </StackPanel>
 
@@ -54,7 +54,7 @@
                                Points="0,0,0,10,12,10" Fill="#ECCF11" />
 
                         <Border Grid.Row="1" Background="#ECCF11" Padding="10,5,10,5">
-                            <TextBlock x:Name="cameraGuideText" Foreground="#D86C2A" Text="Step in front of the camera to start!"  Style="{StaticResource SubtitleTextBlockStyle}" FontStyle="Italic" />
+                            <TextBlock x:Uid="AutomaticPhotoCapturePage_Start" x:Name="cameraGuideText" Foreground="#D86C2A" Text="Step in front of the camera to start!"  Style="{StaticResource SubtitleTextBlockStyle}" FontStyle="Italic" />
                         </Border>
                     </Grid>
 
@@ -88,7 +88,7 @@
 
                 <Border Grid.Row="1" Background="#ECCF11" Padding="10,5,10,5">
                     <StackPanel>
-                        <TextBlock Foreground="#D86C2A" Text="Try a different pose next time!&#10;Another round will begin shortly..." Style="{StaticResource SubtitleTextBlockStyle}" FontStyle="Italic" />
+                        <TextBlock x:Uid="AutomaticPhotoCapturePage_Tip" Foreground="#D86C2A" Style="{StaticResource SubtitleTextBlockStyle}" FontStyle="Italic" />
                         <ProgressBar x:Name="resultDisplayTimerUI" Height="6" Opacity="0.8" Margin="0,6,0,0" Foreground="#f8f7bb" VerticalAlignment="Bottom" />
                     </StackPanel>
                 </Border>

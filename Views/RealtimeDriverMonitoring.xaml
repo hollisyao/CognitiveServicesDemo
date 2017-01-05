@@ -51,16 +51,8 @@
                         <Button.Flyout>
                             <Flyout>
                                 <StackPanel>
-                                    <TextBlock x:Uid="RealtimeDriverMonitoring_WrapWholeWords" Width="300" TextWrapping="WrapWholeWords">
-<!--The Driver Id is determined by identifying the face against the trained faces. 
-<LineBreak/>
-<LineBreak/>The Facial Features are used to flag yawning and sleeping (see below how to tweak the thresholds for this if needed).
-<LineBreak/>
-<LineBreak/>The Head Pose is used to flag when the driver is looking away.
-<LineBreak/>
-<LineBreak/>When Activity tracking is enabled and the captioning from the Vision API contains certain keywords, like &quot;phone&quot; or &quot;banana&quot;, a special message will be displayed.-->
-                                    </TextBlock>
-
+                                    <TextBlock x:Uid="RealtimeDriverMonitoring_WrapWholeWords" Width="300" TextWrapping="WrapWholeWords"/>
+                                    
                                     <TextBlock x:Uid="RealtimeDriverMonitoring_Eyes" Margin="0,12,0,0" Style="{StaticResource TitleTextBlockStyle}"/>
                                     <StackPanel Orientation="Horizontal">
                                         <TextBlock x:Uid="RealtimeDriverMonitoring_EyeAperture" />

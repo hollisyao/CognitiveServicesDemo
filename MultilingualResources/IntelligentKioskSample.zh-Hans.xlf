@@ -94,22 +94,6 @@
           <source>Driver Id</source>
           <target state="final">驾驶员Id</target>
         </trans-unit>
-        <trans-unit id="String1RealtimeDriverMonitoring_WrapWholeWords.Text" translate="yes" xml:space="preserve">
-          <source>The Driver Id is determined by identifying the face against the trained faces. 
-&lt;LineBreak/&gt;
-&lt;LineBreak/&gt;The Facial Features are used to flag yawning and sleeping (see below how to tweak the thresholds for this if needed).
-&lt;LineBreak/&gt;
-&lt;LineBreak/&gt;The Head Pose is used to flag when the driver is looking away.
-&lt;LineBreak/&gt;
-&lt;LineBreak/&gt;When Activity tracking is enabled and the captioning from the Vision API contains certain keywords, like &amp;quot;phone&amp;quot; or &amp;quot;banana&amp;quot;, a special message will be displayed.</source>
-          <target state="translated">驾驶员Id会去匹配后台设置的人脸库。 
-&lt;LineBreak/&gt;
-&lt;LineBreak/&gt;脸部特征用来识别是否打哈欠和打瞌睡（参考下方怎么设置这个临界值）。
-&lt;LineBreak/&gt;
-&lt;LineBreak/&gt;头的角度用来识别驾驶员是否注视前方道路。
-&lt;LineBreak/&gt;
-&lt;LineBreak/&gt;当启用了动作检测，如果检测到在打电话，或者正在吃东西，就会显示相应的警告信息。</target>
-        </trans-unit>
         <trans-unit id="RealtimeDriverMonitoring_Eyes.Text" translate="yes" xml:space="preserve">
           <source>Eyes</source>
           <target state="final">眼睛</target>
@@ -141,6 +125,22 @@
         <trans-unit id="RealtimeDriverMonitoring_Alert.Text" translate="yes" xml:space="preserve">
           <source>No faces detected. Please look at the camera to start.</source>
           <target state="final">没有发现人脸，请站到摄像头前方。</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_WrapWholeWords.Text" translate="yes" xml:space="preserve">
+          <source>The Driver Id is determined by identifying the face against the trained faces. 
+&lt;LineBreak/&gt;
+&lt;LineBreak/&gt;The Facial Features are used to flag yawning and sleeping (see below how to tweak the thresholds for this if needed).
+&lt;LineBreak/&gt;
+&lt;LineBreak/&gt;The Head Pose is used to flag when the driver is looking away.
+&lt;LineBreak/&gt;
+&lt;LineBreak/&gt;When Activity tracking is enabled and the captioning from the Vision API contains certain keywords, like &amp;quot;phone&amp;quot; or &amp;quot;banana&amp;quot;, a special message will be displayed.</source>
+          <target state="translated">驾驶员Id会去匹配后台设置的人脸库。 
+
+脸部特征用来识别是否打哈欠和打瞌睡（参考下方怎么设置这个临界值）。
+
+头的角度用来识别驾驶员是否在观察前方道路。
+
+当启用了动作检测，如果检测到在打电话，或者正在吃东西，就会显示相应的警告信息。</target>
         </trans-unit>
       </group>
     </body>

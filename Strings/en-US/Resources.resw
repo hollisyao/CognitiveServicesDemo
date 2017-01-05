@@ -201,13 +201,7 @@
   <data name="RealtimeDriverMonitoring_SleepingSlider.Header" xml:space="preserve">
     <value>Minimum aperture for eyes to be considered open:</value>
   </data>
-  <data name="RealtimeDriverMonitoring_Yawning.Text" xml:space="preserve">
-    <value>Yawning!</value>
-  </data>
-  <data name="RealtimeDriverMonitoring_YawningSlider.Header" xml:space="preserve">
-    <value>Minimun aperture for mouth to be considered yawning:</value>
-  </data>
-  <data name="String1RealtimeDriverMonitoring_WrapWholeWords.Text" xml:space="preserve">
+  <data name="RealtimeDriverMonitoring_WrapWholeWords.Text" xml:space="preserve">
     <value>The Driver Id is determined by identifying the face against the trained faces. 
 &lt;LineBreak/&gt;
 &lt;LineBreak/&gt;The Facial Features are used to flag yawning and sleeping (see below how to tweak the thresholds for this if needed).
@@ -215,5 +209,11 @@
 &lt;LineBreak/&gt;The Head Pose is used to flag when the driver is looking away.
 &lt;LineBreak/&gt;
 &lt;LineBreak/&gt;When Activity tracking is enabled and the captioning from the Vision API contains certain keywords, like &amp;quot;phone&amp;quot; or &amp;quot;banana&amp;quot;, a special message will be displayed.</value>
+  </data>
+  <data name="RealtimeDriverMonitoring_Yawning.Text" xml:space="preserve">
+    <value>Yawning!</value>
+  </data>
+  <data name="RealtimeDriverMonitoring_YawningSlider.Header" xml:space="preserve">
+    <value>Minimun aperture for mouth to be considered yawning:</value>
   </data>
 </root>

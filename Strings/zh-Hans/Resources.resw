@@ -43,7 +43,7 @@
     <value>请站到摄像头前面！</value>
   </data>
   <data name="AutomaticPhotoCapturePage_Tip.Text" xml:space="preserve">
-    <value>抓紧换一个Pose&amp;#10;下一个精彩很快开启</value>
+    <value>抓紧换一个Pose，10秒钟后，下一个精彩很快开启</value>
   </data>
   <data name="MallKioskPage_Headline.Text" xml:space="preserve">
     <value>商品个性化推荐</value>
@@ -78,29 +78,20 @@
   <data name="RealtimeDriverMonitoring_DriverId.Text" xml:space="preserve">
     <value>驾驶员Id</value>
   </data>
-  <data name="String1RealtimeDriverMonitoring_WrapWholeWords.Text" xml:space="preserve">
-    <value>驾驶员Id会去匹配后台设置的人脸库。 
-&lt;LineBreak/&gt;
-&lt;LineBreak/&gt;脸部特征用来识别是否打哈欠和打瞌睡（参考下方怎么设置这个临界值）。
-&lt;LineBreak/&gt;
-&lt;LineBreak/&gt;头的角度用来识别驾驶员是否注视前方道路。
-&lt;LineBreak/&gt;
-&lt;LineBreak/&gt;当启用了动作检测，如果检测到在打电话，或者正在吃东西，就会显示相应的警告信息。</value>
-  </data>
   <data name="RealtimeDriverMonitoring_Eyes.Text" xml:space="preserve">
     <value>眼睛</value>
   </data>
   <data name="RealtimeDriverMonitoring_EyeAperture.Text" xml:space="preserve">
-    <value>目前监控到的大小</value>
+    <value>目前检测到的大小</value>
   </data>
   <data name="RealtimeDriverMonitoring_MouthAperture.Text" xml:space="preserve">
-    <value>目前监控到的大小</value>
+    <value>目前检测到的大小</value>
   </data>
   <data name="RealtimeDriverMonitoring_Mouth" xml:space="preserve">
     <value>嘴</value>
   </data>
   <data name="RealtimeDriverMonitoring_SleepingSlider.Header" xml:space="preserve">
-    <value>眼睛睁开的直径小于以下值就认为瞌睡</value>
+    <value>眼睛睁开的直径小于以下值就认为在打瞌睡</value>
   </data>
   <data name="RealtimeDriverMonitoring_YawningSlider.Header" xml:space="preserve">
     <value>嘴巴张开的直径大于以下值就认为是在打哈欠</value>
@@ -110,5 +101,14 @@
   </data>
   <data name="RealtimeDriverMonitoring_Alert.Text" xml:space="preserve">
     <value>没有发现人脸，请站到摄像头前方。</value>
+  </data>
+  <data name="RealtimeDriverMonitoring_WrapWholeWords.Text" xml:space="preserve">
+    <value>驾驶员Id会去匹配后台设置的人脸库。 
+
+驾驶员Id会去匹配后台设置的人脸库。 
+
+头的角度用来识别驾驶员是否在观察前方道路。
+
+当启用了动作检测，如果检测到在打电话，或者正在吃东西，就会显示相应的警告信息。</value>
   </data>
 </root>

@@ -40,8 +40,8 @@
                 <ColumnDefinition Width="auto"/>
             </Grid.ColumnDefinitions>
 
-            <StackPanel >
-                <TextBlock Grid.Column="1" Margin="2" Text="Bing News Analytics" Foreground="White" Style="{StaticResource TitleTextBlockStyle}"/>
+            <StackPanel>
+                <TextBlock x:Uid="BingNewsAnalytics_Headline" Grid.Column="1" Margin="2" Foreground="White" Style="{StaticResource TitleTextBlockStyle}"/>
                 <Grid Grid.Column="1" Grid.Row="1">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition/>
@@ -55,7 +55,7 @@
                 </Grid>
             </StackPanel>
 
-            <ComboBox Grid.Column="3" x:Name="languageComboBox" VerticalAlignment="Bottom" Width="130" Margin="24,0,0,0" Header="Language:" SelectedIndex="0" SelectionChanged="LanguageSelectionChanged">
+            <ComboBox x:Uid="BingNewsAnalytics_Language" Grid.Column="3" x:Name="languageComboBox" VerticalAlignment="Bottom" Width="130" Margin="24,0,0,0" SelectedIndex="0" SelectionChanged="LanguageSelectionChanged">
                 <ComboBox.Items>
                     <x:String>English</x:String>
                     <x:String>Spanish</x:String>
@@ -76,7 +76,7 @@
                     <RowDefinition Height="auto"/>
                     <RowDefinition/>
                 </Grid.RowDefinitions>
-                <ctl:SentimentDistributionControl x:Name="sentimentDistributionControl" Height="200" HeaderText="Sentiment Distribution"/>
+                <ctl:SentimentDistributionControl x:Uid="BingNewsAnalytics_SentimentDistribution" x:Name="sentimentDistributionControl" Height="200" />
 
                 <Grid Background="#FF222222" Grid.Row="1" Margin="0,24,0,0">
                     <Grid.RowDefinitions>
@@ -84,7 +84,7 @@
                         <RowDefinition Height="auto"/>
                         <RowDefinition/>
                     </Grid.RowDefinitions>
-                    <TextBlock Text="Top Keywords" Margin="6" Foreground="Gray" Style="{StaticResource BaseTextBlockStyle}"/>
+                    <TextBlock x:Uid="BingNewsAnalytics_TopKeywords" Margin="6" Foreground="Gray" Style="{StaticResource BaseTextBlockStyle}"/>
                     <Rectangle Height="1" Fill="Gray" Grid.Row="1"/>
 
                     <ListView ItemsSource="{Binding TopKeyPhrases, ElementName=page}" SelectionMode="None" IsItemClickEnabled="False" Grid.Row="2" >
@@ -123,7 +123,7 @@
                                     </HyperlinkButton>
 
                                     <StackPanel Orientation="Horizontal" Grid.Row="2">
-                                        <TextBlock Text="Sentiment:" Style="{StaticResource CaptionTextBlockStyle}" Margin="0,0,4,0"/>
+                                        <TextBlock x:Uid="BingNewsAnalytics_Sentiment" Text="Sentiment:" Style="{StaticResource CaptionTextBlockStyle}" Margin="0,0,4,0"/>
                                         <TextBlock Text="{Binding TitleSentiment}" Style="{StaticResource CaptionTextBlockStyle}"/>
                                     </StackPanel>
                                 </Grid>

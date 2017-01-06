@@ -134,13 +134,45 @@
 &lt;LineBreak/&gt;The Head Pose is used to flag when the driver is looking away.
 &lt;LineBreak/&gt;
 &lt;LineBreak/&gt;When Activity tracking is enabled and the captioning from the Vision API contains certain keywords, like &amp;quot;phone&amp;quot; or &amp;quot;banana&amp;quot;, a special message will be displayed.</source>
-          <target state="translated">驾驶员Id会去匹配后台设置的人脸库。 
+          <target state="final">驾驶员Id会去匹配后台设置的人脸库。 
 
 脸部特征用来识别是否打哈欠和打瞌睡（参考下方怎么设置这个临界值）。
 
 头的角度用来识别驾驶员是否在观察前方道路。
 
 当启用了动作检测，如果检测到在打电话，或者正在吃东西，就会显示相应的警告信息。</target>
+        </trans-unit>
+        <trans-unit id="BingNewsAnalytics_Headline.Text" translate="yes" xml:space="preserve">
+          <source>Bing News Analytics</source>
+          <target state="final">Bing新闻分析</target>
+        </trans-unit>
+        <trans-unit id="BingNewsAnalytics_TopKeywords.Text" translate="yes" xml:space="preserve">
+          <source>Top Keywords</source>
+          <target state="final">最佳关键字</target>
+        </trans-unit>
+        <trans-unit id="BingNewsAnalytics_Sentiment.Text" translate="yes" xml:space="preserve">
+          <source>Sentiment:</source>
+          <target state="final">情绪：</target>
+        </trans-unit>
+        <trans-unit id="BingNewsAnalytics_Language.Header" translate="yes" xml:space="preserve">
+          <source>Language:</source>
+          <target state="final">语言：</target>
+        </trans-unit>
+        <trans-unit id="BingNewsAnalytics_SentimentDistribution.HeaderText" translate="yes" xml:space="preserve">
+          <source>Sentiment Distribution</source>
+          <target state="final">情绪分布情况</target>
+        </trans-unit>
+        <trans-unit id="AutomaticPhotoCapturePage_Hold" translate="yes" xml:space="preserve">
+          <source>Hold still...</source>
+          <target state="final">保持不动。。。</target>
+        </trans-unit>
+        <trans-unit id="AutomaticPhotoCapturePage_MissingAPI_Content" translate="yes" xml:space="preserve">
+          <source>Missing Face API Key. Please enter a key in the Settings page.</source>
+          <target state="final">没有设置Face API Key，请到设置页面配置。</target>
+        </trans-unit>
+        <trans-unit id="AutomaticPhotoCapturePage_MissingAPI_Title" translate="yes" xml:space="preserve">
+          <source>Missing Face API Key</source>
+          <target state="final">没有设置Face API Key</target>
         </trans-unit>
       </group>
     </body>

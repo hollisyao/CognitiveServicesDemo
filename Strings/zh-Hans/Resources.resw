@@ -105,10 +105,28 @@
   <data name="RealtimeDriverMonitoring_WrapWholeWords.Text" xml:space="preserve">
     <value>驾驶员Id会去匹配后台设置的人脸库。 
 
-驾驶员Id会去匹配后台设置的人脸库。 
+脸部特征用来识别是否打哈欠和打瞌睡（参考下方怎么设置这个临界值）。
 
 头的角度用来识别驾驶员是否在观察前方道路。
 
 当启用了动作检测，如果检测到在打电话，或者正在吃东西，就会显示相应的警告信息。</value>
+  </data>
+  <data name="BingNewsAnalytics_Headline.Text" xml:space="preserve">
+    <value>Bing新闻分析</value>
+  </data>
+  <data name="BingNewsAnalytics_TopKeywords.Text" xml:space="preserve">
+    <value>最佳关键字</value>
+  </data>
+  <data name="BingNewsAnalytics_Sentiment.Text" xml:space="preserve">
+    <value>情绪：</value>
+  </data>
+  <data name="BingNewsAnalytics_Language.Header" xml:space="preserve">
+    <value>语言：</value>
+  </data>
+  <data name="BingNewsAnalytics_SentimentDistribution.HeaderText" xml:space="preserve">
+    <value>情绪分布情况</value>
+  </data>
+  <data name="AutomaticPhotoCapturePage_Hold" xml:space="preserve">
+    <value>保持不动。。。</value>
   </data>
 </root>

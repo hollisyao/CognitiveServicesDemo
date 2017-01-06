@@ -114,6 +114,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="AppResourcesHelper.cs" />
     <Compile Include="Controls\Converters.cs" />
     <Compile Include="Controls\OverallStatsControl.xaml.cs">
       <DependentUpon>OverallStatsControl.xaml</DependentUpon>

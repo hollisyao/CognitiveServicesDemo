@@ -85,11 +85,11 @@ namespace IntelligentKioskSample.Views
             {
                 case AutoCaptureState.WaitingForFaces:
                     this.cameraGuideBallon.Opacity = 1;
-                    this.cameraGuideText.Text = "Step in front of the camera to start!";
+                    this.cameraGuideText.Text = AppResourcesHelper.GetString("AutomaticPhotoCapturePage_Start.Text");
                     this.cameraGuideHost.Opacity = 1;
                     break;
                 case AutoCaptureState.WaitingForStillFaces:
-                    this.cameraGuideText.Text = "Hold still...";
+                    this.cameraGuideText.Text = AppResourcesHelper.GetString("AutomaticPhotoCapturePage_Hold");
                     break;
                 case AutoCaptureState.ShowingCountdownForCapture:
                     this.cameraGuideText.Text = "";
@@ -149,7 +149,7 @@ namespace IntelligentKioskSample.Views
 
             if (string.IsNullOrEmpty(SettingsHelper.Instance.FaceApiKey))
             {
-                await new MessageDialog("Missing Face API Key. Please enter a key in the Settings page.", "Missing Face API Key").ShowAsync();
+                await new MessageDialog(AppResourcesHelper.GetString("AutomaticPhotoCapturePage_MissingAPI_Content"), AppResourcesHelper.GetString("AutomaticPhotoCapturePage_MissingAPI_Title")).ShowAsync();
             }
             else
             {

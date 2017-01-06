@@ -123,11 +123,35 @@
   <data name="AutomaticPhotoCapturePage_Headline2.Text" xml:space="preserve">
     <value>Automatic photo capture via face tracking and motion detection</value>
   </data>
+  <data name="AutomaticPhotoCapturePage_Hold" xml:space="preserve">
+    <value>Hold still...</value>
+  </data>
+  <data name="AutomaticPhotoCapturePage_MissingAPI_Content" xml:space="preserve">
+    <value>Missing Face API Key. Please enter a key in the Settings page.</value>
+  </data>
+  <data name="AutomaticPhotoCapturePage_MissingAPI_Title" xml:space="preserve">
+    <value>Missing Face API Key</value>
+  </data>
   <data name="AutomaticPhotoCapturePage_Start.Text" xml:space="preserve">
     <value>Step in front of the camera to start!</value>
   </data>
   <data name="AutomaticPhotoCapturePage_Tip.Text" xml:space="preserve">
     <value>Try a different pose next time!&amp;#10;Another round will begin shortly...</value>
+  </data>
+  <data name="BingNewsAnalytics_Headline.Text" xml:space="preserve">
+    <value>Bing News Analytics</value>
+  </data>
+  <data name="BingNewsAnalytics_Language.Header" xml:space="preserve">
+    <value>Language:</value>
+  </data>
+  <data name="BingNewsAnalytics_Sentiment.Text" xml:space="preserve">
+    <value>Sentiment:</value>
+  </data>
+  <data name="BingNewsAnalytics_SentimentDistribution.HeaderText" xml:space="preserve">
+    <value>Sentiment Distribution</value>
+  </data>
+  <data name="BingNewsAnalytics_TopKeywords.Text" xml:space="preserve">
+    <value>Top Keywords</value>
   </data>
   <data name="LandingPage_Foot.Text" xml:space="preserve">
     <value>- Start by entering API Keys in the Settings Page (they will persist between sessions).</value>

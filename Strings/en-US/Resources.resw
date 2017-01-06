@@ -153,6 +153,9 @@
   <data name="BingNewsAnalytics_TopKeywords.Text" xml:space="preserve">
     <value>Top Keywords</value>
   </data>
+  <data name="DemoLauncherPage_Title.Text" xml:space="preserve">
+    <value>Demos</value>
+  </data>
   <data name="LandingPage_Foot.Text" xml:space="preserve">
     <value>- Start by entering API Keys in the Settings Page (they will persist between sessions).</value>
   </data>
@@ -182,6 +185,27 @@
   </data>
   <data name="MallKioskPage_Headline2.Text" xml:space="preserve">
     <value>Take a photo to get a product recommendation!</value>
+  </data>
+  <data name="ModuleName_AutomaticPhotoCapture" xml:space="preserve">
+    <value>Automatic Photo Capture</value>
+  </data>
+  <data name="ModuleName_BingNewsAnalytics" xml:space="preserve">
+    <value>Bing News Analytics</value>
+  </data>
+  <data name="ModuleName_EmotionAPIExplorer" xml:space="preserve">
+    <value>Emotion API Explorer</value>
+  </data>
+  <data name="ModuleName_FaceAPIExplorer" xml:space="preserve">
+    <value>Face API Explorer</value>
+  </data>
+  <data name="ModuleName_MallKiosk" xml:space="preserve">
+    <value>Mall Kiosk</value>
+  </data>
+  <data name="ModuleName_RealtimeCrowdInsights" xml:space="preserve">
+    <value>Realtime Crowd Insights</value>
+  </data>
+  <data name="ModuleName_RealtimeDriverMonitoring" xml:space="preserve">
+    <value>Realtime Driver Monitoring</value>
   </data>
   <data name="RealTimeDemo_Headline.Text" xml:space="preserve">
     <value>Realtime Crowd Insights Sample</value>

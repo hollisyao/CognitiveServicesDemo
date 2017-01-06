@@ -174,6 +174,38 @@
           <source>Missing Face API Key</source>
           <target state="final">没有设置Face API Key</target>
         </trans-unit>
+        <trans-unit id="DemoLauncherPage_Title.Text" translate="yes" xml:space="preserve">
+          <source>Demos</source>
+          <target state="final">演示中心</target>
+        </trans-unit>
+        <trans-unit id="ModuleName_AutomaticPhotoCapture" translate="yes" xml:space="preserve">
+          <source>Automatic Photo Capture</source>
+          <target state="final">自动拍照识别系统</target>
+        </trans-unit>
+        <trans-unit id="ModuleName_BingNewsAnalytics" translate="yes" xml:space="preserve">
+          <source>Bing News Analytics</source>
+          <target state="final">Bing新闻分析系统</target>
+        </trans-unit>
+        <trans-unit id="ModuleName_EmotionAPIExplorer" translate="yes" xml:space="preserve">
+          <source>Emotion API Explorer</source>
+          <target state="final">情绪识别API演示</target>
+        </trans-unit>
+        <trans-unit id="ModuleName_FaceAPIExplorer" translate="yes" xml:space="preserve">
+          <source>Face API Explorer</source>
+          <target state="final">人脸识别API演示</target>
+        </trans-unit>
+        <trans-unit id="ModuleName_MallKiosk" translate="yes" xml:space="preserve">
+          <source>Mall Kiosk</source>
+          <target state="final">商品个性化推荐系统</target>
+        </trans-unit>
+        <trans-unit id="ModuleName_RealtimeCrowdInsights" translate="yes" xml:space="preserve">
+          <source>Realtime Crowd Insights</source>
+          <target state="final">实时人流分析系统</target>
+        </trans-unit>
+        <trans-unit id="ModuleName_RealtimeDriverMonitoring" translate="yes" xml:space="preserve">
+          <source>Realtime Driver Monitoring</source>
+          <target state="final">安全驾驶监控系统</target>
+        </trans-unit>
       </group>
     </body>
   </file>

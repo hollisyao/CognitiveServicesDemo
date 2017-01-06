@@ -81,7 +81,18 @@ namespace IntelligentKioskSample
     [AttributeUsage(AttributeTargets.Class, AllowMultiple = false, Inherited = false)]
     public class KioskExperienceAttribute : Attribute
     {
-        public string Title { get; set; }
+        private string title;
+        public string Title
+        {
+            get
+            {
+                return AppResourcesHelper.GetString("ModuleName_" + title.Replace(" ", ""));
+            }
+            set
+            {
+                title = value;
+            }
+        }
         public string ImagePath { get; set; }
         public ExperienceType ExperienceType { get; set; }
     }

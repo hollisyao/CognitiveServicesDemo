@@ -129,4 +129,34 @@
   <data name="AutomaticPhotoCapturePage_Hold" xml:space="preserve">
     <value>保持不动。。。</value>
   </data>
+  <data name="AutomaticPhotoCapturePage_MissingAPI_Content" xml:space="preserve">
+    <value>没有设置Face API Key，请到设置页面配置。</value>
+  </data>
+  <data name="AutomaticPhotoCapturePage_MissingAPI_Title" xml:space="preserve">
+    <value>没有设置Face API Key</value>
+  </data>
+  <data name="DemoLauncherPage_Title.Text" xml:space="preserve">
+    <value>演示中心</value>
+  </data>
+  <data name="ModuleName_AutomaticPhotoCapture" xml:space="preserve">
+    <value>自动拍照识别系统</value>
+  </data>
+  <data name="ModuleName_BingNewsAnalytics" xml:space="preserve">
+    <value>Bing新闻分析系统</value>
+  </data>
+  <data name="ModuleName_EmotionAPIExplorer" xml:space="preserve">
+    <value>情绪识别API演示</value>
+  </data>
+  <data name="ModuleName_FaceAPIExplorer" xml:space="preserve">
+    <value>人脸识别API演示</value>
+  </data>
+  <data name="ModuleName_MallKiosk" xml:space="preserve">
+    <value>商品个性化推荐系统</value>
+  </data>
+  <data name="ModuleName_RealtimeCrowdInsights" xml:space="preserve">
+    <value>实时人流分析系统</value>
+  </data>
+  <data name="ModuleName_RealtimeDriverMonitoring" xml:space="preserve">
+    <value>安全驾驶监控系统</value>
+  </data>
 </root>

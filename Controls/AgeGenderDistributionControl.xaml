@@ -63,12 +63,12 @@
                 <local:VerticalBarWithValueControl x:Name="group40sBar" BarColor1="#FFE06826" BarColor2="#FF1F97D9" Grid.Column="4" />
                 <local:VerticalBarWithValueControl x:Name="group50sAndOlderBar" BarColor1="#FFE06826" BarColor2="#FF1F97D9" Grid.Column="5" />
 
-                <TextBlock Text="0-15" Foreground="Gray" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="1" Style="{StaticResource CaptionTextBlockStyle}"/>
-                <TextBlock Text="16-19" Foreground="Gray" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="1" Style="{StaticResource CaptionTextBlockStyle}"/>
-                <TextBlock Text="20s" Foreground="Gray" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="2" Style="{StaticResource CaptionTextBlockStyle}"/>
-                <TextBlock Text="30s" Foreground="Gray" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="3" Style="{StaticResource CaptionTextBlockStyle}"/>
-                <TextBlock Text="40s" Foreground="Gray" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="4" Style="{StaticResource CaptionTextBlockStyle}"/>
-                <TextBlock Text="50s+" Foreground="Gray" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="5" Style="{StaticResource CaptionTextBlockStyle}"/>
+                <TextBlock x:Uid="AgeGenderDistributionControl_Year1" Text="0-15" Foreground="Gray" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="1" Style="{StaticResource CaptionTextBlockStyle}"/>
+                <TextBlock x:Uid="AgeGenderDistributionControl_Year2" Text="16-19" Foreground="Gray" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="1" Style="{StaticResource CaptionTextBlockStyle}"/>
+                <TextBlock x:Uid="AgeGenderDistributionControl_Year3" Text="20s" Foreground="Gray" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="2" Style="{StaticResource CaptionTextBlockStyle}"/>
+                <TextBlock x:Uid="AgeGenderDistributionControl_Year4" Text="30s" Foreground="Gray" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="3" Style="{StaticResource CaptionTextBlockStyle}"/>
+                <TextBlock x:Uid="AgeGenderDistributionControl_Year5" Text="40s" Foreground="Gray" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="4" Style="{StaticResource CaptionTextBlockStyle}"/>
+                <TextBlock x:Uid="AgeGenderDistributionControl_Year6" Text="50s+" Foreground="Gray" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="5" Style="{StaticResource CaptionTextBlockStyle}"/>
             </Grid>
         </Grid>
     </Grid>

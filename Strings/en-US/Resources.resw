@@ -117,6 +117,24 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AgeGenderDistributionControl_Year1.Text" xml:space="preserve">
+    <value>0-15</value>
+  </data>
+  <data name="AgeGenderDistributionControl_Year2.Text" xml:space="preserve">
+    <value>16-19</value>
+  </data>
+  <data name="AgeGenderDistributionControl_Year3.Text" xml:space="preserve">
+    <value>20s</value>
+  </data>
+  <data name="AgeGenderDistributionControl_Year4.Text" xml:space="preserve">
+    <value>30s</value>
+  </data>
+  <data name="AgeGenderDistributionControl_Year5.Text" xml:space="preserve">
+    <value>40s</value>
+  </data>
+  <data name="AgeGenderDistributionControl_Year6.Text" xml:space="preserve">
+    <value>50s+</value>
+  </data>
   <data name="AutomaticPhotoCapturePage_Headline.Text" xml:space="preserve">
     <value>Automatic Photo Capture Sample</value>
   </data>
@@ -155,6 +173,36 @@
   </data>
   <data name="DemoLauncherPage_Title.Text" xml:space="preserve">
     <value>Demos</value>
+  </data>
+  <data name="EmotionRecognitionPage_Header.Text" xml:space="preserve">
+    <value>EMOTION API EXPLORER</value>
+  </data>
+  <data name="EmotionResponseTimelineControl_Anger.Text" xml:space="preserve">
+    <value>Anger</value>
+  </data>
+  <data name="EmotionResponseTimelineControl_Contempt.Text" xml:space="preserve">
+    <value>Contempt</value>
+  </data>
+  <data name="EmotionResponseTimelineControl_Disgust.Text" xml:space="preserve">
+    <value>Disgust</value>
+  </data>
+  <data name="EmotionResponseTimelineControl_Fear.Text" xml:space="preserve">
+    <value>Fear</value>
+  </data>
+  <data name="EmotionResponseTimelineControl_Happiness.Text" xml:space="preserve">
+    <value>Happiness</value>
+  </data>
+  <data name="EmotionResponseTimelineControl_Header.Text" xml:space="preserve">
+    <value>Average Crowd Emotion</value>
+  </data>
+  <data name="EmotionResponseTimelineControl_Sadness.Text" xml:space="preserve">
+    <value>Sadness</value>
+  </data>
+  <data name="EmotionResponseTimelineControl_SubHeader.Text" xml:space="preserve">
+    <value>Last few minutes</value>
+  </data>
+  <data name="EmotionResponseTimelineControl_Surprise.Text" xml:space="preserve">
+    <value>Surprise</value>
   </data>
   <data name="LandingPage_Foot.Text" xml:space="preserve">
     <value>- Start by entering API Keys in the Settings Page (they will persist between sessions).</value>
@@ -207,11 +255,29 @@
   <data name="ModuleName_RealtimeDriverMonitoring" xml:space="preserve">
     <value>Realtime Driver Monitoring</value>
   </data>
+  <data name="OverallStatsControl_Analyzed.Text" xml:space="preserve">
+    <value>Analyzed</value>
+  </data>
+  <data name="OverallStatsControl_Unique.Text" xml:space="preserve">
+    <value>Unique</value>
+  </data>
+  <data name="RealTimeDemo_AgeHeader.HeaderText" xml:space="preserve">
+    <value>Demographics</value>
+  </data>
+  <data name="RealTimeDemo_AgeHeader.SubHeaderText" xml:space="preserve">
+    <value>At this hour (erased hourly)</value>
+  </data>
   <data name="RealTimeDemo_Headline.Text" xml:space="preserve">
     <value>Realtime Crowd Insights Sample</value>
   </data>
   <data name="RealTimeDemo_Headline2.Text" xml:space="preserve">
     <value>Deriving realtime crowd insights from age, gender, emotion, face identification and unique face tracking</value>
+  </data>
+  <data name="RealTimeDemo_OverallHeader.HeaderText" xml:space="preserve">
+    <value>Total Faces</value>
+  </data>
+  <data name="RealTimeDemo_OverallHeader.SubHeaderText" xml:space="preserve">
+    <value>At this hour (erased hourly)</value>
   </data>
   <data name="RealTimeDemo_Tip.Text" xml:space="preserve">
     <value>Resetting data...</value>

@@ -45,8 +45,8 @@
                 <ColumnDefinition />
                 <ColumnDefinition Width="0.1*"/>
             </Grid.ColumnDefinitions>
-            <ctl:AgeGenderDistributionControl x:Name="ageGenderDistributionControl" HeaderText="Demographics" SubHeaderText="At this hour (erased hourly)" SubHeaderVisibility="Visible" Grid.Column="1" />
-            <ctl:OverallStatsControl x:Name="overallStatsControl" HeaderText="Total Faces" SubHeaderText="At this hour (erased hourly)" SubHeaderVisibility="Visible" Margin="24,0,24,0" Grid.Column="2" />
+            <ctl:AgeGenderDistributionControl x:Uid="RealTimeDemo_AgeHeader" x:Name="ageGenderDistributionControl" SubHeaderVisibility="Visible" Grid.Column="1" />
+            <ctl:OverallStatsControl x:Uid="RealTimeDemo_OverallHeader" x:Name="overallStatsControl" SubHeaderVisibility="Visible" Margin="24,0,24,0" Grid.Column="2" />
             <ctl:EmotionResponseTimelineControl Grid.Column="3" x:Name="emotionDataTimelineControl"  />
         </Grid>
 

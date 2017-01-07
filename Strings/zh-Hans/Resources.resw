@@ -159,4 +159,70 @@
   <data name="ModuleName_RealtimeDriverMonitoring" xml:space="preserve">
     <value>安全驾驶监控系统</value>
   </data>
+  <data name="EmotionRecognitionPage_Header.Text" xml:space="preserve">
+    <value>情绪识别API演示</value>
+  </data>
+  <data name="RealTimeDemo_AgeHeader.HeaderText" xml:space="preserve">
+    <value>人流统计</value>
+  </data>
+  <data name="RealTimeDemo_AgeHeader.SubHeaderText" xml:space="preserve">
+    <value>本小时内 (每小时重置)</value>
+  </data>
+  <data name="RealTimeDemo_OverallHeader.HeaderText" xml:space="preserve">
+    <value>总人数</value>
+  </data>
+  <data name="RealTimeDemo_OverallHeader.SubHeaderText" xml:space="preserve">
+    <value>本小时内(每小时重置)</value>
+  </data>
+  <data name="OverallStatsControl_Analyzed.Text" xml:space="preserve">
+    <value>分析次数</value>
+  </data>
+  <data name="OverallStatsControl_Unique.Text" xml:space="preserve">
+    <value>人数</value>
+  </data>
+  <data name="AgeGenderDistributionControl_Year1.Text" xml:space="preserve">
+    <value>0-15</value>
+  </data>
+  <data name="AgeGenderDistributionControl_Year2.Text" xml:space="preserve">
+    <value>16-19</value>
+  </data>
+  <data name="AgeGenderDistributionControl_Year3.Text" xml:space="preserve">
+    <value>20岁</value>
+  </data>
+  <data name="AgeGenderDistributionControl_Year4.Text" xml:space="preserve">
+    <value>30岁</value>
+  </data>
+  <data name="AgeGenderDistributionControl_Year5.Text" xml:space="preserve">
+    <value>40岁</value>
+  </data>
+  <data name="AgeGenderDistributionControl_Year6.Text" xml:space="preserve">
+    <value>50岁+</value>
+  </data>
+  <data name="EmotionResponseTimelineControl_Happiness.Text" xml:space="preserve">
+    <value>愉快</value>
+  </data>
+  <data name="EmotionResponseTimelineControl_Surprise.Text" xml:space="preserve">
+    <value>惊讶</value>
+  </data>
+  <data name="EmotionResponseTimelineControl_Anger.Text" xml:space="preserve">
+    <value>愤怒</value>
+  </data>
+  <data name="EmotionResponseTimelineControl_Contempt.Text" xml:space="preserve">
+    <value>轻蔑</value>
+  </data>
+  <data name="EmotionResponseTimelineControl_Disgust.Text" xml:space="preserve">
+    <value>厌恶</value>
+  </data>
+  <data name="EmotionResponseTimelineControl_Fear.Text" xml:space="preserve">
+    <value>恐惧</value>
+  </data>
+  <data name="EmotionResponseTimelineControl_Sadness.Text" xml:space="preserve">
+    <value>悲伤</value>
+  </data>
+  <data name="EmotionResponseTimelineControl_Header.Text" xml:space="preserve">
+    <value>人群情绪分布</value>
+  </data>
+  <data name="EmotionResponseTimelineControl_SubHeader.Text" xml:space="preserve">
+    <value>最近几分钟</value>
+  </data>
 </root>

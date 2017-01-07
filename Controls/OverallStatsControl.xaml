@@ -28,12 +28,12 @@
             </Grid.ColumnDefinitions>
 
             <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center" >
-                <TextBlock Text="Analyzed" Foreground="Gray" Style="{StaticResource CaptionTextBlockStyle}" VerticalAlignment="Center" HorizontalAlignment="Center" ></TextBlock>
+                <TextBlock x:Uid="OverallStatsControl_Analyzed" Foreground="Gray" Style="{StaticResource CaptionTextBlockStyle}" VerticalAlignment="Center" HorizontalAlignment="Center" ></TextBlock>
                 <TextBlock Grid.Row="2" x:Name="facesProcessedTextBlock" Foreground="Gray" VerticalAlignment="Center" HorizontalAlignment="Center"  Style="{StaticResource SubtitleTextBlockStyle}"/>
             </StackPanel>
 
             <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center" Grid.Column="1">
-                <TextBlock Text="Unique" Foreground="Gray" Style="{StaticResource CaptionTextBlockStyle}"  VerticalAlignment="Center" HorizontalAlignment="Center" ></TextBlock>
+                <TextBlock x:Uid="OverallStatsControl_Unique" Text="Unique" Foreground="Gray" Style="{StaticResource CaptionTextBlockStyle}"  VerticalAlignment="Center" HorizontalAlignment="Center" ></TextBlock>
                 <TextBlock Grid.Row="2" x:Name="uniqueFacesCountTextBlock" Foreground="Gray" VerticalAlignment="Center" HorizontalAlignment="Center"  Style="{StaticResource SubtitleTextBlockStyle}"/>
             </StackPanel>
 

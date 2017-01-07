@@ -206,6 +206,94 @@
           <source>Realtime Driver Monitoring</source>
           <target state="final">安全驾驶监控系统</target>
         </trans-unit>
+        <trans-unit id="EmotionRecognitionPage_Header.Text" translate="yes" xml:space="preserve">
+          <source>EMOTION API EXPLORER</source>
+          <target state="final">情绪识别API演示</target>
+        </trans-unit>
+        <trans-unit id="RealTimeDemo_AgeHeader.HeaderText" translate="yes" xml:space="preserve">
+          <source>Demographics</source>
+          <target state="final">人流统计</target>
+        </trans-unit>
+        <trans-unit id="RealTimeDemo_AgeHeader.SubHeaderText" translate="yes" xml:space="preserve">
+          <source>At this hour (erased hourly)</source>
+          <target state="final">最近一小时 (每小时重置)</target>
+        </trans-unit>
+        <trans-unit id="RealTimeDemo_OverallHeader.HeaderText" translate="yes" xml:space="preserve">
+          <source>Total Faces</source>
+          <target state="final">总人数</target>
+        </trans-unit>
+        <trans-unit id="RealTimeDemo_OverallHeader.SubHeaderText" translate="yes" xml:space="preserve">
+          <source>At this hour (erased hourly)</source>
+          <target state="final">最近一小时(每小时重置)</target>
+        </trans-unit>
+        <trans-unit id="OverallStatsControl_Analyzed.Text" translate="yes" xml:space="preserve">
+          <source>Analyzed</source>
+          <target state="final">分析次数</target>
+        </trans-unit>
+        <trans-unit id="OverallStatsControl_Unique.Text" translate="yes" xml:space="preserve">
+          <source>Unique</source>
+          <target state="final">人数</target>
+        </trans-unit>
+        <trans-unit id="AgeGenderDistributionControl_Year1.Text" translate="yes" xml:space="preserve">
+          <source>0-15</source>
+          <target state="final">0-15</target>
+        </trans-unit>
+        <trans-unit id="AgeGenderDistributionControl_Year2.Text" translate="yes" xml:space="preserve">
+          <source>16-19</source>
+          <target state="final">16-19</target>
+        </trans-unit>
+        <trans-unit id="AgeGenderDistributionControl_Year3.Text" translate="yes" xml:space="preserve">
+          <source>20s</source>
+          <target state="final">20岁</target>
+        </trans-unit>
+        <trans-unit id="AgeGenderDistributionControl_Year4.Text" translate="yes" xml:space="preserve">
+          <source>30s</source>
+          <target state="final">30岁</target>
+        </trans-unit>
+        <trans-unit id="AgeGenderDistributionControl_Year5.Text" translate="yes" xml:space="preserve">
+          <source>40s</source>
+          <target state="final">40岁</target>
+        </trans-unit>
+        <trans-unit id="AgeGenderDistributionControl_Year6.Text" translate="yes" xml:space="preserve">
+          <source>50s+</source>
+          <target state="final">50岁+</target>
+        </trans-unit>
+        <trans-unit id="EmotionResponseTimelineControl_Happiness.Text" translate="yes" xml:space="preserve">
+          <source>Happiness</source>
+          <target state="final">愉快</target>
+        </trans-unit>
+        <trans-unit id="EmotionResponseTimelineControl_Surprise.Text" translate="yes" xml:space="preserve">
+          <source>Surprise</source>
+          <target state="final">惊讶</target>
+        </trans-unit>
+        <trans-unit id="EmotionResponseTimelineControl_Anger.Text" translate="yes" xml:space="preserve">
+          <source>Anger</source>
+          <target state="final">愤怒</target>
+        </trans-unit>
+        <trans-unit id="EmotionResponseTimelineControl_Contempt.Text" translate="yes" xml:space="preserve">
+          <source>Contempt</source>
+          <target state="final">轻蔑</target>
+        </trans-unit>
+        <trans-unit id="EmotionResponseTimelineControl_Disgust.Text" translate="yes" xml:space="preserve">
+          <source>Disgust</source>
+          <target state="final">厌恶</target>
+        </trans-unit>
+        <trans-unit id="EmotionResponseTimelineControl_Fear.Text" translate="yes" xml:space="preserve">
+          <source>Fear</source>
+          <target state="final">恐惧</target>
+        </trans-unit>
+        <trans-unit id="EmotionResponseTimelineControl_Sadness.Text" translate="yes" xml:space="preserve">
+          <source>Sadness</source>
+          <target state="final">悲伤</target>
+        </trans-unit>
+        <trans-unit id="EmotionResponseTimelineControl_Header.Text" translate="yes" xml:space="preserve">
+          <source>Average Crowd Emotion</source>
+          <target state="final">人群情绪分布</target>
+        </trans-unit>
+        <trans-unit id="EmotionResponseTimelineControl_SubHeader.Text" translate="yes" xml:space="preserve">
+          <source>Last few minutes</source>
+          <target state="final">最近几分钟</target>
+        </trans-unit>
       </group>
     </body>
   </file>

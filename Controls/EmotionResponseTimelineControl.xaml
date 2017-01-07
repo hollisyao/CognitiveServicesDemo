@@ -18,8 +18,8 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
 
-        <TextBlock Margin="6,6,6,0" Text="Average Crowd Emotion" Foreground="Gray" Style="{StaticResource BaseTextBlockStyle}"/>
-        <TextBlock Margin="6,0,6,0" Text="Last few minutes" Foreground="Gray" Style="{StaticResource CaptionTextBlockStyle}" Opacity="0.5" Grid.Row="1"/>
+        <TextBlock x:Uid="EmotionResponseTimelineControl_Header" Margin="6,6,6,0" Foreground="Gray" Style="{StaticResource BaseTextBlockStyle}"/>
+        <TextBlock x:Uid="EmotionResponseTimelineControl_SubHeader" Margin="6,0,6,0" Foreground="Gray" Style="{StaticResource CaptionTextBlockStyle}" Opacity="0.5" Grid.Row="1"/>
 
         <Rectangle Height="1" Margin="0,6,0,0" Fill="Gray" Grid.Row="2"/>
 
@@ -36,16 +36,23 @@
             <Grid x:Name="graph" Grid.Row="1" Grid.Column="1"/>
 
             <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal" >
-                <TextBlock FontFamily="Segoe UI Emoji" Foreground="Gray" FontSize="14" Margin="0,0,24,0">&#x1f60a; Happiness</TextBlock>
-                <TextBlock FontFamily="Segoe UI Emoji" Foreground="Gray" FontSize="14">&#x1f632; Surprise</TextBlock>
+                <TextBlock FontFamily="Segoe UI Emoji" Foreground="Gray" FontSize="14" Margin="0,0,0,0">&#x1f60a; </TextBlock>
+                <TextBlock x:Uid="EmotionResponseTimelineControl_Happiness" FontFamily="Segoe UI Emoji" Foreground="Gray" FontSize="14" Margin="0,0,24,0" />
+                <TextBlock FontFamily="Segoe UI Emoji" Foreground="Gray" FontSize="14">&#x1f632; </TextBlock>
+                <TextBlock x:Uid="EmotionResponseTimelineControl_Surprise" FontFamily="Segoe UI Emoji" Foreground="Gray" FontSize="14"/>
             </StackPanel>
 
             <StackPanel Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal" >
-                <TextBlock FontFamily="Segoe UI Emoji" Foreground="Gray" FontSize="14" Margin="0,0,24,0">&#x1f620; Anger</TextBlock>
-                <TextBlock FontFamily="Segoe UI Emoji" Foreground="Gray" FontSize="14" Margin="0,0,24,0">&#x1f612; Contempt</TextBlock>
-                <TextBlock FontFamily="Segoe UI Emoji" Foreground="Gray" FontSize="14" Margin="0,0,24,0">&#x1f627; Disgust</TextBlock>
-                <TextBlock FontFamily="Segoe UI Emoji" Foreground="Gray" FontSize="14" Margin="0,0,24,0">&#x1f628; Fear</TextBlock>
-                <TextBlock FontFamily="Segoe UI Emoji" Foreground="Gray" FontSize="14">&#x1f622; Sadness</TextBlock>
+                <TextBlock FontFamily="Segoe UI Emoji" Foreground="Gray" FontSize="14" Margin="0,0,0,0">&#x1f620; </TextBlock>
+                <TextBlock x:Uid="EmotionResponseTimelineControl_Anger" FontFamily="Segoe UI Emoji" Foreground="Gray" FontSize="14" Margin="0,0,24,0"/>
+                <TextBlock FontFamily="Segoe UI Emoji" Foreground="Gray" FontSize="14" Margin="0,0,0,0">&#x1f612; </TextBlock>
+                <TextBlock x:Uid="EmotionResponseTimelineControl_Contempt" FontFamily="Segoe UI Emoji" Foreground="Gray" FontSize="14" Margin="0,0,24,0"/>
+                <TextBlock FontFamily="Segoe UI Emoji" Foreground="Gray" FontSize="14" Margin="0,0,0,0">&#x1f627; </TextBlock>
+                <TextBlock x:Uid="EmotionResponseTimelineControl_Disgust" FontFamily="Segoe UI Emoji" Foreground="Gray" FontSize="14" Margin="0,0,24,0"/>
+                <TextBlock FontFamily="Segoe UI Emoji" Foreground="Gray" FontSize="14" Margin="0,0,0,0">&#x1f628; </TextBlock>
+                <TextBlock x:Uid="EmotionResponseTimelineControl_Fear" FontFamily="Segoe UI Emoji" Foreground="Gray" FontSize="14" Margin="0,0,24,0"/>
+                <TextBlock FontFamily="Segoe UI Emoji" Foreground="Gray" FontSize="14">&#x1f622; </TextBlock>
+                <TextBlock x:Uid="EmotionResponseTimelineControl_Sadness" FontFamily="Segoe UI Emoji" Foreground="Gray" FontSize="14"/>
             </StackPanel>
 
         </Grid>

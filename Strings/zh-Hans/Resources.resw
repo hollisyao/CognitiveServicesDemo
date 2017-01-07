@@ -13,7 +13,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="LandingPage_Overview.Text" xml:space="preserve">
-    <value>概览</value>
+    <value>介绍</value>
   </data>
   <data name="LandingPage_Foot.Text" xml:space="preserve">
     <value>- 首先必须在设置页面输入API Key，它们将会被保存在程序中。</value>
@@ -247,13 +247,13 @@
     <value>生成新的工作区Key</value>
   </data>
   <data name="SettingsPage_FaceAPIKey.Text" xml:space="preserve">
-    <value>Face API Key(必须用中国Azure)</value>
+    <value>Face API Key（必须用中国Azure）</value>
   </data>
   <data name="SettingsPage_EmotionAPIKey.Text" xml:space="preserve">
-    <value>Emotion API Key(必须用中国Azure)</value>
+    <value>Emotion API Key（必须用中国Azure）</value>
   </data>
   <data name="SettingsPage_VisionAPIKey.Text" xml:space="preserve">
-    <value>Vision API Key(必须用中国Azure)</value>
+    <value>Vision API Key（必须用中国Azure）</value>
   </data>
   <data name="SettingsPage_BingSearchAPIKey.Text" xml:space="preserve">
     <value>Bing Search API Key</value>
@@ -293,5 +293,56 @@
   </data>
   <data name="SettingsPage_ResetTip" xml:space="preserve">
     <value>您的所有设置将会丢失，确认重置？</value>
+  </data>
+  <data name="Menu_Demos" xml:space="preserve">
+    <value>演示中心</value>
+  </data>
+  <data name="Menu_FaceIdentificationSetup" xml:space="preserve">
+    <value>人脸识别设置</value>
+  </data>
+  <data name="Menu_Overview" xml:space="preserve">
+    <value>介绍</value>
+  </data>
+  <data name="Menu_Settings" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="RealtimeDriverMonitoring_FacialFeatures.Text" xml:space="preserve">
+    <value>脸部特征</value>
+  </data>
+  <data name="RealtimeDriverMonitoring_HeadPose.Text" xml:space="preserve">
+    <value>头部姿势</value>
+  </data>
+  <data name="RealtimeDriverMonitoring_HeadLeft.Text" xml:space="preserve">
+    <value>偏左</value>
+  </data>
+  <data name="RealtimeDriverMonitoring_HeadRight.Text" xml:space="preserve">
+    <value>偏右</value>
+  </data>
+  <data name="RealtimeDriverMonitoring_Activities.Text" xml:space="preserve">
+    <value>活动检测</value>
+  </data>
+  <data name="RealtimeDriverMonitoring_AnalyzeActivities.Text" xml:space="preserve">
+    <value>启用活动检测（比如：打电话）</value>
+  </data>
+  <data name="RealtimeDriverMonitoring_LatencyAlert.Text" xml:space="preserve">
+    <value>网络延迟太高！</value>
+  </data>
+  <data name="RealtimeDriverMonitoring_AlertBanana" xml:space="preserve">
+    <value>正在吃香蕉？！</value>
+  </data>
+  <data name="RealtimeDriverMonitoring_AlertNoFaces" xml:space="preserve">
+    <value>没有检测到人脸，请看着摄像头。</value>
+  </data>
+  <data name="RealtimeDriverMonitoring_AlertPhone" xml:space="preserve">
+    <value>正在打电话！</value>
+  </data>
+  <data name="RealtimeDriverMonitoring_AlertUnknownFemale" xml:space="preserve">
+    <value>无名氏 女性</value>
+  </data>
+  <data name="RealtimeDriverMonitoring_AlertUnknownMale" xml:space="preserve">
+    <value>无名氏 男性</value>
+  </data>
+  <data name="RealtimeDriverMonitoring_AlertUnknownName" xml:space="preserve">
+    <value>无名氏</value>
   </data>
 </root>

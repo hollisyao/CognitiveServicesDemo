@@ -61,28 +61,28 @@ namespace IntelligentKioskSample
                 new NavMenuItem()
                 {
                     Symbol = Symbol.Home,
-                    Label = LandingPage.Title,
+                    Label = AppResourcesHelper.GetString("Menu_Overview"),
                     DestPage = typeof(LandingPage)
                 },
 
                 new NavMenuItem()
                 {
                     Symbol = Symbol.Favorite,
-                    Label = "Demos",
+                    Label = AppResourcesHelper.GetString("Menu_Demos"),
                     DestPage = typeof(DemoLauncherPage)
                 },
 
                 new NavMenuItem()
                 {
                     Symbol = Symbol.Contact2,
-                    Label = "Face Identification Setup",
+                    Label = AppResourcesHelper.GetString("Menu_FaceIdentificationSetup"),
                     DestPage = typeof(PersonGroupsPage)
                 },
 
                 new NavMenuItem()
                 {
                     Symbol = Symbol.Setting,
-                    Label = "Settings",
+                    Label = AppResourcesHelper.GetString("Menu_Settings"),
                     DestPage = typeof(SettingsPage)
                 }
             });

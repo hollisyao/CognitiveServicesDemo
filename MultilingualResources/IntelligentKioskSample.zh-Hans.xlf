@@ -8,7 +8,7 @@
       <group id="INTELLIGENTKIOSKSAMPLE/STRINGS/EN-US/RESOURCES.RESW" datatype="resx">
         <trans-unit id="LandingPage_Overview.Text" translate="yes" xml:space="preserve">
           <source>OVERVIEW</source>
-          <target state="final">概览</target>
+          <target state="final">介绍</target>
         </trans-unit>
         <trans-unit id="LandingPage_Foot.Text" translate="yes" xml:space="preserve">
           <source>- Start by entering API Keys in the Settings Page (they will persist between sessions).</source>
@@ -324,15 +324,15 @@
         </trans-unit>
         <trans-unit id="SettingsPage_FaceAPIKey.Text" translate="yes" xml:space="preserve">
           <source>Face API Key(on China Azure)</source>
-          <target state="final">Face API Key(必须用中国Azure)</target>
+          <target state="final">Face API Key（必须用中国Azure）</target>
         </trans-unit>
         <trans-unit id="SettingsPage_EmotionAPIKey.Text" translate="yes" xml:space="preserve">
           <source>Emotion API Key(on China Azure)</source>
-          <target state="final">Emotion API Key(必须用中国Azure)</target>
+          <target state="final">Emotion API Key（必须用中国Azure）</target>
         </trans-unit>
         <trans-unit id="SettingsPage_VisionAPIKey.Text" translate="yes" xml:space="preserve">
           <source>Vision API Key(on China Azure)</source>
-          <target state="final">Vision API Key(必须用中国Azure)</target>
+          <target state="final">Vision API Key（必须用中国Azure）</target>
         </trans-unit>
         <trans-unit id="SettingsPage_BingSearchAPIKey.Text" translate="yes" xml:space="preserve">
           <source>Bing Search API Key</source>
@@ -385,6 +385,74 @@
         <trans-unit id="SettingsPage_ResetTip" translate="yes" xml:space="preserve">
           <source>This will reset all the settings and erase your changes. Confirm?</source>
           <target state="final">您的所有设置将会丢失，确认重置？</target>
+        </trans-unit>
+        <trans-unit id="Menu_Demos" translate="yes" xml:space="preserve">
+          <source>Demos</source>
+          <target state="final">演示中心</target>
+        </trans-unit>
+        <trans-unit id="Menu_FaceIdentificationSetup" translate="yes" xml:space="preserve">
+          <source>Face Identification Setup</source>
+          <target state="final">人脸识别设置</target>
+        </trans-unit>
+        <trans-unit id="Menu_Overview" translate="yes" xml:space="preserve">
+          <source>Overview</source>
+          <target state="final">介绍</target>
+        </trans-unit>
+        <trans-unit id="Menu_Settings" translate="yes" xml:space="preserve">
+          <source>Settings</source>
+          <target state="final">设置</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_FacialFeatures.Text" translate="yes" xml:space="preserve">
+          <source>Facial Features</source>
+          <target state="final">脸部特征</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_HeadPose.Text" translate="yes" xml:space="preserve">
+          <source>Head Pose</source>
+          <target state="final">头部姿势</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_HeadLeft.Text" translate="yes" xml:space="preserve">
+          <source>Left</source>
+          <target state="final">偏左</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_HeadRight.Text" translate="yes" xml:space="preserve">
+          <source>Right</source>
+          <target state="final">偏右</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_Activities.Text" translate="yes" xml:space="preserve">
+          <source>Activities</source>
+          <target state="final">活动检测</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_AnalyzeActivities.Text" translate="yes" xml:space="preserve">
+          <source>Enable to start analyzing activities (e.g. cell phone)</source>
+          <target state="final">启用活动检测（比如：打电话）</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_LatencyAlert.Text" translate="yes" xml:space="preserve">
+          <source>Latency is too high!</source>
+          <target state="final">网络延迟太高！</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_AlertBanana" translate="yes" xml:space="preserve">
+          <source>Eating a banana!?</source>
+          <target state="final">正在吃香蕉？！</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_AlertNoFaces" translate="yes" xml:space="preserve">
+          <source>No faces detected. Please look at the camera to start.</source>
+          <target state="final">没有检测到人脸，请看着摄像头。</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_AlertPhone" translate="yes" xml:space="preserve">
+          <source>On the phone!</source>
+          <target state="final">正在打电话！</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_AlertUnknownFemale" translate="yes" xml:space="preserve">
+          <source>Unknown female</source>
+          <target state="final">无名氏 女性</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_AlertUnknownMale" translate="yes" xml:space="preserve">
+          <source>Unknown male</source>
+          <target state="final">无名氏 男性</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_AlertUnknownName" translate="yes" xml:space="preserve">
+          <source>Unknown</source>
+          <target state="final">无名氏</target>
         </trans-unit>
       </group>
     </body>

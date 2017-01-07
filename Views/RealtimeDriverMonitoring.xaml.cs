@@ -224,11 +224,11 @@ namespace IntelligentKioskSample.Views
                 string distraction = string.Empty;
                 if (desc.Contains("phone"))
                 {
-                    distraction = "On the phone!";
+                    distraction = AppResourcesHelper.GetString("RealtimeDriverMonitoring_AlertPhone");
                 }
                 else if (desc.Contains("banana"))
                 {
-                    distraction = "Eating a banana!?";
+                    distraction = AppResourcesHelper.GetString("RealtimeDriverMonitoring_AlertBanana");
                 }
 
                 this.objectDistraction.Text = distraction;
@@ -244,7 +244,7 @@ namespace IntelligentKioskSample.Views
             this.visionLantencyDebugText.Text = "";
             this.highLatencyWarning.Visibility = Visibility.Collapsed;
 
-            this.driverId.Text = "No faces detected. Please look at the camera to start.";
+            this.driverId.Text = AppResourcesHelper.GetString("RealtimeDriverMonitoring_AlertNoFaces");
             this.sleeping.Visibility = this.lookingAway.Visibility = this.yawning.Visibility = this.objectDistraction.Visibility  = Visibility.Collapsed;
             this.headPoseIndicator.Margin = new Thickness(0);
         }
@@ -267,7 +267,7 @@ namespace IntelligentKioskSample.Views
             SimilarFaceMatch faceMatch = e.SimilarFaceMatches.FirstOrDefault();
             if(faceMatch != null)
             {
-                string name = "Unknown";
+                string name = AppResourcesHelper.GetString("RealtimeDriverMonitoring_AlertUnknownName");
 
                 IdentifiedPerson p = e.IdentifiedPersons.FirstOrDefault(f => f.FaceId == faceMatch.Face.FaceId);
                 if (p != null)
@@ -278,11 +278,11 @@ namespace IntelligentKioskSample.Views
                 {
                     if (faceMatch.Face.FaceAttributes.Gender == "male")
                     {
-                        name = "Unknown male";
+                        name = AppResourcesHelper.GetString("RealtimeDriverMonitoring_AlertUnknownMale");
                     }
                     else if (faceMatch.Face.FaceAttributes.Gender == "female")
                     {
-                        name = "Unknown female";
+                        name = AppResourcesHelper.GetString("RealtimeDriverMonitoring_AlertUnknownFemale");
                     }
                 }
 
@@ -440,7 +440,7 @@ namespace IntelligentKioskSample.Views
         {
             if (!this.visionToggle.IsOn)
             {
-                this.visionAPICaptionTextBlock.Text = "enable to start analyzing activities (e.g. cell phone)";
+                this.visionAPICaptionTextBlock.Text = AppResourcesHelper.GetString("RealtimeDriverMonitoring_AnalyzeActivities");
                 this.objectDistraction.Visibility = Visibility.Collapsed;
             }
         }

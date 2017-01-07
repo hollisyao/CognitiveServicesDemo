@@ -82,7 +82,7 @@
                 </Grid>
                 <TextBlock x:Uid="RealtimeDriverMonitoring_Alert" x:Name="driverId" FontFamily="Segoe UI Light" Margin="0,0,0,20" Style="{StaticResource BodyTextBlockStyle}"/>
 
-                <TextBlock Text="Facial Features" Style="{StaticResource TitleTextBlockStyle}" FontFamily="Segoe UI Light" Margin="0,0,0,2"/>
+                <TextBlock x:Uid="RealtimeDriverMonitoring_FacialFeatures" Style="{StaticResource TitleTextBlockStyle}" FontFamily="Segoe UI Light" Margin="0,0,0,2"/>
                 <Grid Height="150" Width="120">
                     <Ellipse Fill="#99FFFFFF" />
                     <Grid  Width="40" Margin="40,94,40,16" >
@@ -96,26 +96,26 @@
                     </Grid>
                 </Grid>
 
-                <TextBlock Margin="0,20,0,0" Text="Head Pose" Style="{StaticResource TitleTextBlockStyle}" FontFamily="Segoe UI Light" />
+                <TextBlock x:Uid="RealtimeDriverMonitoring_HeadPose" Margin="0,20,0,0" Style="{StaticResource TitleTextBlockStyle}" FontFamily="Segoe UI Light" />
                 <Grid Height="16" Background="#99FFFFFF" Margin="0,2,0,0" x:Name="headPoseIndicatorHost">
                     <Rectangle Width="2" Fill="White"/>
                     <Rectangle Width="2" Fill="#FF02E2FF" x:Name="headPoseIndicator"/>
-                    <TextBlock Text="left" FontStyle="Italic" HorizontalAlignment="Left" VerticalAlignment="Center" Style="{StaticResource CaptionTextBlockStyle}" Margin="2,0,0,0"/>
-                    <TextBlock Text="right" FontStyle="Italic" HorizontalAlignment="Right" VerticalAlignment="Center" Style="{StaticResource CaptionTextBlockStyle}" Margin="0,0,2,0"/>
+                    <TextBlock x:Uid="RealtimeDriverMonitoring_HeadLeft" FontStyle="Italic" HorizontalAlignment="Left" VerticalAlignment="Center" Style="{StaticResource CaptionTextBlockStyle}" Margin="2,0,0,0"/>
+                    <TextBlock x:Uid="RealtimeDriverMonitoring_HeadRight" FontStyle="Italic" HorizontalAlignment="Right" VerticalAlignment="Center" Style="{StaticResource CaptionTextBlockStyle}" Margin="0,0,2,0"/>
                 </Grid>
 
                 <Grid Margin="0,20,0,0" >
-                    <TextBlock Text="Activities" Style="{StaticResource TitleTextBlockStyle}" FontFamily="Segoe UI Light" VerticalAlignment="Center" />
+                    <TextBlock x:Uid="RealtimeDriverMonitoring_Activities" Style="{StaticResource TitleTextBlockStyle}" FontFamily="Segoe UI Light" VerticalAlignment="Center" />
                     <ToggleSwitch x:Name="visionToggle" HorizontalAlignment="Right" MinWidth="10" Margin="12,0,0,0" Toggled="visionToggleChanged" />
                 </Grid>
 
-                <TextBlock x:Name="visionAPICaptionTextBlock" Text="enable to start analyzing activities (e.g. cell phone)" Style="{StaticResource BodyTextBlockStyle}" FontFamily="Segoe UI Light" Height="55" HorizontalAlignment="Left" FontStyle="Italic" />
+                <TextBlock x:Uid="RealtimeDriverMonitoring_AnalyzeActivities" x:Name="visionAPICaptionTextBlock" Style="{StaticResource BodyTextBlockStyle}" FontFamily="Segoe UI Light" Height="55" HorizontalAlignment="Left" FontStyle="Italic" />
 
             </StackPanel>
 
             <TextBlock x:Name="faceLantencyDebugText" TextAlignment="Right" HorizontalAlignment="Right" Opacity="0.3" Margin="0,4,0,0" Width="180" />
             <TextBlock x:Name="visionLantencyDebugText" TextAlignment="Right" HorizontalAlignment="Right" Visibility="{Binding ElementName=visionToggle, Path=IsOn, Converter={StaticResource bolleanToVisibilityConverter}}" Opacity="0.3" Width="180"/>
-            <TextBlock x:Name="highLatencyWarning" Text="Latency is too high!" Foreground="#FF42BBFA" Visibility="Collapsed" HorizontalAlignment="Right" Opacity="0.5"/>
+            <TextBlock x:Uid="RealtimeDriverMonitoring_LatencyAlert" x:Name="highLatencyWarning" Foreground="#FF42BBFA" Visibility="Collapsed" HorizontalAlignment="Right" Opacity="0.5"/>
 
         </StackPanel>
 

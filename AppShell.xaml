@@ -80,7 +80,7 @@
                                 IsEnabled="{Binding AppFrame.CanGoBack, ElementName=Root}"
                                 Width="{Binding ItemsPanelRoot.Width, ElementName=NavMenuList}"
                                 HorizontalAlignment="{Binding ItemsPanelRoot.HorizontalAlignment, ElementName=NavMenuList}"
-                                Click="BackButton_Click"/>
+                                Click="BackButton_Click" />
                     </controls:NavMenuListView.Header>
                 </controls:NavMenuListView>
             </SplitView.Pane>
@@ -104,6 +104,7 @@
 
         <!-- Declared last to have it rendered above everything else, but it needs to be the first item in the tab sequence. -->
         <ToggleButton x:Name="TogglePaneButton"
+                      x:Uid="AppShell_ToggleButton"
                       TabIndex="1"
                       Style="{StaticResource SplitViewTogglePaneButtonStyle}"
                       Tapped="TogglePaneButton_Tapped"

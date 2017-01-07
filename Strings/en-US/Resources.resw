@@ -234,6 +234,18 @@
   <data name="MallKioskPage_Headline2.Text" xml:space="preserve">
     <value>Take a photo to get a product recommendation!</value>
   </data>
+  <data name="Menu_Demos" xml:space="preserve">
+    <value>Demos</value>
+  </data>
+  <data name="Menu_FaceIdentificationSetup" xml:space="preserve">
+    <value>Face Identification Setup</value>
+  </data>
+  <data name="Menu_Overview" xml:space="preserve">
+    <value>Overview</value>
+  </data>
+  <data name="Menu_Settings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
   <data name="ModuleName_AutomaticPhotoCapture" xml:space="preserve">
     <value>Automatic Photo Capture</value>
   </data>
@@ -282,8 +294,32 @@
   <data name="RealTimeDemo_Tip.Text" xml:space="preserve">
     <value>Resetting data...</value>
   </data>
+  <data name="RealtimeDriverMonitoring_Activities.Text" xml:space="preserve">
+    <value>Activities</value>
+  </data>
   <data name="RealtimeDriverMonitoring_Alert.Text" xml:space="preserve">
     <value>No faces detected. Please look at the camera to start.</value>
+  </data>
+  <data name="RealtimeDriverMonitoring_AlertBanana" xml:space="preserve">
+    <value>Eating a banana!?</value>
+  </data>
+  <data name="RealtimeDriverMonitoring_AlertNoFaces" xml:space="preserve">
+    <value>No faces detected. Please look at the camera to start.</value>
+  </data>
+  <data name="RealtimeDriverMonitoring_AlertPhone" xml:space="preserve">
+    <value>On the phone!</value>
+  </data>
+  <data name="RealtimeDriverMonitoring_AlertUnknownFemale" xml:space="preserve">
+    <value>Unknown female</value>
+  </data>
+  <data name="RealtimeDriverMonitoring_AlertUnknownMale" xml:space="preserve">
+    <value>Unknown male</value>
+  </data>
+  <data name="RealtimeDriverMonitoring_AlertUnknownName" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="RealtimeDriverMonitoring_AnalyzeActivities.Text" xml:space="preserve">
+    <value>Enable to start analyzing activities (e.g. cell phone)</value>
   </data>
   <data name="RealtimeDriverMonitoring_DriverId.Text" xml:space="preserve">
     <value>Driver Id</value>
@@ -294,8 +330,23 @@
   <data name="RealtimeDriverMonitoring_Eyes.Text" xml:space="preserve">
     <value>Eyes</value>
   </data>
+  <data name="RealtimeDriverMonitoring_FacialFeatures.Text" xml:space="preserve">
+    <value>Facial Features</value>
+  </data>
+  <data name="RealtimeDriverMonitoring_HeadLeft.Text" xml:space="preserve">
+    <value>Left</value>
+  </data>
   <data name="RealtimeDriverMonitoring_Headline.Text" xml:space="preserve">
     <value>Realtime Driver Monitoring</value>
+  </data>
+  <data name="RealtimeDriverMonitoring_HeadPose.Text" xml:space="preserve">
+    <value>Head Pose</value>
+  </data>
+  <data name="RealtimeDriverMonitoring_HeadRight.Text" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="RealtimeDriverMonitoring_LatencyAlert.Text" xml:space="preserve">
+    <value>Latency is too high!</value>
   </data>
   <data name="RealtimeDriverMonitoring_LookingAway.Text" xml:space="preserve">
     <value>Looking away!</value>

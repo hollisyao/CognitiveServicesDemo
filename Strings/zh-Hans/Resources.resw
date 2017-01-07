@@ -166,13 +166,13 @@
     <value>人流统计</value>
   </data>
   <data name="RealTimeDemo_AgeHeader.SubHeaderText" xml:space="preserve">
-    <value>本小时内 (每小时重置)</value>
+    <value>最近一小时 (每小时重置)</value>
   </data>
   <data name="RealTimeDemo_OverallHeader.HeaderText" xml:space="preserve">
     <value>总人数</value>
   </data>
   <data name="RealTimeDemo_OverallHeader.SubHeaderText" xml:space="preserve">
-    <value>本小时内(每小时重置)</value>
+    <value>最近一小时(每小时重置)</value>
   </data>
   <data name="OverallStatsControl_Analyzed.Text" xml:space="preserve">
     <value>分析次数</value>
@@ -224,5 +224,74 @@
   </data>
   <data name="EmotionResponseTimelineControl_SubHeader.Text" xml:space="preserve">
     <value>最近几分钟</value>
+  </data>
+  <data name="RecognitionPage_Header.Text" xml:space="preserve">
+    <value>人脸识别API</value>
+  </data>
+  <data name="RecognitionPage_IsLandmark.Content" xml:space="preserve">
+    <value>显示脸部追踪标记</value>
+  </data>
+  <data name="SettingsPage_Header.Text" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="SettingsPage_Keys.Text" xml:space="preserve">
+    <value>设置调用API Keys</value>
+  </data>
+  <data name="SettingsPage_ApplyKeys.Content" xml:space="preserve">
+    <value>申请Key</value>
+  </data>
+  <data name="SettingsPage_WorkspaceKey.Text" xml:space="preserve">
+    <value>工作区 Key</value>
+  </data>
+  <data name="SettingsPage_GenerateNewKey.Content" xml:space="preserve">
+    <value>生成新的工作区Key</value>
+  </data>
+  <data name="SettingsPage_FaceAPIKey.Text" xml:space="preserve">
+    <value>Face API Key(必须用中国Azure)</value>
+  </data>
+  <data name="SettingsPage_EmotionAPIKey.Text" xml:space="preserve">
+    <value>Emotion API Key(必须用中国Azure)</value>
+  </data>
+  <data name="SettingsPage_VisionAPIKey.Text" xml:space="preserve">
+    <value>Vision API Key(必须用中国Azure)</value>
+  </data>
+  <data name="SettingsPage_BingSearchAPIKey.Text" xml:space="preserve">
+    <value>Bing Search API Key</value>
+  </data>
+  <data name="SettingsPage_BingAutoSuggestionAPIKey.Text" xml:space="preserve">
+    <value>Bing Auto Suggestion API Key</value>
+  </data>
+  <data name="SettingsPage_TextAnalyticsAPIKey.Text" xml:space="preserve">
+    <value>Text Analytics Key</value>
+  </data>
+  <data name="SettingsPage_Camera.Header" xml:space="preserve">
+    <value>选择摄像头</value>
+  </data>
+  <data name="SettingsPage_DebugInfo.Header" xml:space="preserve">
+    <value>显示调试信息：</value>
+  </data>
+  <data name="SettingsPage_FaceSizeSlider.Header" xml:space="preserve">
+    <value>脸部检测最小尺寸(占整个图片高度的 %):</value>
+  </data>
+  <data name="SettingsPage_MallKiosk.Text" xml:space="preserve">
+    <value>商品推荐系统设置</value>
+  </data>
+  <data name="SettingsPage_MallKioskSettings.PlaceholderText" xml:space="preserve">
+    <value>在这里自定义商品推荐系统</value>
+  </data>
+  <data name="SettingsPage_ResetSettings.Content" xml:space="preserve">
+    <value>重设所有商品推荐设置</value>
+  </data>
+  <data name="SettingsPage_Miscellaneous.Text" xml:space="preserve">
+    <value>系统设置</value>
+  </data>
+  <data name="SettingsPage_Reset.Label" xml:space="preserve">
+    <value>重置所有设置</value>
+  </data>
+  <data name="SettingsPage_ResetFinish" xml:space="preserve">
+    <value>已经恢复出厂设置，请重新启动应用程序。</value>
+  </data>
+  <data name="SettingsPage_ResetTip" xml:space="preserve">
+    <value>您的所有设置将会丢失，确认重置？</value>
   </data>
 </root>

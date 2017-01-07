@@ -294,6 +294,98 @@
           <source>Last few minutes</source>
           <target state="final">最近几分钟</target>
         </trans-unit>
+        <trans-unit id="RecognitionPage_Header.Text" translate="yes" xml:space="preserve">
+          <source>FACE API EXPLORER</source>
+          <target state="final">人脸识别API</target>
+        </trans-unit>
+        <trans-unit id="RecognitionPage_IsLandmark.Content" translate="yes" xml:space="preserve">
+          <source>Detect face landmarks</source>
+          <target state="final">显示脸部追踪标记</target>
+        </trans-unit>
+        <trans-unit id="SettingsPage_Header.Text" translate="yes" xml:space="preserve">
+          <source>SETTINGS</source>
+          <target state="final">设置</target>
+        </trans-unit>
+        <trans-unit id="SettingsPage_Keys.Text" translate="yes" xml:space="preserve">
+          <source>Keys</source>
+          <target state="final">设置调用API Keys</target>
+        </trans-unit>
+        <trans-unit id="SettingsPage_ApplyKeys.Content" translate="yes" xml:space="preserve">
+          <source>Click here if you need keys</source>
+          <target state="final">申请Key</target>
+        </trans-unit>
+        <trans-unit id="SettingsPage_WorkspaceKey.Text" translate="yes" xml:space="preserve">
+          <source>Workspace Key</source>
+          <target state="final">工作区 Key</target>
+        </trans-unit>
+        <trans-unit id="SettingsPage_GenerateNewKey.Content" translate="yes" xml:space="preserve">
+          <source>Generate New Key</source>
+          <target state="final">生成新的工作区Key</target>
+        </trans-unit>
+        <trans-unit id="SettingsPage_FaceAPIKey.Text" translate="yes" xml:space="preserve">
+          <source>Face API Key(on China Azure)</source>
+          <target state="final">Face API Key(必须用中国Azure)</target>
+        </trans-unit>
+        <trans-unit id="SettingsPage_EmotionAPIKey.Text" translate="yes" xml:space="preserve">
+          <source>Emotion API Key(on China Azure)</source>
+          <target state="final">Emotion API Key(必须用中国Azure)</target>
+        </trans-unit>
+        <trans-unit id="SettingsPage_VisionAPIKey.Text" translate="yes" xml:space="preserve">
+          <source>Vision API Key(on China Azure)</source>
+          <target state="final">Vision API Key(必须用中国Azure)</target>
+        </trans-unit>
+        <trans-unit id="SettingsPage_BingSearchAPIKey.Text" translate="yes" xml:space="preserve">
+          <source>Bing Search API Key</source>
+          <target state="final">Bing Search API Key</target>
+        </trans-unit>
+        <trans-unit id="SettingsPage_BingAutoSuggestionAPIKey.Text" translate="yes" xml:space="preserve">
+          <source>Bing Auto Suggestion API Key</source>
+          <target state="final">Bing Auto Suggestion API Key</target>
+        </trans-unit>
+        <trans-unit id="SettingsPage_TextAnalyticsAPIKey.Text" translate="yes" xml:space="preserve">
+          <source>Text Analytics Key</source>
+          <target state="final">Text Analytics Key</target>
+        </trans-unit>
+        <trans-unit id="SettingsPage_Camera.Header" translate="yes" xml:space="preserve">
+          <source>Camera Source</source>
+          <target state="final">选择摄像头</target>
+        </trans-unit>
+        <trans-unit id="SettingsPage_DebugInfo.Header" translate="yes" xml:space="preserve">
+          <source>Show debug info:</source>
+          <target state="final">显示调试信息：</target>
+        </trans-unit>
+        <trans-unit id="SettingsPage_FaceSizeSlider.Header" translate="yes" xml:space="preserve">
+          <source>Minimum detectable face size (as % of image height):</source>
+          <target state="final">脸部检测最小尺寸(占整个图片高度的 %):</target>
+        </trans-unit>
+        <trans-unit id="SettingsPage_MallKiosk.Text" translate="yes" xml:space="preserve">
+          <source>Mall Kiosk</source>
+          <target state="final">商品推荐系统设置</target>
+        </trans-unit>
+        <trans-unit id="SettingsPage_MallKioskSettings.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Paste custom settings for Mall Kiosk Demo here</source>
+          <target state="final">在这里自定义商品推荐系统</target>
+        </trans-unit>
+        <trans-unit id="SettingsPage_ResetSettings.Content" translate="yes" xml:space="preserve">
+          <source>Reset to Default Mall Kiosk Settings</source>
+          <target state="final">重设所有商品推荐设置</target>
+        </trans-unit>
+        <trans-unit id="SettingsPage_Miscellaneous.Text" translate="yes" xml:space="preserve">
+          <source>Miscellaneous</source>
+          <target state="final">系统设置</target>
+        </trans-unit>
+        <trans-unit id="SettingsPage_Reset.Label" translate="yes" xml:space="preserve">
+          <source>Reset Settings</source>
+          <target state="final">重置所有设置</target>
+        </trans-unit>
+        <trans-unit id="SettingsPage_ResetFinish" translate="yes" xml:space="preserve">
+          <source>Settings restored. Please restart the application to load the default settings.</source>
+          <target state="final">已经恢复出厂设置，请重新启动应用程序。</target>
+        </trans-unit>
+        <trans-unit id="SettingsPage_ResetTip" translate="yes" xml:space="preserve">
+          <source>This will reset all the settings and erase your changes. Confirm?</source>
+          <target state="final">您的所有设置将会丢失，确认重置？</target>
+        </trans-unit>
       </group>
     </body>
   </file>

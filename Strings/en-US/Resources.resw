@@ -330,4 +330,73 @@
   <data name="RealtimeDriverMonitoring_YawningSlider.Header" xml:space="preserve">
     <value>Minimun aperture for mouth to be considered yawning:</value>
   </data>
+  <data name="RecognitionPage_Header.Text" xml:space="preserve">
+    <value>FACE API EXPLORER</value>
+  </data>
+  <data name="RecognitionPage_IsLandmark.Content" xml:space="preserve">
+    <value>Detect face landmarks</value>
+  </data>
+  <data name="SettingsPage_ApplyKeys.Content" xml:space="preserve">
+    <value>Click here if you need keys</value>
+  </data>
+  <data name="SettingsPage_BingAutoSuggestionAPIKey.Text" xml:space="preserve">
+    <value>Bing Auto Suggestion API Key</value>
+  </data>
+  <data name="SettingsPage_BingSearchAPIKey.Text" xml:space="preserve">
+    <value>Bing Search API Key</value>
+  </data>
+  <data name="SettingsPage_Camera.Header" xml:space="preserve">
+    <value>Camera Source</value>
+  </data>
+  <data name="SettingsPage_DebugInfo.Header" xml:space="preserve">
+    <value>Show debug info:</value>
+  </data>
+  <data name="SettingsPage_EmotionAPIKey.Text" xml:space="preserve">
+    <value>Emotion API Key(on China Azure)</value>
+  </data>
+  <data name="SettingsPage_FaceAPIKey.Text" xml:space="preserve">
+    <value>Face API Key(on China Azure)</value>
+  </data>
+  <data name="SettingsPage_FaceSizeSlider.Header" xml:space="preserve">
+    <value>Minimum detectable face size (as % of image height):</value>
+  </data>
+  <data name="SettingsPage_GenerateNewKey.Content" xml:space="preserve">
+    <value>Generate New Key</value>
+  </data>
+  <data name="SettingsPage_Header.Text" xml:space="preserve">
+    <value>SETTINGS</value>
+  </data>
+  <data name="SettingsPage_Keys.Text" xml:space="preserve">
+    <value>Keys</value>
+  </data>
+  <data name="SettingsPage_MallKiosk.Text" xml:space="preserve">
+    <value>Mall Kiosk</value>
+  </data>
+  <data name="SettingsPage_MallKioskSettings.PlaceholderText" xml:space="preserve">
+    <value>Paste custom settings for Mall Kiosk Demo here</value>
+  </data>
+  <data name="SettingsPage_Miscellaneous.Text" xml:space="preserve">
+    <value>Miscellaneous</value>
+  </data>
+  <data name="SettingsPage_Reset.Label" xml:space="preserve">
+    <value>Reset Settings</value>
+  </data>
+  <data name="SettingsPage_ResetFinish" xml:space="preserve">
+    <value>Settings restored. Please restart the application to load the default settings.</value>
+  </data>
+  <data name="SettingsPage_ResetSettings.Content" xml:space="preserve">
+    <value>Reset to Default Mall Kiosk Settings</value>
+  </data>
+  <data name="SettingsPage_ResetTip" xml:space="preserve">
+    <value>This will reset all the settings and erase your changes. Confirm?</value>
+  </data>
+  <data name="SettingsPage_TextAnalyticsAPIKey.Text" xml:space="preserve">
+    <value>Text Analytics Key</value>
+  </data>
+  <data name="SettingsPage_VisionAPIKey.Text" xml:space="preserve">
+    <value>Vision API Key(on China Azure)</value>
+  </data>
+  <data name="SettingsPage_WorkspaceKey.Text" xml:space="preserve">
+    <value>Workspace Key</value>
+  </data>
 </root>

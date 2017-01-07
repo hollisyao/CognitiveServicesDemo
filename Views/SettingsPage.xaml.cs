@@ -68,11 +68,11 @@ namespace IntelligentKioskSample.Views
 
         private async void OnResetSettingsClick(object sender, RoutedEventArgs e)
         {
-            await Util.ConfirmActionAndExecute("This will reset all the settings and erase your changes. Confirm?",
+            await Util.ConfirmActionAndExecute(AppResourcesHelper.GetString("SettingsPage_ResetTip"),
                 async () =>
                 {
                     await Task.Run(() => SettingsHelper.Instance.RestoreAllSettings());
-                    await new MessageDialog("Settings restored. Please restart the application to load the default settings.").ShowAsync();
+                    await new MessageDialog(AppResourcesHelper.GetString("SettingsPage_ResetFinish")).ShowAsync();
                 });
         }
 

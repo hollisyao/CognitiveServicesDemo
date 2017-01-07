@@ -16,12 +16,12 @@
         </Grid.RowDefinitions>
 
         <CommandBar x:Name="commandBar" VerticalAlignment="Top" HorizontalContentAlignment="Stretch">
-            <AppBarButton Icon="Undo" Label="Reset Settings" Click="OnResetSettingsClick"/>
+            <AppBarButton x:Uid="SettingsPage_Reset" Icon="Undo" Click="OnResetSettingsClick"/>
 
             <CommandBar.Content>
                 <ctl:PageHeader>
                     <ctl:PageHeader.HeaderContent>
-                        <TextBlock Style="{ThemeResource PageTitleTextBlockStyle}" Text="SETTINGS"/>
+                        <TextBlock x:Uid="SettingsPage_Header" Style="{ThemeResource PageTitleTextBlockStyle}" />
                     </ctl:PageHeader.HeaderContent>
                 </ctl:PageHeader>
             </CommandBar.Content>
@@ -32,65 +32,65 @@
             <StackPanel Orientation="Vertical" Margin="12,12" >
                 <StackPanel >
                     <StackPanel Orientation="Horizontal">
-                        <TextBlock Text="Keys" Style="{StaticResource SubheaderTextBlockStyle}"/>
-                        <HyperlinkButton Margin="6,0,0,0" VerticalAlignment="Bottom" NavigateUri="https://www.microsoft.com/cognitive-services/en-us/sign-up">Click here if you need keys</HyperlinkButton>
+                        <TextBlock x:Uid="SettingsPage_Keys" Style="{StaticResource SubheaderTextBlockStyle}"/>
+                        <HyperlinkButton x:Uid="SettingsPage_ApplyKeys" Margin="6,0,0,0" VerticalAlignment="Bottom" NavigateUri="https://www.microsoft.com/cognitive-services/en-us/sign-up" Content=""/>
                     </StackPanel>
-                    <TextBlock Text="Workspace Key" Style="{StaticResource BodyTextBlockStyle}" Margin="0,5,0,0"  />
+                    <TextBlock x:Uid="SettingsPage_WorkspaceKey" Style="{StaticResource BodyTextBlockStyle}" Margin="0,5,0,0"  />
                     <Grid>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition/>
                             <ColumnDefinition Width="auto"/>
                         </Grid.ColumnDefinitions>
                         <TextBox Text="{Binding WorkspaceKey, Mode=TwoWay}"  />
-                        <Button Content="Generate New Key" Grid.Column="1" Margin="10,0,6,0" Click="OnGenerateNewKeyClicked" HorizontalAlignment="Right"/>
+                        <Button x:Uid="SettingsPage_GenerateNewKey" Grid.Column="1" Margin="10,0,6,0" Click="OnGenerateNewKeyClicked" HorizontalAlignment="Right"/>
                     </Grid>
                     <StackPanel Orientation="Vertical">
-                        <TextBlock Text="Face API Key(请使用中国区Azure)" Style="{StaticResource BodyTextBlockStyle}" Margin="0,5,0,0"  />
+                        <TextBlock x:Uid="SettingsPage_FaceAPIKey" Style="{StaticResource BodyTextBlockStyle}" Margin="0,5,0,0"  />
                         <PasswordBox Password="{Binding FaceApiKey, Mode=TwoWay}" />
                     </StackPanel>
 
                     <StackPanel Orientation="Vertical" Margin="0,10,0,0">
-                        <TextBlock Text="Emotion API Key(请使用中国区Azure)" Style="{StaticResource BodyTextBlockStyle}" Margin="0"  />
+                        <TextBlock x:Uid="SettingsPage_EmotionAPIKey" Style="{StaticResource BodyTextBlockStyle}" Margin="0"  />
                         <PasswordBox Password="{Binding EmotionApiKey, Mode=TwoWay}" />
                     </StackPanel>
 
                     <StackPanel Orientation="Vertical" Margin="0,10,0,0">
-                        <TextBlock Text="Vision API Key(请使用中国区Azure)" Style="{StaticResource BodyTextBlockStyle}" Margin="0"  />
+                        <TextBlock x:Uid="SettingsPage_VisionAPIKey" Style="{StaticResource BodyTextBlockStyle}" Margin="0"  />
                         <PasswordBox Password="{Binding VisionApiKey, Mode=TwoWay}" />
                     </StackPanel>
 
                     <StackPanel Orientation="Vertical" Margin="0,10,0,0"  >
-                        <TextBlock Text="Bing Search API Key" Style="{StaticResource BodyTextBlockStyle}" Margin="0"  />
+                        <TextBlock x:Uid="SettingsPage_BingSearchAPIKey" Style="{StaticResource BodyTextBlockStyle}" Margin="0"  />
                         <PasswordBox Password="{Binding BingSearchApiKey, Mode=TwoWay}" />
                     </StackPanel>
 
                     <StackPanel Orientation="Vertical" Margin="0,10,0,0"  >
-                        <TextBlock Text="Bing Auto Suggestion API Key" Style="{StaticResource BodyTextBlockStyle}" Margin="0"  />
+                        <TextBlock x:Uid="SettingsPage_BingAutoSuggestionAPIKey" Style="{StaticResource BodyTextBlockStyle}" Margin="0"  />
                         <PasswordBox Password="{Binding BingAutoSuggestionApiKey, Mode=TwoWay}" />
                     </StackPanel>
 
                     <StackPanel Orientation="Vertical" Margin="0,10,0,0">
-                        <TextBlock Text="Text Analytics Key" Style="{StaticResource BodyTextBlockStyle}" Margin="0"  />
+                        <TextBlock x:Uid="SettingsPage_TextAnalyticsAPIKey" Style="{StaticResource BodyTextBlockStyle}" Margin="0"  />
                         <PasswordBox Password="{Binding TextAnalyticsKey, Mode=TwoWay}" />
                     </StackPanel>
 
                 </StackPanel>
 
                 <StackPanel Margin="0,50,0,0">
-                    <TextBlock Text="Miscellaneous" Style="{StaticResource SubheaderTextBlockStyle}"/>
-                    <ComboBox x:Name="cameraSourceComboBox" Header="Camera Source"  SelectionChanged="OnCameraSourceSelectionChanged"/>               
-                    <ToggleSwitch IsOn="{Binding ShowDebugInfo, Mode=TwoWay}" Header="Show debug info:" Margin="0,6,0,0"/>
+                    <TextBlock x:Uid="SettingsPage_Miscellaneous" Style="{StaticResource SubheaderTextBlockStyle}"/>
+                    <ComboBox x:Uid="SettingsPage_Camera" x:Name="cameraSourceComboBox" SelectionChanged="OnCameraSourceSelectionChanged"/>
+                    <ToggleSwitch x:Uid="SettingsPage_DebugInfo" IsOn="{Binding ShowDebugInfo, Mode=TwoWay}" Margin="0,6,0,0"/>
                 
                     <StackPanel Orientation="Horizontal">
-                        <Slider x:Name="MinDetectableFaceSizeSlider" Minimum="0" Maximum="100" Value="{Binding MinDetectableFaceCoveragePercentage, Mode=TwoWay}" SmallChange="1" LargeChange="5" Header="Minimum detectable face size (as % of image height):" HorizontalAlignment="Left" Margin="0,0,0,0" StepFrequency="1"/>
+                        <Slider x:Uid="SettingsPage_FaceSizeSlider" x:Name="MinDetectableFaceSizeSlider" Minimum="0" Maximum="100" Value="{Binding MinDetectableFaceCoveragePercentage, Mode=TwoWay}" SmallChange="1" LargeChange="5" HorizontalAlignment="Left" Margin="0,0,0,0" StepFrequency="1"/>
                         <TextBlock Text="{Binding ElementName=MinDetectableFaceSizeSlider, Path=Value}" Style="{StaticResource TitleTextBlockStyle}" VerticalAlignment="Center" Margin="12,0,0,0"/>
                     </StackPanel>
                  </StackPanel>
 
                 <StackPanel Margin="0,25,0,0">
-                    <TextBlock Text="Mall Kiosk" Style="{StaticResource SubheaderTextBlockStyle}"/>
-                    <TextBox TextWrapping="Wrap" AcceptsReturn="True" Text="{Binding MallKioskDemoCustomSettings, Mode=TwoWay}" PlaceholderText="Paste custom settings for Mall Kiosk Demo here"/>
-                    <Button Margin="0,6,0,0" Click="ResetMallKioskSettingsButtonClick">Reset to Default Mall Kiosk Settings</Button>
+                    <TextBlock x:Uid="SettingsPage_MallKiosk" Style="{StaticResource SubheaderTextBlockStyle}"/>
+                    <TextBox x:Uid="SettingsPage_MallKioskSettings" TextWrapping="Wrap" AcceptsReturn="True" Text="{Binding MallKioskDemoCustomSettings, Mode=TwoWay}"/>
+                    <Button x:Uid="SettingsPage_ResetSettings" Margin="0,6,0,0" Click="ResetMallKioskSettingsButtonClick"/>
                 </StackPanel>
 
             </StackPanel>

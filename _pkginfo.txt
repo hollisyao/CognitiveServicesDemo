@@ -1,1 +1,1 @@
-C:\Users\holyao\Documents\01.Dev\CognitiveServicesDemo\Kiosk\AppPackages\IntelligentKioskSample_1.1.1.0\IntelligentKioskSample_1.1.1.0_x86_x64_arm.appxbundle
+C:\Users\holyao\Documents\01.Dev\CognitiveServicesDemo\Kiosk\AppPackages\IntelligentKioskSample_1.1.2.0\IntelligentKioskSample_1.1.2.0_x86_x64_arm.appxbundle

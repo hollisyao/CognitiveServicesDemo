@@ -646,6 +646,14 @@
           <source>Delete selected image(s)</source>
           <target state="final">删除选中的照片</target>
         </trans-unit>
+        <trans-unit id="AppName" translate="yes" xml:space="preserve">
+          <source>Microsoft Cognitive Services Demos</source>
+          <target state="final">微软认知服务演示程序</target>
+        </trans-unit>
+        <trans-unit id="AppNameDescription" translate="yes" xml:space="preserve">
+          <source>Microsoft Cognitive Services Sample and Scenario</source>
+          <target state="final">微软认知服务演示程序，以及酷炫场景。</target>
+        </trans-unit>
       </group>
     </body>
   </file>

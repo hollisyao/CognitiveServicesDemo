@@ -591,7 +591,13 @@
   <data name="AppShell_ToggleButton.AutomationProperties.Name" xml:space="preserve">
     <value>Menu</value>
   </data>
+  <data name="AppName" xml:space="preserve">
+    <value>Microsoft Cognitive Services Demos</value>
+  </data>
   <data name="PersonDetailsPage_MenuDeleteItems.Text" xml:space="preserve">
     <value>Delete selected image(s)</value>
+  </data>
+  <data name="AppNameDescription" xml:space="preserve">
+    <value>Microsoft Cognitive Services Samples and Scenarios</value>
   </data>
 </root>

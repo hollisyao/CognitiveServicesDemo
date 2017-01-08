@@ -486,4 +486,10 @@
   <data name="AppShell_ToggleButton.AutomationProperties.Name" xml:space="preserve">
     <value>菜单</value>
   </data>
+  <data name="PersonDetailsPage_MenuDeleteItems.Text" xml:space="preserve">
+    <value>删除选中的照片</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>认知服务演示程序</value>
+  </data>
 </root>

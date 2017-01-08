@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntelligentKioskSample", "IntelligentKioskSample.csproj", "{B08D337A-AF9F-4705-B8C1-C7F07FACD8C5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CognitiveServicesDemos", "CognitiveServicesDemos.csproj", "{B08D337A-AF9F-4705-B8C1-C7F07FACD8C5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceHelpers", "ServiceHelpers\ServiceHelpers.csproj", "{5D9320AF-A9E4-48E3-89BC-9F7F0954B298}"
 EndProject

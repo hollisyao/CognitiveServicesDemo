@@ -25,11 +25,11 @@
                 <ColumnDefinition Width="auto" />
             </Grid.ColumnDefinitions>
 
-            <AutoSuggestBox x:Name="autoSuggestBox" HorizontalAlignment="Stretch" Margin="0" QueryIcon="Find" PlaceholderText="Search Bing Images" QuerySubmitted="onQuerySubmitted" TextChanged="onTextChanged"/>
+            <AutoSuggestBox x:Uid="ImageSearchUserControl_AutoSuggest" x:Name="autoSuggestBox" HorizontalAlignment="Stretch" Margin="0" QueryIcon="Find" QuerySubmitted="onQuerySubmitted" TextChanged="onTextChanged"/>
 
             <StackPanel Grid.Column="1" Orientation="Horizontal">
                 <Rectangle Width="2" Fill="White" Opacity="0.2" Margin="20,3,10,3"></Rectangle>
-                <Button Background="Transparent" Click="LoadImagesFromFileClicked" ToolTipService.ToolTip="Browse local files">
+                <Button x:Uid="ImageSearchUserControl_ButtonLocalFile" Background="Transparent" Click="LoadImagesFromFileClicked">
                     <SymbolIcon Symbol="Pictures"/>
                 </Button>
 
@@ -56,11 +56,11 @@
         <ProgressRing x:Name="progressRing" Grid.Row="1"/>
 
         <CommandBar VerticalAlignment="Bottom" Grid.Row="2">
-            <AppBarButton x:Name="addSelectedPhotosButton" Icon="Accept" Label="Add selected photos" Click="OnAcceptButtonClicked" IsEnabled="False" >
+            <AppBarButton x:Uid="ImageSearchUserControl_AppBarSelectPhotos" x:Name="addSelectedPhotosButton" Icon="Accept" Click="OnAcceptButtonClicked" IsEnabled="False" >
                 
             </AppBarButton>
 
-            <AppBarButton Icon="Cancel" Label="Cancel" Click="OnCancelButtonClicked">
+            <AppBarButton x:Uid="ImageSearchUserControl_AppBarCancel" Icon="Cancel" Click="OnCancelButtonClicked">
 
             </AppBarButton>
         </CommandBar>

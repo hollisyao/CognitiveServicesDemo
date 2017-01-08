@@ -454,6 +454,198 @@
           <source>Unknown</source>
           <target state="final">无名氏</target>
         </trans-unit>
+        <trans-unit id="PersonGroupsPage_AppBar.Label" translate="yes" xml:space="preserve">
+          <source>Add Group</source>
+          <target state="final">新增分组</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupsPage_EnterGroup.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Enter group name (e.g. Coworkers)</source>
+          <target state="final">输入分组名称（比如：同事，我爱我家等）</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupsPage_Header.Text" translate="yes" xml:space="preserve">
+          <source>PERSON GROUPS</source>
+          <target state="final">人员分组</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupsPage_Tip1.Text" translate="yes" xml:space="preserve">
+          <source>- This is where you can train the machine learning model behind the Face APIs to recognize specific people.</source>
+          <target state="final">- 要想识别图片中的某个人，必须在这里使用Face API训练照片。</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupsPage_Tip2.Text" translate="yes" xml:space="preserve">
+          <source>- Start by creating a person group on this page ('+' near the top), or select an existing group to navigate to it.</source>
+          <target state="final">- 开始创建一个人员分组 (在'+'菜单), 或者查看一个已经存在的分组。</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupsPage_Tip3.Text" translate="yes" xml:space="preserve">
+          <source>- In this app groups are just for organizing related people together (e.g. Celebrities). It won't affect scoring.</source>
+          <target state="final">- 这里的人员分组是为了更方便的组织相关人员，比如可以把人归类为同事，家庭等，这个分组并不会影响准确度。</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_AppBar.Label" translate="yes" xml:space="preserve">
+          <source>Add Person</source>
+          <target state="final">新增人员</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupsPage_ButtonAdd.Content" translate="yes" xml:space="preserve">
+          <source>Add</source>
+          <target state="final">新增</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupsPage_ButtonCancel.Content" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="final">取消</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_AutoSuggest.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Enter person name (e.g. Joe)</source>
+          <target state="final">输入人员名字(比如： Hollis，尧敏华等)</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_ButtonAdd.Content" translate="yes" xml:space="preserve">
+          <source>Add</source>
+          <target state="final">新增</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_ButtonCancel.Content" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="final">取消</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_AppBarDelete.Label" translate="yes" xml:space="preserve">
+          <source>Delete Group</source>
+          <target state="final">删除分组</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_AppBarTrain.Label" translate="yes" xml:space="preserve">
+          <source>Train Group</source>
+          <target state="final">训练分组</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_AppBarFolder.Label" translate="yes" xml:space="preserve">
+          <source>Auto-train from photo albums</source>
+          <target state="final">批量训练相册</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_AppBarWorld.Label" translate="yes" xml:space="preserve">
+          <source>Auto-train from Bing Image search</source>
+          <target state="final">批量训练Bing图片搜索结果</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_ImportNames.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Enter names here (one per line)</source>
+          <target state="final">输入名字(一行一个)</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_ImportImagesPrefix.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Bing Image search prefix keywords</source>
+          <target state="final">搜索关键字前缀</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_ImportImagesSufix.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Bing Image search sufix keywords</source>
+          <target state="final">搜索关键字后缀</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_AppBarImport.Label" translate="yes" xml:space="preserve">
+          <source>Import</source>
+          <target state="final">导入</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_AppBarCancel.Label" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="final">取消</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_Tip1.Text" translate="yes" xml:space="preserve">
+          <source>- This is where you can populate this group with the people to be recognized, or delete the group if you need to.</source>
+          <target state="final">- 在这里可以设置分组的人员，也可以删除分组。</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_Tip2.Text" translate="yes" xml:space="preserve">
+          <source>- Start by creating a new person on this page ('+' near the top), or select an existing person to navigate to it.</source>
+          <target state="final">- 开始新增一个人员（在‘+’ 菜单里面），或者查看已经存在的人员照片模板。</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_Tip3.Text" translate="yes" xml:space="preserve">
+          <source>- When you are done making modifications to this group, click on the Train button to re-train the Machine Learning model in the Cloud.</source>
+          <target state="final">- 如果你修改了分组的照片，必须点击训练按钮重新训练照片，以便系统能识别变化。</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_Tip4.Text" translate="yes" xml:space="preserve">
+          <source>- You can also add people in batches ('...' near the top), either from local photo albums or from Bing Image searches.</source>
+          <target state="final">- 你也可以批量添加人员（在右上角'...'菜单），同样，你也可以从本地相册或者Bing图片搜索批量导入人员照片。</target>
+        </trans-unit>
+        <trans-unit id="PersonDetailsPage_AppBar.Label" translate="yes" xml:space="preserve">
+          <source>Add Faces</source>
+          <target state="final">添加当前人员照片</target>
+        </trans-unit>
+        <trans-unit id="PersonDetailsPage_AppBarDelete.Label" translate="yes" xml:space="preserve">
+          <source>Delete Person</source>
+          <target state="final">删除人员</target>
+        </trans-unit>
+        <trans-unit id="PersonDetailsPage_Tip1.Text" translate="yes" xml:space="preserve">
+          <source>- This is where you can provide sample faces for a particular person, or remove this person from the training set if you need to.</source>
+          <target state="final">- 在这里你能够提供某个人的照片模板，也可以删除某个人。</target>
+        </trans-unit>
+        <trans-unit id="PersonDetailsPage_Tip2.Text" translate="yes" xml:space="preserve">
+          <source>- Start by adding face samples ('+' near the top), or right click on an existing sample to remove it.</source>
+          <target state="final">- 开始添加某个人的人脸照片模板（在'+'菜单），或者右键点击照片模板，删除它。</target>
+        </trans-unit>
+        <trans-unit id="PersonDetailsPage_Tip3.Text" translate="yes" xml:space="preserve">
+          <source>- You can provide sample photos from Bing Images or Local Files. Just select the desired photos and confirm.</source>
+          <target state="final">- 你可以从本地文件或者Bing图片导入照片模板，只需要选择需要的照片。</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_ConfirmDeleteGroup" translate="yes" xml:space="preserve">
+          <source>Delete person group?</source>
+          <target state="final">确认删除人员分组？</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_ConfirmSelectFolder" translate="yes" xml:space="preserve">
+          <source>Please select a root folder to start. The subfolder names will map to people names, and the photos inside those folders will map to their sample photos. Continue?</source>
+          <target state="final">请选择一个文件夹，其中的子文件夹名称将会设置为人员名字，子文件夹内的照片作为这个人的照片模板，继续吗？</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_ErrorBatchTrainFailure" translate="yes" xml:space="preserve">
+          <source>Failure during batch processing</source>
+          <target state="final">批处理期间发生错误</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_ErrorCreatePerson" translate="yes" xml:space="preserve">
+          <source>Failure creating person</source>
+          <target state="final">创建人员失败</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_ErrorDeleteGroup" translate="yes" xml:space="preserve">
+          <source>Failure deleting person group</source>
+          <target state="final">删除人员分组失败</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_ErrorImportPerson" translate="yes" xml:space="preserve">
+          <source>Failure processing the folder and files</source>
+          <target state="final">处理文件夹和文件时候发生错误</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_ErrorLoadFailed" translate="yes" xml:space="preserve">
+          <source>Failure loading people in the group</source>
+          <target state="final">导入人员到分组发生错误</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_ErrorPickFolder" translate="yes" xml:space="preserve">
+          <source>Error picking the target folder.</source>
+          <target state="final">选择目标文件夹失败</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_ErrorRequestTrain" translate="yes" xml:space="preserve">
+          <source>Failure requesting training</source>
+          <target state="final">尝试训练时候发生错误</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_ErrorTrainFailure" translate="yes" xml:space="preserve">
+          <source>Training finished with failure.</source>
+          <target state="final">训练完成，但是发生错误。</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_MsgImportFailure" translate="yes" xml:space="preserve">
+          <source>Failure importing the folllowing photos</source>
+          <target state="final">批量导入照片失败</target>
+        </trans-unit>
+        <trans-unit id="ImageSearchUserControl_AutoSuggest.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Search Bing Images</source>
+          <target state="final">搜索Bing图片库</target>
+        </trans-unit>
+        <trans-unit id="ImageSearchUserControl_ButtonLocalFile.ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Browse local files</source>
+          <target state="final">浏览本地文件</target>
+        </trans-unit>
+        <trans-unit id="ImageSearchUserControl_AppBarSelectPhotos.Label" translate="yes" xml:space="preserve">
+          <source>Add selected photos</source>
+          <target state="final">添加选中的文件</target>
+        </trans-unit>
+        <trans-unit id="ImageSearchUserControl_AppBarCancel.Label" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="final">取消</target>
+        </trans-unit>
+        <trans-unit id="AppShell_ToggleButton.ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Menu</source>
+          <target state="final">菜单</target>
+        </trans-unit>
+        <trans-unit id="AppShell_ToggleButton.AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Menu</source>
+          <target state="final">菜单</target>
+        </trans-unit>
+        <trans-unit id="PersonDetailsPage_MenuDeleteItems.Text" translate="yes" xml:space="preserve">
+          <source>Delete selected image(s)</source>
+          <target state="final">删除选中的照片</target>
+        </trans-unit>
       </group>
     </body>
   </file>

@@ -10,7 +10,7 @@
 
     <Page.Resources>
         <MenuFlyout x:Key="ImageMenuFlyout">
-            <MenuFlyoutItem Text="Delete selected image(s)" Click="DeleteSelectedImagesClicked"/>
+            <MenuFlyoutItem x:Uid="PersonDetailsPage_MenuDeleteItems" Click="DeleteSelectedImagesClicked"/>
         </MenuFlyout>
     </Page.Resources>
     
@@ -22,14 +22,14 @@
         </Grid.RowDefinitions>
 
         <CommandBar x:Name="commandBar" VerticalAlignment="Top" HorizontalContentAlignment="Stretch">
-            <AppBarButton x:Name="AddFacesAppBarButton" Icon="Add" Label="Add Faces">
+            <AppBarButton x:Uid="PersonDetailsPage_AppBar" x:Name="AddFacesAppBarButton" Icon="Add">
                 <AppBarButton.Flyout>
                     <Flyout x:Name="trainingImageCollectorFlyout">
                         <ctl:ImageSearchUserControl x:Name="bingSearchControl" DetectFacesOnLoad="False" OnImageSearchCompleted="OnImageSearchCompleted" OnImageSearchCanceled="OnImageSearchCanceled" OnImageSearchLocalFilesProvided="OnImageSearchLocalFilesProvided" />
                     </Flyout>
                 </AppBarButton.Flyout>
             </AppBarButton>
-            <AppBarButton Icon="Delete" Label="Delete Person" Click="OnDeletePersonClicked"/>
+            <AppBarButton x:Uid="PersonDetailsPage_AppBarDelete" Icon="Delete" Click="OnDeletePersonClicked"/>
             <CommandBar.Content>
                 <ctl:PageHeader>
                     <ctl:PageHeader.HeaderContent>
@@ -60,9 +60,9 @@
         <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="12">
             <SymbolIcon Symbol="Library" VerticalAlignment="Top"/>
             <StackPanel Margin="6,0,0,0" >
-                <TextBlock Text="- This is where you can provide sample faces for a particular person, or remove this person from the training set if you need to." Style="{StaticResource CaptionTextBlockStyle}" />
-                <TextBlock Text="- Start by adding face samples ('+' near the top), or right click on an existing sample to remove it." Style="{StaticResource CaptionTextBlockStyle}" />
-                <TextBlock Text="- You can provide sample photos from Bing Images or Local Files. Just select the desired photos and confirm." Style="{StaticResource CaptionTextBlockStyle}" />
+                <TextBlock x:Uid="PersonDetailsPage_Tip1" Style="{StaticResource CaptionTextBlockStyle}" />
+                <TextBlock x:Uid="PersonDetailsPage_Tip2" Style="{StaticResource CaptionTextBlockStyle}" />
+                <TextBlock x:Uid="PersonDetailsPage_Tip3" Style="{StaticResource CaptionTextBlockStyle}" />
             </StackPanel>
         </StackPanel>
 

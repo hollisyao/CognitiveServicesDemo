@@ -109,7 +109,6 @@
                       Style="{StaticResource SplitViewTogglePaneButtonStyle}"
                       Tapped="TogglePaneButton_Tapped"
                       Unchecked="TogglePaneButton_Checked"
-                      AutomationProperties.Name="Menu"
-                      ToolTipService.ToolTip="Menu" />
+                      />
     </Grid>
 </Page>

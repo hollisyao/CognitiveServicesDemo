@@ -102,7 +102,7 @@ namespace IntelligentKioskSample.Views
             }
             catch (Exception e)
             {
-                await Util.GenericApiCallExceptionHandler(e, "Failure loading people in the group");
+                await Util.GenericApiCallExceptionHandler(e, AppResourcesHelper.GetString("PersonGroupDetailsPage_ErrorLoadFailed"));
             }
         }
 
@@ -159,7 +159,7 @@ namespace IntelligentKioskSample.Views
             }
             catch (Exception e)
             {
-                await Util.GenericApiCallExceptionHandler(e, "Failure creating person");
+                await Util.GenericApiCallExceptionHandler(e, AppResourcesHelper.GetString("PersonGroupDetailsPage_ErrorCreatePerson"));
             }
         }
 
@@ -173,7 +173,7 @@ namespace IntelligentKioskSample.Views
 
         private async void OnDeletePersonGroupClicked(object sender, RoutedEventArgs e)
         {
-            await Util.ConfirmActionAndExecute("Delete person group?", async () => { await DeletePersonGroupAsync(); });
+            await Util.ConfirmActionAndExecute(AppResourcesHelper.GetString("PersonGroupDetailsPage_ConfirmDeleteGroup"), async () => { await DeletePersonGroupAsync(); });
         }
 
         private async Task DeletePersonGroupAsync()
@@ -185,7 +185,7 @@ namespace IntelligentKioskSample.Views
             }
             catch (Exception ex)
             {
-                await Util.GenericApiCallExceptionHandler(ex, "Failure deleting person group");
+                await Util.GenericApiCallExceptionHandler(ex, AppResourcesHelper.GetString("PersonGroupDetailsPage_ErrorDeleteGroup"));
             }
         }
 
@@ -211,14 +211,14 @@ namespace IntelligentKioskSample.Views
             }
             catch (Exception ex)
             {
-                await Util.GenericApiCallExceptionHandler(ex, "Failure requesting training");
+                await Util.GenericApiCallExceptionHandler(ex, AppResourcesHelper.GetString("PersonGroupDetailsPage_ErrorRequestTrain"));
             }
 
             this.progressControl.IsActive = false;
 
             if (trainingStatus.Status != Status.Succeeded)
             {
-                await new MessageDialog("Training finished with failure.").ShowAsync();
+                await new MessageDialog(AppResourcesHelper.GetString("PersonGroupDetailsPage_ErrorTrainFailure")).ShowAsync();
             }
         }
 
@@ -271,7 +271,7 @@ namespace IntelligentKioskSample.Views
             }
             catch (Exception ex)
             {
-                await Util.GenericApiCallExceptionHandler(ex, "Failure during batch processing");
+                await Util.GenericApiCallExceptionHandler(ex, AppResourcesHelper.GetString("PersonGroupDetailsPage_ErrorBatchTrainFailure"));
             }
 
             this.progressControl.IsActive = false;
@@ -284,7 +284,7 @@ namespace IntelligentKioskSample.Views
 
         private async void OnSelectFolderButtonClicked(object sender, RoutedEventArgs e)
         {
-            await Util.ConfirmActionAndExecute("Please select a root folder to start. The subfolder names will map to people names, and the photos inside those folders will map to their sample photos. Continue?", async () => { await PickFolderASync(); });
+            await Util.ConfirmActionAndExecute(AppResourcesHelper.GetString("PersonGroupDetailsPage_ConfirmSelectFolder"), async () => { await PickFolderASync(); });
         }
 
         private async Task PickFolderASync()
@@ -304,10 +304,14 @@ namespace IntelligentKioskSample.Views
             }
             catch (Exception ex)
             {
-                await Util.GenericApiCallExceptionHandler(ex, "Error picking the target folder.");
+                await Util.GenericApiCallExceptionHandler(ex, AppResourcesHelper.GetString("PersonGroupDetailsPage_ErrorPickFolder"));
             }
         }
 
+        /// <summary>
+        /// 把人员从文件夹中导入到Face API中。
+        /// </summary>
+        /// <returns></returns>
         private async Task ImportFromFolderAndFilesAsync()
         {
             this.commandBar.IsOpen = false;
@@ -358,12 +362,12 @@ namespace IntelligentKioskSample.Views
             }
             catch (Exception ex)
             {
-                await Util.GenericApiCallExceptionHandler(ex, "Failure processing the folder and files");
+                await Util.GenericApiCallExceptionHandler(ex, AppResourcesHelper.GetString("PersonGroupDetailsPage_ErrorImportPerson"));
             }
 
             if (errors.Any())
             {
-                await new MessageDialog(string.Join("\n", errors), "Failure importing the folllowing photos").ShowAsync();
+                await new MessageDialog(string.Join("\n", errors), AppResourcesHelper.GetString("PersonGroupDetailsPage_MsgImportFailure")).ShowAsync();
             }
 
             this.progressControl.IsActive = false;

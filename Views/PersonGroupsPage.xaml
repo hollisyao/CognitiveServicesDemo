@@ -17,13 +17,13 @@
         </Grid.RowDefinitions>
 
         <CommandBar x:Name="commandBar" VerticalAlignment="Top" HorizontalContentAlignment="Stretch">
-            <AppBarButton Icon="Add" Label="Add Group">
+            <AppBarButton x:Uid="PersonGroupsPage_AppBar" Icon="Add">
                 <AppBarButton.Flyout>
                     <Flyout x:Name="addPersonGroupFlyout">
                         <StackPanel Orientation="Horizontal">
-                            <TextBox x:Name="personGroupNameTextBox" TextWrapping="Wrap" Width="262" PlaceholderText="Enter group name (e.g. Coworkers)"/>
-                            <Button x:Name="button" Content="Add" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10,0" Click="OnAddPersonGroupButtonClicked"/>
-                            <Button x:Name="button_Copy" Content="Cancel" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="OnCancelAddPersonGroupButtonClicked"/>
+                            <TextBox x:Uid="PersonGroupsPage_EnterGroup" x:Name="personGroupNameTextBox" TextWrapping="Wrap" Width="262"/>
+                            <Button x:Uid="PersonGroupsPage_ButtonAdd" x:Name="button" Content="Add" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10,0" Click="OnAddPersonGroupButtonClicked"/>
+                            <Button x:Uid="PersonGroupsPage_ButtonCancel" x:Name="button_Copy" Content="Cancel" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="OnCancelAddPersonGroupButtonClicked"/>
                         </StackPanel>
                     </Flyout>
                 </AppBarButton.Flyout>
@@ -32,7 +32,7 @@
             <CommandBar.Content>
                 <ctl:PageHeader>
                     <ctl:PageHeader.HeaderContent>
-                        <TextBlock Text="PERSON GROUPS" Style="{ThemeResource PageTitleTextBlockStyle}" TextWrapping="NoWrap"/>
+                        <TextBlock x:Uid="PersonGroupsPage_Header" Style="{ThemeResource PageTitleTextBlockStyle}" TextWrapping="NoWrap"/>
                     </ctl:PageHeader.HeaderContent>
                 </ctl:PageHeader>
             </CommandBar.Content>
@@ -53,9 +53,9 @@
         <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="12">
             <SymbolIcon Symbol="Library" VerticalAlignment="Top"/>
             <StackPanel Margin="6,0,0,0" >
-                <TextBlock Text="- This is where you can train the machine learning model behind the Face APIs to recognize specific people." Style="{StaticResource CaptionTextBlockStyle}" />
-                <TextBlock Text="- Start by creating a person group on this page ('+' near the top), or select an existing group to navigate to it." Style="{StaticResource CaptionTextBlockStyle}" />
-                <TextBlock Text="- In this app groups are just for organizing related people together (e.g. Celebrities). It won't affect scoring." Style="{StaticResource CaptionTextBlockStyle}" />
+                <TextBlock x:Uid="PersonGroupsPage_Tip1" Style="{StaticResource CaptionTextBlockStyle}" />
+                <TextBlock x:Uid="PersonGroupsPage_Tip2" Style="{StaticResource CaptionTextBlockStyle}" />
+                <TextBlock x:Uid="PersonGroupsPage_Tip3" Style="{StaticResource CaptionTextBlockStyle}" />
             </StackPanel>
         </StackPanel>
         <ProgressRing Grid.Row="1" x:Name="progressControl" Width="100" Height="100"></ProgressRing>

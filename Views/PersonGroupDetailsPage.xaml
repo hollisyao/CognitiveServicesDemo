@@ -16,43 +16,43 @@
         </Grid.RowDefinitions>
 
         <CommandBar x:Name="commandBar" VerticalAlignment="Top" HorizontalContentAlignment="Stretch">
-           
-            <AppBarButton Icon="Add" Label="Add Person">
+
+            <AppBarButton x:Uid="PersonGroupDetailsPage_AppBar" Icon="Add">
                 <AppBarButton.Flyout>
                     <Flyout x:Name="addPersonFlyout">
                         <StackPanel Orientation="Horizontal">
-                            <AutoSuggestBox x:Name="personNameTextBox" QuerySubmitted="OnPersonNameQuerySubmitted" TextChanged="OnPersonNameTextBoxChanged" Width="262" PlaceholderText="Enter person name (e.g. Joe)"/>
-                            <Button x:Name="addButton" Content="Add" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10,0" Click="OnAddPersonButtonClicked"/>
-                            <Button x:Name="cancelButton" Content="Cancel" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="OnCancelAddPersonButtonClicked"/>
+                            <AutoSuggestBox x:Uid="PersonGroupDetailsPage_AutoSuggest" x:Name="personNameTextBox" QuerySubmitted="OnPersonNameQuerySubmitted" TextChanged="OnPersonNameTextBoxChanged" Width="262"/>
+                            <Button x:Uid="PersonGroupDetailsPage_ButtonAdd" x:Name="addButton" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10,0" Click="OnAddPersonButtonClicked"/>
+                            <Button x:Uid="PersonGroupDetailsPage_ButtonCancel" x:Name="cancelButton" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="OnCancelAddPersonButtonClicked"/>
                         </StackPanel>
                     </Flyout>
                 </AppBarButton.Flyout>
             </AppBarButton>
 
-            <AppBarButton Icon="Delete" Label="Delete Group" Click="OnDeletePersonGroupClicked"/>
+            <AppBarButton x:Uid="PersonGroupDetailsPage_AppBarDelete" Icon="Delete" Click="OnDeletePersonGroupClicked"/>
 
-            <AppBarButton Icon="Play" Label="Train Group" Click="OnStartTrainingClicked" />
+            <AppBarButton x:Uid="PersonGroupDetailsPage_AppBarTrain" Icon="Play" Click="OnStartTrainingClicked" />
 
             <CommandBar.SecondaryCommands>
-                <AppBarButton Icon="Folder" Label="Auto-train from photo albums" Click="OnSelectFolderButtonClicked"/>
-                <AppBarButton Icon="World" Label="Auto-train from Bing Image search">
+                <AppBarButton x:Uid="PersonGroupDetailsPage_AppBarFolder" Icon="Folder" Click="OnSelectFolderButtonClicked"/>
+                <AppBarButton x:Uid="PersonGroupDetailsPage_AppBarWorld" Icon="World">
                     <AppBarButton.Flyout>
                         <Flyout x:Name="addPeopleInBatchesFlyout">
                             <StackPanel Orientation="Vertical">
                                 <StackPanel Orientation="Horizontal">
-                                    <TextBox AcceptsReturn="True" x:Name="importNamesTextBox" PlaceholderText="Enter names here (one per line)" Width="262" Height="150"/>
+                                    <TextBox x:Uid="PersonGroupDetailsPage_ImportNames" AcceptsReturn="True" x:Name="importNamesTextBox" Width="262" Height="150"/>
                                     <!--<Button x:Name="selectFilePathButton" Content="Select file..." HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10,0" Click="OnSelectFileNameButtonClicked"/>-->
                                 </StackPanel>
 
-                                <TextBox x:Name="importImageSearchKeywordPrefix" PlaceholderText="Bing Image search prefix keywords" Margin="0,10" Width="262" HorizontalAlignment="Left"/>
-                                <TextBox x:Name="importImageSearchKeywordSufix" PlaceholderText="Bing Image search sufix keywords" Margin="0,0,0,10" Width="262" HorizontalAlignment="Left"/>
+                                <TextBox x:Uid="PersonGroupDetailsPage_ImportImagesPrefix" x:Name="importImageSearchKeywordPrefix" Margin="0,10" Width="262" HorizontalAlignment="Left"/>
+                                <TextBox x:Uid="PersonGroupDetailsPage_ImportImagesSufix" x:Name="importImageSearchKeywordSufix" Margin="0,0,0,10" Width="262" HorizontalAlignment="Left"/>
                                 
                                 <CommandBar VerticalAlignment="Bottom" >
-                                    <AppBarButton x:Name="ComfirmImportActionButton" Icon="Accept" Label="Import" Click="OnConfirmImportButtonClicked"  >
+                                    <AppBarButton x:Uid="PersonGroupDetailsPage_AppBarImport" x:Name="ComfirmImportActionButton" Icon="Accept" Click="OnConfirmImportButtonClicked"  >
 
                                     </AppBarButton>
 
-                                    <AppBarButton Icon="Cancel" Label="Cancel" Click="OnCancelImportButtonClicked">
+                                    <AppBarButton x:Uid="PersonGroupDetailsPage_AppBarCancel" Icon="Cancel" Click="OnCancelImportButtonClicked">
 
                                     </AppBarButton>
                                 </CommandBar>
@@ -86,10 +86,10 @@
         <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="12">
             <SymbolIcon Symbol="Library" VerticalAlignment="Top"/>
             <StackPanel Margin="6,0,0,0" >
-                <TextBlock Text="- This is where you can populate this group with the people to be recognized, or delete the group if you need to." Style="{StaticResource CaptionTextBlockStyle}" />
-                <TextBlock Text="- Start by creating a new person on this page ('+' near the top), or select an existing person to navigate to it." Style="{StaticResource CaptionTextBlockStyle}" />
-                <TextBlock Text="- When you are done making modifications to this group, click on the Train button to re-train the Machine Learning model in the Cloud." Style="{StaticResource CaptionTextBlockStyle}" />
-                <TextBlock Text="- You can also add people in batches ('...' near the top), either from local photo albums or from Bing Image searches." Style="{StaticResource CaptionTextBlockStyle}" />
+                <TextBlock x:Uid="PersonGroupDetailsPage_Tip1" Style="{StaticResource CaptionTextBlockStyle}" />
+                <TextBlock x:Uid="PersonGroupDetailsPage_Tip2" Style="{StaticResource CaptionTextBlockStyle}" />
+                <TextBlock x:Uid="PersonGroupDetailsPage_Tip3" Style="{StaticResource CaptionTextBlockStyle}" />
+                <TextBlock x:Uid="PersonGroupDetailsPage_Tip4" Style="{StaticResource CaptionTextBlockStyle}" />
             </StackPanel>
         </StackPanel>
 

@@ -450,4 +450,148 @@
   <data name="SettingsPage_WorkspaceKey.Text" xml:space="preserve">
     <value>Workspace Key</value>
   </data>
+  <data name="PersonDetailsPage_AppBar.Label" xml:space="preserve">
+    <value>Add Faces</value>
+  </data>
+  <data name="PersonDetailsPage_AppBarDelete.Label" xml:space="preserve">
+    <value>Delete Person</value>
+  </data>
+  <data name="PersonDetailsPage_Tip1.Text" xml:space="preserve">
+    <value>- This is where you can provide sample faces for a particular person, or remove this person from the training set if you need to.</value>
+  </data>
+  <data name="PersonDetailsPage_Tip2.Text" xml:space="preserve">
+    <value>- Start by adding face samples ('+' near the top), or right click on an existing sample to remove it.</value>
+  </data>
+  <data name="PersonDetailsPage_Tip3.Text" xml:space="preserve">
+    <value>- You can provide sample photos from Bing Images or Local Files. Just select the desired photos and confirm.</value>
+  </data>
+  <data name="PersonGroupDetailsPage_AppBar.Label" xml:space="preserve">
+    <value>Add Person</value>
+  </data>
+  <data name="PersonGroupDetailsPage_AppBarCancel.Label" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="PersonGroupDetailsPage_AppBarDelete.Label" xml:space="preserve">
+    <value>Delete Group</value>
+  </data>
+  <data name="PersonGroupDetailsPage_AppBarFolder.Label" xml:space="preserve">
+    <value>Auto-train from photo albums</value>
+  </data>
+  <data name="PersonGroupDetailsPage_AppBarImport.Label" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="PersonGroupDetailsPage_AppBarTrain.Label" xml:space="preserve">
+    <value>Train Group</value>
+  </data>
+  <data name="PersonGroupDetailsPage_AppBarWorld.Label" xml:space="preserve">
+    <value>Auto-train from Bing Image search</value>
+  </data>
+  <data name="PersonGroupDetailsPage_AutoSuggest.PlaceholderText" xml:space="preserve">
+    <value>Enter person name (e.g. Joe)</value>
+  </data>
+  <data name="PersonGroupDetailsPage_ButtonAdd.Content" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="PersonGroupDetailsPage_ButtonCancel.Content" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="PersonGroupDetailsPage_ConfirmDeleteGroup" xml:space="preserve">
+    <value>Delete person group?</value>
+  </data>
+  <data name="PersonGroupDetailsPage_ConfirmSelectFolder" xml:space="preserve">
+    <value>Please select a root folder to start. The subfolder names will map to people names, and the photos inside those folders will map to their sample photos. Continue?</value>
+  </data>
+  <data name="PersonGroupDetailsPage_ErrorBatchTrainFailure" xml:space="preserve">
+    <value>Failure during batch processing</value>
+  </data>
+  <data name="PersonGroupDetailsPage_ErrorCreatePerson" xml:space="preserve">
+    <value>Failure creating person</value>
+  </data>
+  <data name="PersonGroupDetailsPage_ErrorDeleteGroup" xml:space="preserve">
+    <value>Failure deleting person group</value>
+  </data>
+  <data name="PersonGroupDetailsPage_ErrorImportPerson" xml:space="preserve">
+    <value>Failure processing the folder and files</value>
+  </data>
+  <data name="PersonGroupDetailsPage_ErrorLoadFailed" xml:space="preserve">
+    <value>Failure loading people in the group</value>
+  </data>
+  <data name="PersonGroupDetailsPage_ErrorPickFolder" xml:space="preserve">
+    <value>Error picking the target folder.</value>
+  </data>
+  <data name="PersonGroupDetailsPage_ErrorRequestTrain" xml:space="preserve">
+    <value>Failure requesting training</value>
+  </data>
+  <data name="PersonGroupDetailsPage_ErrorTrainFailure" xml:space="preserve">
+    <value>Training finished with failure.</value>
+  </data>
+  <data name="PersonGroupDetailsPage_ImportImagesPrefix.PlaceholderText" xml:space="preserve">
+    <value>Bing Image search prefix keywords</value>
+  </data>
+  <data name="PersonGroupDetailsPage_ImportImagesSufix.PlaceholderText" xml:space="preserve">
+    <value>Bing Image search sufix keywords</value>
+  </data>
+  <data name="PersonGroupDetailsPage_ImportNames.PlaceholderText" xml:space="preserve">
+    <value>Enter names here (one per line)</value>
+  </data>
+  <data name="PersonGroupDetailsPage_MsgImportFailure" xml:space="preserve">
+    <value>Failure importing the folllowing photos</value>
+  </data>
+  <data name="PersonGroupDetailsPage_Tip1.Text" xml:space="preserve">
+    <value>- This is where you can populate this group with the people to be recognized, or delete the group if you need to.</value>
+  </data>
+  <data name="PersonGroupDetailsPage_Tip2.Text" xml:space="preserve">
+    <value>- Start by creating a new person on this page ('+' near the top), or select an existing person to navigate to it.</value>
+  </data>
+  <data name="PersonGroupDetailsPage_Tip3.Text" xml:space="preserve">
+    <value>- When you are done making modifications to this group, click on the Train button to re-train the Machine Learning model in the Cloud.</value>
+  </data>
+  <data name="PersonGroupDetailsPage_Tip4.Text" xml:space="preserve">
+    <value>- You can also add people in batches ('...' near the top), either from local photo albums or from Bing Image searches.</value>
+  </data>
+  <data name="PersonGroupsPage_AppBar.Label" xml:space="preserve">
+    <value>Add Group</value>
+  </data>
+  <data name="PersonGroupsPage_ButtonAdd.Content" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="PersonGroupsPage_ButtonCancel.Content" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="PersonGroupsPage_EnterGroup.PlaceholderText" xml:space="preserve">
+    <value>Enter group name (e.g. Coworkers)</value>
+  </data>
+  <data name="PersonGroupsPage_Header.Text" xml:space="preserve">
+    <value>PERSON GROUPS</value>
+  </data>
+  <data name="PersonGroupsPage_Tip1.Text" xml:space="preserve">
+    <value>- This is where you can train the machine learning model behind the Face APIs to recognize specific people.</value>
+  </data>
+  <data name="PersonGroupsPage_Tip2.Text" xml:space="preserve">
+    <value>- Start by creating a person group on this page ('+' near the top), or select an existing group to navigate to it.</value>
+  </data>
+  <data name="PersonGroupsPage_Tip3.Text" xml:space="preserve">
+    <value>- In this app groups are just for organizing related people together (e.g. Celebrities). It won't affect scoring.</value>
+  </data>
+  <data name="AppShell_ToggleButton.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="ImageSearchUserControl_AppBarCancel.Label" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ImageSearchUserControl_AppBarSelectPhotos.Label" xml:space="preserve">
+    <value>Add selected photos</value>
+  </data>
+  <data name="ImageSearchUserControl_AutoSuggest.PlaceholderText" xml:space="preserve">
+    <value>Search Bing Images</value>
+  </data>
+  <data name="ImageSearchUserControl_ButtonLocalFile.ToolTipService.ToolTip" xml:space="preserve">
+    <value>Browse local files</value>
+  </data>
+  <data name="AppShell_ToggleButton.AutomationProperties.Name" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="PersonDetailsPage_MenuDeleteItems.Text" xml:space="preserve">
+    <value>Delete selected image(s)</value>
+  </data>
 </root>

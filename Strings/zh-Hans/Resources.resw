@@ -345,4 +345,145 @@
   <data name="RealtimeDriverMonitoring_AlertUnknownName" xml:space="preserve">
     <value>无名氏</value>
   </data>
+  <data name="PersonGroupsPage_AppBar.Label" xml:space="preserve">
+    <value>新增分组</value>
+  </data>
+  <data name="PersonGroupsPage_EnterGroup.PlaceholderText" xml:space="preserve">
+    <value>输入分组名称（比如：同事，我爱我家等）</value>
+  </data>
+  <data name="PersonGroupsPage_Header.Text" xml:space="preserve">
+    <value>人员分组</value>
+  </data>
+  <data name="PersonGroupsPage_Tip1.Text" xml:space="preserve">
+    <value>- 要想识别图片中的某个人，必须在这里使用Face API训练照片。</value>
+  </data>
+  <data name="PersonGroupsPage_Tip2.Text" xml:space="preserve">
+    <value>- 开始创建一个人员分组 (在'+'菜单), 或者查看一个已经存在的分组。</value>
+  </data>
+  <data name="PersonGroupsPage_Tip3.Text" xml:space="preserve">
+    <value>- 这里的人员分组是为了更方便的组织相关人员，比如可以把人归类为同事，家庭等，这个分组并不会影响准确度。</value>
+  </data>
+  <data name="PersonGroupDetailsPage_AppBar.Label" xml:space="preserve">
+    <value>新增人员</value>
+  </data>
+  <data name="PersonGroupsPage_ButtonAdd.Content" xml:space="preserve">
+    <value>新增</value>
+  </data>
+  <data name="PersonGroupsPage_ButtonCancel.Content" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="PersonGroupDetailsPage_AutoSuggest.PlaceholderText" xml:space="preserve">
+    <value>输入人员名字(比如： Hollis，尧敏华等)</value>
+  </data>
+  <data name="PersonGroupDetailsPage_ButtonAdd.Content" xml:space="preserve">
+    <value>新增</value>
+  </data>
+  <data name="PersonGroupDetailsPage_ButtonCancel.Content" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="PersonGroupDetailsPage_AppBarDelete.Label" xml:space="preserve">
+    <value>删除分组</value>
+  </data>
+  <data name="PersonGroupDetailsPage_AppBarTrain.Label" xml:space="preserve">
+    <value>训练分组</value>
+  </data>
+  <data name="PersonGroupDetailsPage_AppBarFolder.Label" xml:space="preserve">
+    <value>批量训练相册</value>
+  </data>
+  <data name="PersonGroupDetailsPage_AppBarWorld.Label" xml:space="preserve">
+    <value>批量训练Bing图片搜索结果</value>
+  </data>
+  <data name="PersonGroupDetailsPage_ImportNames.PlaceholderText" xml:space="preserve">
+    <value>输入名字(一行一个)</value>
+  </data>
+  <data name="PersonGroupDetailsPage_ImportImagesPrefix.PlaceholderText" xml:space="preserve">
+    <value>搜索关键字前缀</value>
+  </data>
+  <data name="PersonGroupDetailsPage_ImportImagesSufix.PlaceholderText" xml:space="preserve">
+    <value>搜索关键字后缀</value>
+  </data>
+  <data name="PersonGroupDetailsPage_AppBarImport.Label" xml:space="preserve">
+    <value>导入</value>
+  </data>
+  <data name="PersonGroupDetailsPage_AppBarCancel.Label" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="PersonGroupDetailsPage_Tip1.Text" xml:space="preserve">
+    <value>- 在这里可以设置分组的人员，也可以删除分组。</value>
+  </data>
+  <data name="PersonGroupDetailsPage_Tip2.Text" xml:space="preserve">
+    <value>- 开始新增一个人员（在‘+’ 菜单里面），或者查看已经存在的人员照片模板。</value>
+  </data>
+  <data name="PersonGroupDetailsPage_Tip3.Text" xml:space="preserve">
+    <value>- 如果你修改了分组的照片，必须点击训练按钮重新训练照片，以便系统能识别变化。</value>
+  </data>
+  <data name="PersonGroupDetailsPage_Tip4.Text" xml:space="preserve">
+    <value>- 你也可以批量添加人员（在右上角'...'菜单），同样，你也可以从本地相册或者Bing图片搜索批量导入人员照片。</value>
+  </data>
+  <data name="PersonDetailsPage_AppBar.Label" xml:space="preserve">
+    <value>添加当前人员照片</value>
+  </data>
+  <data name="PersonDetailsPage_AppBarDelete.Label" xml:space="preserve">
+    <value>删除人员</value>
+  </data>
+  <data name="PersonDetailsPage_Tip1.Text" xml:space="preserve">
+    <value>- 在这里你能够提供某个人的照片模板，也可以删除某个人。</value>
+  </data>
+  <data name="PersonDetailsPage_Tip2.Text" xml:space="preserve">
+    <value>- 开始添加某个人的人脸照片模板（在'+'菜单），或者右键点击照片模板，删除它。</value>
+  </data>
+  <data name="PersonDetailsPage_Tip3.Text" xml:space="preserve">
+    <value>- 你可以从本地文件或者Bing图片导入照片模板，只需要选择需要的照片。</value>
+  </data>
+  <data name="PersonGroupDetailsPage_ConfirmDeleteGroup" xml:space="preserve">
+    <value>确认删除人员分组？</value>
+  </data>
+  <data name="PersonGroupDetailsPage_ConfirmSelectFolder" xml:space="preserve">
+    <value>请选择一个文件夹，其中的子文件夹名称将会设置为人员名字，子文件夹内的照片作为这个人的照片模板，继续吗？</value>
+  </data>
+  <data name="PersonGroupDetailsPage_ErrorBatchTrainFailure" xml:space="preserve">
+    <value>批处理期间发生错误</value>
+  </data>
+  <data name="PersonGroupDetailsPage_ErrorCreatePerson" xml:space="preserve">
+    <value>创建人员失败</value>
+  </data>
+  <data name="PersonGroupDetailsPage_ErrorDeleteGroup" xml:space="preserve">
+    <value>删除人员分组失败</value>
+  </data>
+  <data name="PersonGroupDetailsPage_ErrorImportPerson" xml:space="preserve">
+    <value>处理文件夹和文件时候发生错误</value>
+  </data>
+  <data name="PersonGroupDetailsPage_ErrorLoadFailed" xml:space="preserve">
+    <value>导入人员到分组发生错误</value>
+  </data>
+  <data name="PersonGroupDetailsPage_ErrorPickFolder" xml:space="preserve">
+    <value>选择目标文件夹失败</value>
+  </data>
+  <data name="PersonGroupDetailsPage_ErrorRequestTrain" xml:space="preserve">
+    <value>尝试训练时候发生错误</value>
+  </data>
+  <data name="PersonGroupDetailsPage_ErrorTrainFailure" xml:space="preserve">
+    <value>训练完成，但是发生错误。</value>
+  </data>
+  <data name="PersonGroupDetailsPage_MsgImportFailure" xml:space="preserve">
+    <value>批量导入照片失败</value>
+  </data>
+  <data name="ImageSearchUserControl_AutoSuggest.PlaceholderText" xml:space="preserve">
+    <value>搜索Bing图片库</value>
+  </data>
+  <data name="ImageSearchUserControl_ButtonLocalFile.ToolTipService.ToolTip" xml:space="preserve">
+    <value>浏览本地文件</value>
+  </data>
+  <data name="ImageSearchUserControl_AppBarSelectPhotos.Label" xml:space="preserve">
+    <value>添加选中的文件</value>
+  </data>
+  <data name="ImageSearchUserControl_AppBarCancel.Label" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="AppShell_ToggleButton.ToolTipService.ToolTip" xml:space="preserve">
+    <value>菜单</value>
+  </data>
+  <data name="AppShell_ToggleButton.AutomationProperties.Name" xml:space="preserve">
+    <value>菜单</value>
+  </data>
 </root>

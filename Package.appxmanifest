@@ -14,7 +14,7 @@
     <Resource Language="x-generate" />
   </Resources>
   <Applications>
-    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="IntelligentKioskSample.App">
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="CognitiveServicesDemos.App">
       <uap:VisualElements DisplayName="ms-resource:AppName" Square44x44Logo="Assets\squaretile-sdk-44.png" Square150x150Logo="Assets\squaretile-sdk.png" Description="ms-resource:AppNameDescription" BackgroundColor="#00B2F0">
         <uap:SplashScreen Image="Assets\splash-sdk.png" BackgroundColor="#00B2F0" />
       </uap:VisualElements>

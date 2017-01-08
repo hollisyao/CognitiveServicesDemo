@@ -39,7 +39,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Windows.UI.Xaml.Controls;
 
-namespace IntelligentKioskSample
+namespace CognitiveServicesDemos
 {
     public static class KioskExperiences
     {
@@ -48,7 +48,7 @@ namespace IntelligentKioskSample
         static KioskExperiences()
         {
             expTypes = typeof(KioskExperiences).GetTypeInfo().Assembly.GetTypes().Where(t =>
-                t.Namespace == "IntelligentKioskSample.Views"
+                t.Namespace == "CognitiveServicesDemos.Views"
                 && t.GetTypeInfo().GetCustomAttribute<KioskExperienceAttribute>() != null)
                 .ToArray();
         }

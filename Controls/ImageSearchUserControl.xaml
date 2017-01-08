@@ -1,8 +1,8 @@
 ﻿<UserControl
-    x:Class="IntelligentKioskSample.Controls.ImageSearchUserControl"
+    x:Class="CognitiveServicesDemos.Controls.ImageSearchUserControl"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:controls="using:IntelligentKioskSample.Controls"
+    xmlns:controls="using:CognitiveServicesDemos.Controls"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"

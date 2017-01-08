@@ -46,7 +46,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Animation;
 
-namespace IntelligentKioskSample.Controls
+namespace CognitiveServicesDemos.Controls
 {
     /// <summary>
     /// A specialized ListView to represent the items in the navigation menu.

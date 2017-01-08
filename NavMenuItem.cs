@@ -38,7 +38,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Windows.UI.Xaml.Controls;
 
-namespace IntelligentKioskSample
+namespace CognitiveServicesDemos
 {
     /// <summary>
     /// Data to represent an item in the nav menu.

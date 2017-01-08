@@ -6,8 +6,8 @@
     <ProjectGuid>{B08D337A-AF9F-4705-B8C1-C7F07FACD8C5}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>IntelligentKioskSample</RootNamespace>
-    <AssemblyName>IntelligentKioskSample</AssemblyName>
+    <RootNamespace>CognitiveServicesDemos</RootNamespace>
+    <AssemblyName>CognitiveServicesDemos</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion>10.0.10240.0</TargetPlatformVersion>
@@ -381,7 +381,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <XliffResource Include="MultilingualResources\IntelligentKioskSample.zh-Hans.xlf" />
+    <XliffResource Include="MultilingualResources\CognitiveServicesDemos.zh-Hans.xlf" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

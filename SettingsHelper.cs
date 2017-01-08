@@ -31,13 +31,13 @@
 // WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 // 
 
-using IntelligentKioskSample.Views;
+using CognitiveServicesDemos.Views;
 using System;
 using System.ComponentModel;
 using System.IO;
 using Windows.Storage;
 
-namespace IntelligentKioskSample
+namespace CognitiveServicesDemos
 {
     internal class SettingsHelper : INotifyPropertyChanged
     {

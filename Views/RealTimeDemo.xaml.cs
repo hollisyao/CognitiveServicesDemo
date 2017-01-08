@@ -32,7 +32,7 @@
 // 
 
 using ServiceHelpers;
-using IntelligentKioskSample.Controls;
+using CognitiveServicesDemos.Controls;
 using Microsoft.ProjectOxford.Common;
 using Microsoft.ProjectOxford.Emotion.Contract;
 using Microsoft.ProjectOxford.Face.Contract;
@@ -52,7 +52,7 @@ using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
-namespace IntelligentKioskSample.Views
+namespace CognitiveServicesDemos.Views
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.

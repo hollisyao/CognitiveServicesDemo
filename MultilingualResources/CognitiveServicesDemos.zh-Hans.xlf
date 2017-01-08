@@ -1,0 +1,660 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="zh-Hans" original="COGNITIVESERVICESDEMOS/STRINGS/EN-US/RESOURCES.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.1795.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="COGNITIVESERVICESDEMOS/STRINGS/EN-US/RESOURCES.RESW">
+        <trans-unit id="LandingPage_Overview.Text" translate="yes" xml:space="preserve">
+          <source>OVERVIEW</source>
+          <target state="final">介绍</target>
+        </trans-unit>
+        <trans-unit id="LandingPage_Foot.Text" translate="yes" xml:space="preserve">
+          <source>- Start by entering API Keys in the Settings Page (they will persist between sessions).</source>
+          <target state="final">- 首先必须在设置页面输入API Key，它们将会被保存在程序中。</target>
+        </trans-unit>
+        <trans-unit id="LandingPage_Foot2.Text" translate="yes" xml:space="preserve">
+          <source>- Use the Face Identification Setup page if you want to train the kiosk to identify specific people.</source>
+          <target state="final">- 如果你要启用人脸识别，必须在人脸识别设置页面训练需要识别的人脸。</target>
+        </trans-unit>
+        <trans-unit id="LandingPage_Foot3.Text" translate="yes" xml:space="preserve">
+          <source>- If you have multiple cameras, a camera selector is available in the Settings Page.</source>
+          <target state="final">- 如果你有多个摄像头，必须在设置页面选择要使用的摄像头。</target>
+        </trans-unit>
+        <trans-unit id="LandingPage_More.Text" translate="yes" xml:space="preserve">
+          <source>For more information visit</source>
+          <target state="final">获取更多信息请访问</target>
+        </trans-unit>
+        <trans-unit id="LandingPage_Welcome.Text" translate="yes" xml:space="preserve">
+          <source>Welcome to the Intelligent Kiosk Sample! Here you will find several demos showcasing workflows and experiences built on top of the Microsoft Cognitive Services.</source>
+          <target state="final">欢迎使用认知服务演示程序，在这里你能看到基于微软认知服务构建的演示程序。</target>
+        </trans-unit>
+        <trans-unit id="LandingPage_Welcome2.Text" translate="yes" xml:space="preserve">
+          <source>The kiosk is an example of an intelligent application, one that can understand human faces and predict their age, gender and emotion. It can do so from live images from a web cam, Bing Images or local photos. It also allows you to very quickly create and train a model to perform face identification against any pre-determined set of faces.</source>
+          <target state="final">这个演示程序能够理解人脸，并且预测他的年纪，性别，情绪，同时，甚至还能识别出这个人是谁。</target>
+        </trans-unit>
+        <trans-unit id="AutomaticPhotoCapturePage_Headline.Text" translate="yes" xml:space="preserve">
+          <source>Automatic Photo Capture Sample</source>
+          <target state="final">自动拍照识别系统</target>
+        </trans-unit>
+        <trans-unit id="AutomaticPhotoCapturePage_Headline2.Text" translate="yes" xml:space="preserve">
+          <source>Automatic photo capture via face tracking and motion detection</source>
+          <target state="final">自动拍照并追踪人脸和情绪识别</target>
+        </trans-unit>
+        <trans-unit id="AutomaticPhotoCapturePage_Start.Text" translate="yes" xml:space="preserve">
+          <source>Step in front of the camera to start!</source>
+          <target state="final">请站到摄像头前面！</target>
+        </trans-unit>
+        <trans-unit id="AutomaticPhotoCapturePage_Tip.Text" translate="yes" xml:space="preserve">
+          <source>Try a different pose next time!&amp;#10;Another round will begin shortly...</source>
+          <target state="final">抓紧换一个Pose，10秒钟后，下一个精彩很快开启</target>
+        </trans-unit>
+        <trans-unit id="MallKioskPage_Headline.Text" translate="yes" xml:space="preserve">
+          <source>Mall Kiosk</source>
+          <target state="final">商品个性化推荐</target>
+        </trans-unit>
+        <trans-unit id="MallKioskPage_Headline2.Text" translate="yes" xml:space="preserve">
+          <source>Take a photo to get a product recommendation!</source>
+          <target state="final">拍照之后，为您推荐个性化商品</target>
+        </trans-unit>
+        <trans-unit id="MallKioskPage_Emotion.Text" translate="yes" xml:space="preserve">
+          <source>Emotion Response:</source>
+          <target state="final">情绪反应:</target>
+        </trans-unit>
+        <trans-unit id="RealTimeDemo_Headline.Text" translate="yes" xml:space="preserve">
+          <source>Realtime Crowd Insights Sample</source>
+          <target state="final">实时人流分析系统</target>
+        </trans-unit>
+        <trans-unit id="RealTimeDemo_Headline2.Text" translate="yes" xml:space="preserve">
+          <source>Deriving realtime crowd insights from age, gender, emotion, face identification and unique face tracking</source>
+          <target state="final">支持分析年龄、性别、情绪，人脸识别，人脸追踪</target>
+        </trans-unit>
+        <trans-unit id="RealTimeDemo_Tip.Text" translate="yes" xml:space="preserve">
+          <source>Resetting data...</source>
+          <target state="final">重设数据中。。。</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_Headline.Text" translate="yes" xml:space="preserve">
+          <source>Realtime Driver Monitoring</source>
+          <target state="final">安全驾驶监控系统</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_LookingAway.Text" translate="yes" xml:space="preserve">
+          <source>Looking away!</source>
+          <target state="final">注意观察前方道路！</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_Sleep.Text" translate="yes" xml:space="preserve">
+          <source>Sleeping!</source>
+          <target state="final">别睡着啦！</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_Yawning.Text" translate="yes" xml:space="preserve">
+          <source>Yawning!</source>
+          <target state="final">正在打哈欠！</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_DriverId.Text" translate="yes" xml:space="preserve">
+          <source>Driver Id</source>
+          <target state="final">驾驶员Id</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_Eyes.Text" translate="yes" xml:space="preserve">
+          <source>Eyes</source>
+          <target state="final">眼睛</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_EyeAperture.Text" translate="yes" xml:space="preserve">
+          <source>Current aperture:</source>
+          <target state="final">目前检测到的大小</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_MouthAperture.Text" translate="yes" xml:space="preserve">
+          <source>Current aperture:</source>
+          <target state="final">目前检测到的大小</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_Mouth" translate="yes" xml:space="preserve">
+          <source>Mouth</source>
+          <target state="final">嘴</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_SleepingSlider.Header" translate="yes" xml:space="preserve">
+          <source>Minimum aperture for eyes to be considered open:</source>
+          <target state="final">眼睛睁开的直径小于以下值就认为在打瞌睡</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_YawningSlider.Header" translate="yes" xml:space="preserve">
+          <source>Minimun aperture for mouth to be considered yawning:</source>
+          <target state="final">嘴巴张开的直径大于以下值就认为是在打哈欠</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_RestoreButton.Content" translate="yes" xml:space="preserve">
+          <source>Restore default thresholds</source>
+          <target state="final">重设为默认的临界值</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_Alert.Text" translate="yes" xml:space="preserve">
+          <source>No faces detected. Please look at the camera to start.</source>
+          <target state="final">没有发现人脸，请站到摄像头前方。</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_WrapWholeWords.Text" translate="yes" xml:space="preserve">
+          <source>The Driver Id is determined by identifying the face against the trained faces. 
+&lt;LineBreak/&gt;
+&lt;LineBreak/&gt;The Facial Features are used to flag yawning and sleeping (see below how to tweak the thresholds for this if needed).
+&lt;LineBreak/&gt;
+&lt;LineBreak/&gt;The Head Pose is used to flag when the driver is looking away.
+&lt;LineBreak/&gt;
+&lt;LineBreak/&gt;When Activity tracking is enabled and the captioning from the Vision API contains certain keywords, like &amp;quot;phone&amp;quot; or &amp;quot;banana&amp;quot;, a special message will be displayed.</source>
+          <target state="final">驾驶员Id会去匹配后台设置的人脸库。 
+
+脸部特征用来识别是否打哈欠和打瞌睡（参考下方怎么设置这个临界值）。
+
+头的角度用来识别驾驶员是否在观察前方道路。
+
+当启用了动作检测，如果检测到在打电话，或者正在吃东西，就会显示相应的警告信息。</target>
+        </trans-unit>
+        <trans-unit id="BingNewsAnalytics_Headline.Text" translate="yes" xml:space="preserve">
+          <source>Bing News Analytics</source>
+          <target state="final">Bing新闻分析</target>
+        </trans-unit>
+        <trans-unit id="BingNewsAnalytics_TopKeywords.Text" translate="yes" xml:space="preserve">
+          <source>Top Keywords</source>
+          <target state="final">最佳关键字</target>
+        </trans-unit>
+        <trans-unit id="BingNewsAnalytics_Sentiment.Text" translate="yes" xml:space="preserve">
+          <source>Sentiment:</source>
+          <target state="final">情绪：</target>
+        </trans-unit>
+        <trans-unit id="BingNewsAnalytics_Language.Header" translate="yes" xml:space="preserve">
+          <source>Language:</source>
+          <target state="final">语言：</target>
+        </trans-unit>
+        <trans-unit id="BingNewsAnalytics_SentimentDistribution.HeaderText" translate="yes" xml:space="preserve">
+          <source>Sentiment Distribution</source>
+          <target state="final">情绪分布情况</target>
+        </trans-unit>
+        <trans-unit id="AutomaticPhotoCapturePage_Hold" translate="yes" xml:space="preserve">
+          <source>Hold still...</source>
+          <target state="final">保持不动。。。</target>
+        </trans-unit>
+        <trans-unit id="AutomaticPhotoCapturePage_MissingAPI_Content" translate="yes" xml:space="preserve">
+          <source>Missing Face API Key. Please enter a key in the Settings page.</source>
+          <target state="final">没有设置Face API Key，请到设置页面配置。</target>
+        </trans-unit>
+        <trans-unit id="AutomaticPhotoCapturePage_MissingAPI_Title" translate="yes" xml:space="preserve">
+          <source>Missing Face API Key</source>
+          <target state="final">没有设置Face API Key</target>
+        </trans-unit>
+        <trans-unit id="DemoLauncherPage_Title.Text" translate="yes" xml:space="preserve">
+          <source>Demos</source>
+          <target state="final">演示中心</target>
+        </trans-unit>
+        <trans-unit id="ModuleName_AutomaticPhotoCapture" translate="yes" xml:space="preserve">
+          <source>Automatic Photo Capture</source>
+          <target state="final">自动拍照识别系统</target>
+        </trans-unit>
+        <trans-unit id="ModuleName_BingNewsAnalytics" translate="yes" xml:space="preserve">
+          <source>Bing News Analytics</source>
+          <target state="final">Bing新闻分析系统</target>
+        </trans-unit>
+        <trans-unit id="ModuleName_EmotionAPIExplorer" translate="yes" xml:space="preserve">
+          <source>Emotion API Explorer</source>
+          <target state="final">情绪识别API演示</target>
+        </trans-unit>
+        <trans-unit id="ModuleName_FaceAPIExplorer" translate="yes" xml:space="preserve">
+          <source>Face API Explorer</source>
+          <target state="final">人脸识别API演示</target>
+        </trans-unit>
+        <trans-unit id="ModuleName_MallKiosk" translate="yes" xml:space="preserve">
+          <source>Mall Kiosk</source>
+          <target state="final">商品个性化推荐系统</target>
+        </trans-unit>
+        <trans-unit id="ModuleName_RealtimeCrowdInsights" translate="yes" xml:space="preserve">
+          <source>Realtime Crowd Insights</source>
+          <target state="final">实时人流分析系统</target>
+        </trans-unit>
+        <trans-unit id="ModuleName_RealtimeDriverMonitoring" translate="yes" xml:space="preserve">
+          <source>Realtime Driver Monitoring</source>
+          <target state="final">安全驾驶监控系统</target>
+        </trans-unit>
+        <trans-unit id="EmotionRecognitionPage_Header.Text" translate="yes" xml:space="preserve">
+          <source>EMOTION API EXPLORER</source>
+          <target state="final">情绪识别API演示</target>
+        </trans-unit>
+        <trans-unit id="RealTimeDemo_AgeHeader.HeaderText" translate="yes" xml:space="preserve">
+          <source>Demographics</source>
+          <target state="final">人流统计</target>
+        </trans-unit>
+        <trans-unit id="RealTimeDemo_AgeHeader.SubHeaderText" translate="yes" xml:space="preserve">
+          <source>At this hour (erased hourly)</source>
+          <target state="final">最近一小时 (每小时重置)</target>
+        </trans-unit>
+        <trans-unit id="RealTimeDemo_OverallHeader.HeaderText" translate="yes" xml:space="preserve">
+          <source>Total Faces</source>
+          <target state="final">总人数</target>
+        </trans-unit>
+        <trans-unit id="RealTimeDemo_OverallHeader.SubHeaderText" translate="yes" xml:space="preserve">
+          <source>At this hour (erased hourly)</source>
+          <target state="final">最近一小时(每小时重置)</target>
+        </trans-unit>
+        <trans-unit id="OverallStatsControl_Analyzed.Text" translate="yes" xml:space="preserve">
+          <source>Analyzed</source>
+          <target state="final">分析次数</target>
+        </trans-unit>
+        <trans-unit id="OverallStatsControl_Unique.Text" translate="yes" xml:space="preserve">
+          <source>Unique</source>
+          <target state="final">人数</target>
+        </trans-unit>
+        <trans-unit id="AgeGenderDistributionControl_Year1.Text" translate="yes" xml:space="preserve">
+          <source>0-15</source>
+          <target state="final">0-15</target>
+        </trans-unit>
+        <trans-unit id="AgeGenderDistributionControl_Year2.Text" translate="yes" xml:space="preserve">
+          <source>16-19</source>
+          <target state="final">16-19</target>
+        </trans-unit>
+        <trans-unit id="AgeGenderDistributionControl_Year3.Text" translate="yes" xml:space="preserve">
+          <source>20s</source>
+          <target state="final">20岁</target>
+        </trans-unit>
+        <trans-unit id="AgeGenderDistributionControl_Year4.Text" translate="yes" xml:space="preserve">
+          <source>30s</source>
+          <target state="final">30岁</target>
+        </trans-unit>
+        <trans-unit id="AgeGenderDistributionControl_Year5.Text" translate="yes" xml:space="preserve">
+          <source>40s</source>
+          <target state="final">40岁</target>
+        </trans-unit>
+        <trans-unit id="AgeGenderDistributionControl_Year6.Text" translate="yes" xml:space="preserve">
+          <source>50s+</source>
+          <target state="final">50岁+</target>
+        </trans-unit>
+        <trans-unit id="EmotionResponseTimelineControl_Happiness.Text" translate="yes" xml:space="preserve">
+          <source>Happiness</source>
+          <target state="final">愉快</target>
+        </trans-unit>
+        <trans-unit id="EmotionResponseTimelineControl_Surprise.Text" translate="yes" xml:space="preserve">
+          <source>Surprise</source>
+          <target state="final">惊讶</target>
+        </trans-unit>
+        <trans-unit id="EmotionResponseTimelineControl_Anger.Text" translate="yes" xml:space="preserve">
+          <source>Anger</source>
+          <target state="final">愤怒</target>
+        </trans-unit>
+        <trans-unit id="EmotionResponseTimelineControl_Contempt.Text" translate="yes" xml:space="preserve">
+          <source>Contempt</source>
+          <target state="final">轻蔑</target>
+        </trans-unit>
+        <trans-unit id="EmotionResponseTimelineControl_Disgust.Text" translate="yes" xml:space="preserve">
+          <source>Disgust</source>
+          <target state="final">厌恶</target>
+        </trans-unit>
+        <trans-unit id="EmotionResponseTimelineControl_Fear.Text" translate="yes" xml:space="preserve">
+          <source>Fear</source>
+          <target state="final">恐惧</target>
+        </trans-unit>
+        <trans-unit id="EmotionResponseTimelineControl_Sadness.Text" translate="yes" xml:space="preserve">
+          <source>Sadness</source>
+          <target state="final">悲伤</target>
+        </trans-unit>
+        <trans-unit id="EmotionResponseTimelineControl_Header.Text" translate="yes" xml:space="preserve">
+          <source>Average Crowd Emotion</source>
+          <target state="final">人群情绪分布</target>
+        </trans-unit>
+        <trans-unit id="EmotionResponseTimelineControl_SubHeader.Text" translate="yes" xml:space="preserve">
+          <source>Last few minutes</source>
+          <target state="final">最近几分钟</target>
+        </trans-unit>
+        <trans-unit id="RecognitionPage_Header.Text" translate="yes" xml:space="preserve">
+          <source>FACE API EXPLORER</source>
+          <target state="final">人脸识别API</target>
+        </trans-unit>
+        <trans-unit id="RecognitionPage_IsLandmark.Content" translate="yes" xml:space="preserve">
+          <source>Detect face landmarks</source>
+          <target state="final">显示脸部追踪标记</target>
+        </trans-unit>
+        <trans-unit id="SettingsPage_Header.Text" translate="yes" xml:space="preserve">
+          <source>SETTINGS</source>
+          <target state="final">设置</target>
+        </trans-unit>
+        <trans-unit id="SettingsPage_Keys.Text" translate="yes" xml:space="preserve">
+          <source>Keys</source>
+          <target state="final">设置调用API Keys</target>
+        </trans-unit>
+        <trans-unit id="SettingsPage_ApplyKeys.Content" translate="yes" xml:space="preserve">
+          <source>Click here if you need keys</source>
+          <target state="final">申请Key</target>
+        </trans-unit>
+        <trans-unit id="SettingsPage_WorkspaceKey.Text" translate="yes" xml:space="preserve">
+          <source>Workspace Key</source>
+          <target state="final">工作区 Key</target>
+        </trans-unit>
+        <trans-unit id="SettingsPage_GenerateNewKey.Content" translate="yes" xml:space="preserve">
+          <source>Generate New Key</source>
+          <target state="final">生成新的工作区Key</target>
+        </trans-unit>
+        <trans-unit id="SettingsPage_FaceAPIKey.Text" translate="yes" xml:space="preserve">
+          <source>Face API Key(on China Azure)</source>
+          <target state="final">Face API Key（必须用中国Azure）</target>
+        </trans-unit>
+        <trans-unit id="SettingsPage_EmotionAPIKey.Text" translate="yes" xml:space="preserve">
+          <source>Emotion API Key(on China Azure)</source>
+          <target state="final">Emotion API Key（必须用中国Azure）</target>
+        </trans-unit>
+        <trans-unit id="SettingsPage_VisionAPIKey.Text" translate="yes" xml:space="preserve">
+          <source>Vision API Key(on China Azure)</source>
+          <target state="final">Vision API Key（必须用中国Azure）</target>
+        </trans-unit>
+        <trans-unit id="SettingsPage_BingSearchAPIKey.Text" translate="yes" xml:space="preserve">
+          <source>Bing Search API Key</source>
+          <target state="final">Bing Search API Key</target>
+        </trans-unit>
+        <trans-unit id="SettingsPage_BingAutoSuggestionAPIKey.Text" translate="yes" xml:space="preserve">
+          <source>Bing Auto Suggestion API Key</source>
+          <target state="final">Bing Auto Suggestion API Key</target>
+        </trans-unit>
+        <trans-unit id="SettingsPage_TextAnalyticsAPIKey.Text" translate="yes" xml:space="preserve">
+          <source>Text Analytics Key</source>
+          <target state="final">Text Analytics Key</target>
+        </trans-unit>
+        <trans-unit id="SettingsPage_Camera.Header" translate="yes" xml:space="preserve">
+          <source>Camera Source</source>
+          <target state="final">选择摄像头</target>
+        </trans-unit>
+        <trans-unit id="SettingsPage_DebugInfo.Header" translate="yes" xml:space="preserve">
+          <source>Show debug info:</source>
+          <target state="final">显示调试信息：</target>
+        </trans-unit>
+        <trans-unit id="SettingsPage_FaceSizeSlider.Header" translate="yes" xml:space="preserve">
+          <source>Minimum detectable face size (as % of image height):</source>
+          <target state="final">脸部检测最小尺寸(占整个图片高度的 %):</target>
+        </trans-unit>
+        <trans-unit id="SettingsPage_MallKiosk.Text" translate="yes" xml:space="preserve">
+          <source>Mall Kiosk</source>
+          <target state="final">商品推荐系统设置</target>
+        </trans-unit>
+        <trans-unit id="SettingsPage_MallKioskSettings.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Paste custom settings for Mall Kiosk Demo here</source>
+          <target state="final">在这里自定义商品推荐系统</target>
+        </trans-unit>
+        <trans-unit id="SettingsPage_ResetSettings.Content" translate="yes" xml:space="preserve">
+          <source>Reset to Default Mall Kiosk Settings</source>
+          <target state="final">重设所有商品推荐设置</target>
+        </trans-unit>
+        <trans-unit id="SettingsPage_Miscellaneous.Text" translate="yes" xml:space="preserve">
+          <source>Miscellaneous</source>
+          <target state="final">系统设置</target>
+        </trans-unit>
+        <trans-unit id="SettingsPage_Reset.Label" translate="yes" xml:space="preserve">
+          <source>Reset Settings</source>
+          <target state="final">重置所有设置</target>
+        </trans-unit>
+        <trans-unit id="SettingsPage_ResetFinish" translate="yes" xml:space="preserve">
+          <source>Settings restored. Please restart the application to load the default settings.</source>
+          <target state="final">已经恢复出厂设置，请重新启动应用程序。</target>
+        </trans-unit>
+        <trans-unit id="SettingsPage_ResetTip" translate="yes" xml:space="preserve">
+          <source>This will reset all the settings and erase your changes. Confirm?</source>
+          <target state="final">您的所有设置将会丢失，确认重置？</target>
+        </trans-unit>
+        <trans-unit id="Menu_Demos" translate="yes" xml:space="preserve">
+          <source>Demos</source>
+          <target state="final">演示中心</target>
+        </trans-unit>
+        <trans-unit id="Menu_FaceIdentificationSetup" translate="yes" xml:space="preserve">
+          <source>Face Identification Setup</source>
+          <target state="final">人脸识别设置</target>
+        </trans-unit>
+        <trans-unit id="Menu_Overview" translate="yes" xml:space="preserve">
+          <source>Overview</source>
+          <target state="final">介绍</target>
+        </trans-unit>
+        <trans-unit id="Menu_Settings" translate="yes" xml:space="preserve">
+          <source>Settings</source>
+          <target state="final">设置</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_FacialFeatures.Text" translate="yes" xml:space="preserve">
+          <source>Facial Features</source>
+          <target state="final">脸部特征</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_HeadPose.Text" translate="yes" xml:space="preserve">
+          <source>Head Pose</source>
+          <target state="final">头部姿势</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_HeadLeft.Text" translate="yes" xml:space="preserve">
+          <source>Left</source>
+          <target state="final">偏左</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_HeadRight.Text" translate="yes" xml:space="preserve">
+          <source>Right</source>
+          <target state="final">偏右</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_Activities.Text" translate="yes" xml:space="preserve">
+          <source>Activities</source>
+          <target state="final">活动检测</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_AnalyzeActivities.Text" translate="yes" xml:space="preserve">
+          <source>Enable to start analyzing activities (e.g. cell phone)</source>
+          <target state="final">启用活动检测（比如：打电话）</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_LatencyAlert.Text" translate="yes" xml:space="preserve">
+          <source>Latency is too high!</source>
+          <target state="final">网络延迟太高！</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_AlertBanana" translate="yes" xml:space="preserve">
+          <source>Eating a banana!?</source>
+          <target state="final">正在吃香蕉？！</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_AlertNoFaces" translate="yes" xml:space="preserve">
+          <source>No faces detected. Please look at the camera to start.</source>
+          <target state="final">没有检测到人脸，请看着摄像头。</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_AlertPhone" translate="yes" xml:space="preserve">
+          <source>On the phone!</source>
+          <target state="final">正在打电话！</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_AlertUnknownFemale" translate="yes" xml:space="preserve">
+          <source>Unknown female</source>
+          <target state="final">无名氏 女性</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_AlertUnknownMale" translate="yes" xml:space="preserve">
+          <source>Unknown male</source>
+          <target state="final">无名氏 男性</target>
+        </trans-unit>
+        <trans-unit id="RealtimeDriverMonitoring_AlertUnknownName" translate="yes" xml:space="preserve">
+          <source>Unknown</source>
+          <target state="final">无名氏</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupsPage_AppBar.Label" translate="yes" xml:space="preserve">
+          <source>Add Group</source>
+          <target state="final">新增分组</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupsPage_EnterGroup.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Enter group name (e.g. Coworkers)</source>
+          <target state="final">输入分组名称（比如：同事，我爱我家等）</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupsPage_Header.Text" translate="yes" xml:space="preserve">
+          <source>PERSON GROUPS</source>
+          <target state="final">人员分组</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupsPage_Tip1.Text" translate="yes" xml:space="preserve">
+          <source>- This is where you can train the machine learning model behind the Face APIs to recognize specific people.</source>
+          <target state="final">- 要想识别图片中的某个人，必须在这里使用Face API训练照片。</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupsPage_Tip2.Text" translate="yes" xml:space="preserve">
+          <source>- Start by creating a person group on this page ('+' near the top), or select an existing group to navigate to it.</source>
+          <target state="final">- 开始创建一个人员分组 (在'+'菜单), 或者查看一个已经存在的分组。</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupsPage_Tip3.Text" translate="yes" xml:space="preserve">
+          <source>- In this app groups are just for organizing related people together (e.g. Celebrities). It won't affect scoring.</source>
+          <target state="final">- 这里的人员分组是为了更方便的组织相关人员，比如可以把人归类为同事，家庭等，这个分组并不会影响准确度。</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_AppBar.Label" translate="yes" xml:space="preserve">
+          <source>Add Person</source>
+          <target state="final">新增人员</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupsPage_ButtonAdd.Content" translate="yes" xml:space="preserve">
+          <source>Add</source>
+          <target state="final">新增</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupsPage_ButtonCancel.Content" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="final">取消</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_AutoSuggest.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Enter person name (e.g. Joe)</source>
+          <target state="final">输入人员名字(比如： Hollis，尧敏华等)</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_ButtonAdd.Content" translate="yes" xml:space="preserve">
+          <source>Add</source>
+          <target state="final">新增</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_ButtonCancel.Content" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="final">取消</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_AppBarDelete.Label" translate="yes" xml:space="preserve">
+          <source>Delete Group</source>
+          <target state="final">删除分组</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_AppBarTrain.Label" translate="yes" xml:space="preserve">
+          <source>Train Group</source>
+          <target state="final">训练分组</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_AppBarFolder.Label" translate="yes" xml:space="preserve">
+          <source>Auto-train from photo albums</source>
+          <target state="final">批量训练相册</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_AppBarWorld.Label" translate="yes" xml:space="preserve">
+          <source>Auto-train from Bing Image search</source>
+          <target state="final">批量训练Bing图片搜索结果</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_ImportNames.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Enter names here (one per line)</source>
+          <target state="final">输入名字(一行一个)</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_ImportImagesPrefix.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Bing Image search prefix keywords</source>
+          <target state="final">搜索关键字前缀</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_ImportImagesSufix.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Bing Image search sufix keywords</source>
+          <target state="final">搜索关键字后缀</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_AppBarImport.Label" translate="yes" xml:space="preserve">
+          <source>Import</source>
+          <target state="final">导入</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_AppBarCancel.Label" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="final">取消</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_Tip1.Text" translate="yes" xml:space="preserve">
+          <source>- This is where you can populate this group with the people to be recognized, or delete the group if you need to.</source>
+          <target state="final">- 在这里可以设置分组的人员，也可以删除分组。</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_Tip2.Text" translate="yes" xml:space="preserve">
+          <source>- Start by creating a new person on this page ('+' near the top), or select an existing person to navigate to it.</source>
+          <target state="final">- 开始新增一个人员（在‘+’ 菜单里面），或者查看已经存在的人员照片模板。</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_Tip3.Text" translate="yes" xml:space="preserve">
+          <source>- When you are done making modifications to this group, click on the Train button to re-train the Machine Learning model in the Cloud.</source>
+          <target state="final">- 如果你修改了分组的照片，必须点击训练按钮重新训练照片，以便系统能识别变化。</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_Tip4.Text" translate="yes" xml:space="preserve">
+          <source>- You can also add people in batches ('...' near the top), either from local photo albums or from Bing Image searches.</source>
+          <target state="final">- 你也可以批量添加人员（在右上角'...'菜单），同样，你也可以从本地相册或者Bing图片搜索批量导入人员照片。</target>
+        </trans-unit>
+        <trans-unit id="PersonDetailsPage_AppBar.Label" translate="yes" xml:space="preserve">
+          <source>Add Faces</source>
+          <target state="final">添加当前人员照片</target>
+        </trans-unit>
+        <trans-unit id="PersonDetailsPage_AppBarDelete.Label" translate="yes" xml:space="preserve">
+          <source>Delete Person</source>
+          <target state="final">删除人员</target>
+        </trans-unit>
+        <trans-unit id="PersonDetailsPage_Tip1.Text" translate="yes" xml:space="preserve">
+          <source>- This is where you can provide sample faces for a particular person, or remove this person from the training set if you need to.</source>
+          <target state="final">- 在这里你能够提供某个人的照片模板，也可以删除某个人。</target>
+        </trans-unit>
+        <trans-unit id="PersonDetailsPage_Tip2.Text" translate="yes" xml:space="preserve">
+          <source>- Start by adding face samples ('+' near the top), or right click on an existing sample to remove it.</source>
+          <target state="final">- 开始添加某个人的人脸照片模板（在'+'菜单），或者右键点击照片模板，删除它。</target>
+        </trans-unit>
+        <trans-unit id="PersonDetailsPage_Tip3.Text" translate="yes" xml:space="preserve">
+          <source>- You can provide sample photos from Bing Images or Local Files. Just select the desired photos and confirm.</source>
+          <target state="final">- 你可以从本地文件或者Bing图片导入照片模板，只需要选择需要的照片。</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_ConfirmDeleteGroup" translate="yes" xml:space="preserve">
+          <source>Delete person group?</source>
+          <target state="final">确认删除人员分组？</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_ConfirmSelectFolder" translate="yes" xml:space="preserve">
+          <source>Please select a root folder to start. The subfolder names will map to people names, and the photos inside those folders will map to their sample photos. Continue?</source>
+          <target state="final">请选择一个文件夹，其中的子文件夹名称将会设置为人员名字，子文件夹内的照片作为这个人的照片模板，继续吗？</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_ErrorBatchTrainFailure" translate="yes" xml:space="preserve">
+          <source>Failure during batch processing</source>
+          <target state="final">批处理期间发生错误</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_ErrorCreatePerson" translate="yes" xml:space="preserve">
+          <source>Failure creating person</source>
+          <target state="final">创建人员失败</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_ErrorDeleteGroup" translate="yes" xml:space="preserve">
+          <source>Failure deleting person group</source>
+          <target state="final">删除人员分组失败</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_ErrorImportPerson" translate="yes" xml:space="preserve">
+          <source>Failure processing the folder and files</source>
+          <target state="final">处理文件夹和文件时候发生错误</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_ErrorLoadFailed" translate="yes" xml:space="preserve">
+          <source>Failure loading people in the group</source>
+          <target state="final">导入人员到分组发生错误</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_ErrorPickFolder" translate="yes" xml:space="preserve">
+          <source>Error picking the target folder.</source>
+          <target state="final">选择目标文件夹失败</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_ErrorRequestTrain" translate="yes" xml:space="preserve">
+          <source>Failure requesting training</source>
+          <target state="final">尝试训练时候发生错误</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_ErrorTrainFailure" translate="yes" xml:space="preserve">
+          <source>Training finished with failure.</source>
+          <target state="final">训练完成，但是发生错误。</target>
+        </trans-unit>
+        <trans-unit id="PersonGroupDetailsPage_MsgImportFailure" translate="yes" xml:space="preserve">
+          <source>Failure importing the folllowing photos</source>
+          <target state="final">批量导入照片失败</target>
+        </trans-unit>
+        <trans-unit id="ImageSearchUserControl_AutoSuggest.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Search Bing Images</source>
+          <target state="final">搜索Bing图片库</target>
+        </trans-unit>
+        <trans-unit id="ImageSearchUserControl_ButtonLocalFile.ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Browse local files</source>
+          <target state="final">浏览本地文件</target>
+        </trans-unit>
+        <trans-unit id="ImageSearchUserControl_AppBarSelectPhotos.Label" translate="yes" xml:space="preserve">
+          <source>Add selected photos</source>
+          <target state="final">添加选中的文件</target>
+        </trans-unit>
+        <trans-unit id="ImageSearchUserControl_AppBarCancel.Label" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="final">取消</target>
+        </trans-unit>
+        <trans-unit id="AppShell_ToggleButton.ToolTipService.ToolTip" translate="yes" xml:space="preserve">
+          <source>Menu</source>
+          <target state="final">菜单</target>
+        </trans-unit>
+        <trans-unit id="AppShell_ToggleButton.AutomationProperties.Name" translate="yes" xml:space="preserve">
+          <source>Menu</source>
+          <target state="final">菜单</target>
+        </trans-unit>
+        <trans-unit id="PersonDetailsPage_MenuDeleteItems.Text" translate="yes" xml:space="preserve">
+          <source>Delete selected image(s)</source>
+          <target state="final">删除选中的照片</target>
+        </trans-unit>
+        <trans-unit id="AppName" translate="yes" xml:space="preserve">
+          <source>Microsoft Cognitive Services Demos</source>
+          <target state="final">微软认知服务演示程序</target>
+        </trans-unit>
+        <trans-unit id="AppNameDescription" translate="yes" xml:space="preserve">
+          <source>Microsoft Cognitive Services Samples and Scenarios</source>
+          <target state="final">微软认知服务演示程序，以及酷炫场景。</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

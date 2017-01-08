@@ -49,7 +49,7 @@ using Windows.UI.Popups;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Imaging;
 
-namespace IntelligentKioskSample
+namespace CognitiveServicesDemos
 {
     internal static class Util
     {

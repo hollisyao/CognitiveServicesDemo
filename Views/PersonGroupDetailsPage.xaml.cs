@@ -32,7 +32,7 @@
 // 
 
 using ServiceHelpers;
-using IntelligentKioskSample.Controls;
+using CognitiveServicesDemos.Controls;
 using Microsoft.ProjectOxford.Face;
 using Microsoft.ProjectOxford.Face.Contract;
 using System;
@@ -57,7 +57,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-namespace IntelligentKioskSample.Views
+namespace CognitiveServicesDemos.Views
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.

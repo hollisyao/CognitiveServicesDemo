@@ -41,7 +41,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using Windows.UI.Xaml.Controls;
 
-namespace IntelligentKioskSample.Controls
+namespace CognitiveServicesDemos.Controls
 {
     /// <summary>
     /// Interaction logic for EmotionEmojiControl.xaml

@@ -36,7 +36,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
-using IntelligentKioskSample.Views;
+using CognitiveServicesDemos.Views;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -49,7 +49,7 @@ using Windows.UI.Xaml.Navigation;
 
 // The User Control item template is documented at http://go.microsoft.com/fwlink/?LinkId=234236
 
-namespace IntelligentKioskSample.Controls
+namespace CognitiveServicesDemos.Controls
 {
     public sealed partial class PageHeader : UserControl
     {

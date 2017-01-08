@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Windows.ApplicationModel.Resources;
 
-namespace IntelligentKioskSample
+namespace CognitiveServicesDemos
 {
     public class AppResourcesHelper
     {

@@ -39,7 +39,7 @@ using System.Threading.Tasks;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Data;
 
-namespace IntelligentKioskSample.Controls
+namespace CognitiveServicesDemos.Controls
 {
     public class BooleanToVisibilityConverter : IValueConverter
     {

@@ -31,14 +31,14 @@
 // WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 // 
 
-using IntelligentKioskSample.Views;
+using CognitiveServicesDemos.Views;
 using System.Linq;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 
 // The User Control item template is documented at http://go.microsoft.com/fwlink/?LinkId=234236
 
-namespace IntelligentKioskSample.Controls
+namespace CognitiveServicesDemos.Controls
 {
     public sealed partial class OverallStatsControl : UserControl
     {

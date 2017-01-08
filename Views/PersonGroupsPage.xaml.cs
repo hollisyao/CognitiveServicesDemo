@@ -40,7 +40,7 @@ using System.Threading.Tasks;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 
-namespace IntelligentKioskSample.Views
+namespace CognitiveServicesDemos.Views
 {
     public sealed partial class PersonGroupsPage : Page
     {

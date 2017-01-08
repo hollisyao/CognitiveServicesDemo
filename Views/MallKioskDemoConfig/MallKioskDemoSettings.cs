@@ -8,7 +8,7 @@ using System.Xml;
 using System.Xml.Serialization;
 using Windows.Storage;
 
-namespace IntelligentKioskSample.MallKioskPageConfig
+namespace CognitiveServicesDemos.MallKioskPageConfig
 {
     [XmlType]
     public class BehaviorAction

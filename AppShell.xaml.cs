@@ -31,8 +31,8 @@
 // WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 // 
 
-using IntelligentKioskSample.Controls;
-using IntelligentKioskSample.Views;
+using CognitiveServicesDemos.Controls;
+using CognitiveServicesDemos.Views;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -46,7 +46,7 @@ using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Navigation;
 
-namespace IntelligentKioskSample
+namespace CognitiveServicesDemos
 {
     /// <summary>
     /// The "chrome" layer of the app that provides top-level navigation with

@@ -592,7 +592,7 @@
     <value>Menu</value>
   </data>
   <data name="AppName" xml:space="preserve">
-    <value>Microsoft Cognitive Services Demos</value>
+    <value>Cognitive Services Demos</value>
   </data>
   <data name="PersonDetailsPage_MenuDeleteItems.Text" xml:space="preserve">
     <value>Delete selected image(s)</value>

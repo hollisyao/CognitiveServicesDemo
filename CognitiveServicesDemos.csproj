@@ -237,7 +237,6 @@
     <Content Include="Assets\squaretile-sdk.png" />
     <Content Include="Assets\squaretile-sdk-44.png" />
     <None Include="Package.StoreAssociation.xml" />
-    <Content Include="PrivacyPolicy.html" />
     <Content Include="Properties\Default.rd.xml">
       <SubType>Designer</SubType>
     </Content>

@@ -107,6 +107,7 @@
     <None Include="IntelligentKiosk_TemporaryKey.pfx" />
     <None Include="packages.config" />
     <None Include="project.json" />
+    <None Include="README.md" />
     <PRIResource Include="Strings\zh-Hans\Resources.resw" />
     <PRIResource Include="Strings\en-US\Resources.resw" />
   </ItemGroup>
